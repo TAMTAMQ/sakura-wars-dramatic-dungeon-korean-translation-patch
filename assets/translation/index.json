@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "source_profile_id": "ys9j-rev0-e6cafe64",
+  "source_sha256": "e6cafe64437080bf5474fa7f9cfec6568b2af7626b65c3ab0d27d30308cec7c4",
+  "scope_decision": "DEC-PATCHMAP-001",
+  "scope_population_state": "patch_selected_lower_bound",
+  "scope_record_count": 23549,
+  "translation_policy": {
+    "untranslated_records_use_source": true,
+    "korean_text_requires_apply_translation": false,
+    "nonempty_korean_text_is_authoritative": true,
+    "release_requires_human_review": true
+  },
+  "segments": [
+    {
+      "path": "segments/arm9.json",
+      "region": "arm9",
+      "record_count": 4763,
+      "sha256": "3b7d1de1222e30b9cc7e0d4829871c55d0c1a5ac2c5ec51c9a35d39ee3f02835"
+    },
+    {
+      "path": "segments/campdata.json",
+      "region": "text/CAMPDATA.DAT",
+      "record_count": 605,
+      "sha256": "a5e5b9592450375b6070e5e8491cd3a09172fcb85168005b61ccbdec60b22bae"
+    },
+    {
+      "path": "segments/citr.json",
+      "region": "text/CITR.DAT",
+      "record_count": 6751,
+      "sha256": "6e68eacb86859d384b82536704a3a91d7082ce7eb0c02d7de1e72187305d3964"
+    },
+    {
+      "path": "segments/overlay-01.json",
+      "region": "arm9-overlay:1",
+      "record_count": 712,
+      "sha256": "e0618107b1c2a616aee74460b7d70ac68da180df8f0da241ffb94ce354d1026c"
+    },
+    {
+      "path": "segments/overlay-02.json",
+      "region": "arm9-overlay:2",
+      "record_count": 393,
+      "sha256": "3d90d46e845b55e0d664ebd86d142e5d39eba3e33029032957b56487515b482b"
+    },
+    {
+      "path": "segments/overlay-03.json",
+      "region": "arm9-overlay:3",
+      "record_count": 312,
+      "sha256": "25d52f11c63d3090424657f1d76e373b14c18b96acfb1ac950b900c89115383c"
+    },
+    {
+      "path": "segments/overlay-04.json",
+      "region": "arm9-overlay:4",
+      "record_count": 350,
+      "sha256": "256a24e67d27aa55a65d579a074e586f86714c238d1e9ed1def0dcddd553ebc5"
+    },
+    {
+      "path": "segments/overlay-05.json",
+      "region": "arm9-overlay:5",
+      "record_count": 340,
+      "sha256": "4cfdfe6164c99ede1cccc518e70fa9fc0bbf670e675292187e7e7fe33aaeb50c"
+    },
+    {
+      "path": "segments/overlay-06.json",
+      "region": "arm9-overlay:6",
+      "record_count": 232,
+      "sha256": "f676fbbf5fb388e0ee5100d46056e253f5d436013de118d819caca51478140a5"
+    },
+    {
+      "path": "segments/overlay-07.json",
+      "region": "arm9-overlay:7",
+      "record_count": 262,
+      "sha256": "4322495e4200e4fb8e4997e2abd576ac8c333cb2717498329040a7036f076805"
+    },
+    {
+      "path": "segments/overlay-08.json",
+      "region": "arm9-overlay:8",
+      "record_count": 220,
+      "sha256": "ac90601616a2354050bd6d8c8e7aa4295873c5cbaac1b6565424d0f8061fffd2"
+    },
+    {
+      "path": "segments/overlay-09.json",
+      "region": "arm9-overlay:9",
+      "record_count": 241,
+      "sha256": "38889437b49b956867bef0ada6aedd524374c6bb2c0cd85c0ba2e47d7938979d"
+    },
+    {
+      "path": "segments/overlay-10.json",
+      "region": "arm9-overlay:10",
+      "record_count": 286,
+      "sha256": "f0e28065cdd406c6c6a4d77cb71a1fd872cc354aa6f170785e71f3f4fe93d586"
+    },
+    {
+      "path": "segments/overlay-11.json",
+      "region": "arm9-overlay:11",
+      "record_count": 214,
+      "sha256": "b36835c44d71d01c50281cefdc08b23209d28464713189d1eba537d904b7baf5"
+    },
+    {
+      "path": "segments/overlay-12.json",
+      "region": "arm9-overlay:12",
+      "record_count": 242,
+      "sha256": "9acf7d45512fc439eb1f0b5502f917f01430d6df835fad74b74c9220e52c1e2b"
+    },
+    {
+      "path": "segments/overlay-13.json",
+      "region": "arm9-overlay:13",
+      "record_count": 306,
+      "sha256": "7568defe1d8691b84c6aa4418da81358e4529729a807e449342c2160fb1a2705"
+    },
+    {
+      "path": "segments/overlay-14.json",
+      "region": "arm9-overlay:14",
+      "record_count": 575,
+      "sha256": "24dbc70d477c74e595e911d2c5f7e486a21a374ea79011a3631ef13a64afa48e"
+    },
+    {
+      "path": "segments/overlay-15.json",
+      "region": "arm9-overlay:15",
+      "record_count": 405,
+      "sha256": "ca6b5c5be3eb57652d9f0f8a13fdecf854b47bf35978beb94dbd575e7c366f0e"
+    },
+    {
+      "path": "segments/overlay-16.json",
+      "region": "arm9-overlay:16",
+      "record_count": 289,
+      "sha256": "8408b101eff0f48d13eb8d902bedbf6807470d83bb440b25c5246eccdb625891"
+    },
+    {
+      "path": "segments/overlay-17.json",
+      "region": "arm9-overlay:17",
+      "record_count": 296,
+      "sha256": "9d54097339cad0cf2209a2f4114eeb07811a3b26c3ca1cae1c709e2545620c24"
+    },
+    {
+      "path": "segments/overlay-18.json",
+      "region": "arm9-overlay:18",
+      "record_count": 394,
+      "sha256": "928941500d7870f4e7dd9adb22058ee636088b2ce745f9912da4ab596528d299"
+    },
+    {
+      "path": "segments/overlay-19.json",
+      "region": "arm9-overlay:19",
+      "record_count": 439,
+      "sha256": "07badc52dd346337b1b79ddf5be1373f09b37ffcdbccad1ab3e3c9f8c485a599"
+    },
+    {
+      "path": "segments/overlay-20.json",
+      "region": "arm9-overlay:20",
+      "record_count": 336,
+      "sha256": "13bb52233d0f247bf38863b7d8e1f22d5c3694369baf44d67fc10e7cd31aa060"
+    },
+    {
+      "path": "segments/overlay-21.json",
+      "region": "arm9-overlay:21",
+      "record_count": 484,
+      "sha256": "f4944d30c1dbdc110ab8a0e8c3ec9a0bb313cc9d41de12184ae4dbbf27af53f1"
+    },
+    {
+      "path": "segments/overlay-22.json",
+      "region": "arm9-overlay:22",
+      "record_count": 225,
+      "sha256": "aafcff575d52fa41465c770757699099190e52a50327918ccade19052179fb72"
+    },
+    {
+      "path": "segments/overlay-23.json",
+      "region": "arm9-overlay:23",
+      "record_count": 434,
+      "sha256": "60ab8a03c7756b16a6a100fa51fb2c880c4c53aabd185106f5a77a2eedd38bfb"
+    },
+    {
+      "path": "segments/overlay-24.json",
+      "region": "arm9-overlay:24",
+      "record_count": 451,
+      "sha256": "f702dae893b6d2df03ed71007c0dd4b0834b38d0f79dec8dca0ec3dde5b2e4f9"
+    },
+    {
+      "path": "segments/overlay-25.json",
+      "region": "arm9-overlay:25",
+      "record_count": 323,
+      "sha256": "1cac2e657ed5723773b0ba0d2cf0600c4a94bcc27ba2174370eb6f707b1bbe9b"
+    },
+    {
+      "path": "segments/overlay-26.json",
+      "region": "arm9-overlay:26",
+      "record_count": 503,
+      "sha256": "b9e4f0bc51ded0ed811beb07cbad08b633ab7546d228505cbdd50599a6cfb883"
+    },
+    {
+      "path": "segments/overlay-27.json",
+      "region": "arm9-overlay:27",
+      "record_count": 209,
+      "sha256": "56f3bb0f806d99662fe09d0302ef51032a5c1e27394c234a500c8e77704140ed"
+    },
+    {
+      "path": "segments/overlay-28.json",
+      "region": "arm9-overlay:28",
+      "record_count": 292,
+      "sha256": "545252388cc396922c10a71bb49e721a83de5609613aaf3d4b8426484679d6cc"
+    },
+    {
+      "path": "segments/overlay-29.json",
+      "region": "arm9-overlay:29",
+      "record_count": 208,
+      "sha256": "2115807979b2ab0168de5176bb210725498fec2954ef61ba33244b4ccba49f45"
+    },
+    {
+      "path": "segments/overlay-30.json",
+      "region": "arm9-overlay:30",
+      "record_count": 218,
+      "sha256": "e52a78cbcd4c4942703249e729a530450079973641fde7b8ce988c333d801c63"
+    },
+    {
+      "path": "segments/overlay-31.json",
+      "region": "arm9-overlay:31",
+      "record_count": 443,
+      "sha256": "0aef45ca875fed7fb49ee804e3e547ea7b57f350172d1efe7e7f319831ac667c"
+    },
+    {
+      "path": "segments/overlay-32.json",
+      "region": "arm9-overlay:32",
+      "record_count": 100,
+      "sha256": "32dcb04e9cf402048b910f547cb79a1e1392f6dbc684d509a0c2e3a9fea9ad27"
+    },
+    {
+      "path": "segments/overlay-33.json",
+      "region": "arm9-overlay:33",
+      "record_count": 575,
+      "sha256": "cd2dbaa0663b64dcde8d5f140776f83384d7a47dbfb7ae62f1368a098ceaf1c7"
+    },
+    {
+      "path": "segments/overlay-34.json",
+      "region": "arm9-overlay:34",
+      "record_count": 121,
+      "sha256": "c6aa2ba0cb73bcc21e82b4f3a207fbc644a868c71cd4bd13fc4f739453a7ff5f"
+    }
+  ],
+  "release_approval": null
+}

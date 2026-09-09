@@ -1,0 +1,3441 @@
+{
+  "schema_version": 1,
+  "source_profile_id": "ys9j-rev0-e6cafe64",
+  "source_sha256": "e6cafe64437080bf5474fa7f9cfec6568b2af7626b65c3ab0d27d30308cec7c4",
+  "region": "arm9-overlay:10",
+  "scope": "prior_patch_changed_nul_shift_jis_candidates",
+  "records": [
+    {
+      "id": "arm9-overlay:10@00001924",
+      "locator": {
+        "offset": 6436
+      },
+      "source_text": "よう、隊長さん。",
+      "source_hex": "82e682a4814191e092b782b382f18142",
+      "korean_text": "여어, 대장님.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001938",
+      "locator": {
+        "offset": 6456
+      },
+      "source_text": "いつもの見まわりかい？",
+      "source_hex": "82a282c282e082cc8ca982dc82ed82e882a982a28148",
+      "korean_text": "늘 하던 순찰인가?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001950",
+      "locator": {
+        "offset": 6480
+      },
+      "source_text": "そうだ、寄って行かねぇか？",
+      "source_hex": "82bb82a482be81418af182c182c48d7382a982cb82a582a98148",
+      "korean_text": "그래, 들렀다 가지 않을래?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000196C",
+      "locator": {
+        "offset": 6508
+      },
+      "source_text": "装備品を強化してやるぜ。",
+      "source_hex": "919594f5956982f08bad89bb82b582c482e282e982ba8142",
+      "korean_text": "장비를 강화해주지.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001988",
+      "locator": {
+        "offset": 6536
+      },
+      "source_text": "装備品を強化してもらう。",
+      "source_hex": "919594f5956982f08bad89bb82b582c482e082e782a48142",
+      "korean_text": "장비를 강화한다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000019A4",
+      "locator": {
+        "offset": 6564
+      },
+      "source_text": "また今度にする。",
+      "source_hex": "82dc82bd8da1937882c982b782e98142",
+      "korean_text": "다음에 한다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000019B8",
+      "locator": {
+        "offset": 6584
+      },
+      "source_text": "いや、また今度にします。",
+      "source_hex": "82a282e2814182dc82bd8da1937882c982b582dc82b78142",
+      "korean_text": "아니, 다음에 할게요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000019D4",
+      "locator": {
+        "offset": 6612
+      },
+      "source_text": "そうか……",
+      "source_hex": "82bb82a482a981638163",
+      "korean_text": "그런가……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000019E0",
+      "locator": {
+        "offset": 6624
+      },
+      "source_text": "ま、いつでも寄ってくれよ。",
+      "source_hex": "82dc814182a282c282c582e08af182c182c482ad82ea82e68142",
+      "korean_text": "뭐, 언제든 들러줘.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000019FC",
+      "locator": {
+        "offset": 6652
+      },
+      "source_text": "さて……他の場所に行こう。",
+      "source_hex": "82b382c48163816391bc82cc8fea8f8a82c98d7382b182a48142",
+      "korean_text": "자……다른 곳으로 가자.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001A18",
+      "locator": {
+        "offset": 6680
+      },
+      "source_text": "道具室に異常は……ん？",
+      "source_hex": "93b98bef8eba82c988d98fed82cd8163816382f18148",
+      "korean_text": "도구실에 이상은……응?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001A30",
+      "locator": {
+        "offset": 6704
+      },
+      "source_text": "これは、防具じゃないか。",
+      "source_hex": "82b182ea82cd814196688bef82b682e182c882a282a98142",
+      "korean_text": "이건, 방어구잖아.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001A4C",
+      "locator": {
+        "offset": 6732
+      },
+      "source_text": "小道具に混じっていたのか……",
+      "source_hex": "8fac93b98bef82c98dac82b682c182c482a282bd82cc82a981638163",
+      "korean_text": "소품에 섞여 있었나……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001A6C",
+      "locator": {
+        "offset": 6764
+      },
+      "source_text": "よし、持っていこう。",
+      "source_hex": "82e682b581418e9d82c182c482a282b182a48142",
+      "korean_text": "좋아, 가져가자.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001A84",
+      "locator": {
+        "offset": 6788
+      },
+      "source_text": "道具室に異常はないようだ。",
+      "source_hex": "93b98bef8eba82c988d98fed82cd82c882a282e682a482be8142",
+      "korean_text": "도구실엔 이상 없어 보여.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001AA0",
+      "locator": {
+        "offset": 6816
+      },
+      "source_text": "他の場所に行くか……",
+      "source_hex": "91bc82cc8fea8f8a82c98d7382ad82a981638163",
+      "korean_text": "다른 곳에 갈까……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001AB8",
+      "locator": {
+        "offset": 6840
+      },
+      "source_text": "貴賓室は誰もいないな。",
+      "source_hex": "8b4d956f8eba82cd924e82e082a282c882a282c88142",
+      "korean_text": "귀빈실엔 아무도 없네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001AD0",
+      "locator": {
+        "offset": 6864
+      },
+      "source_text": "ん……？",
+      "source_hex": "82f1816381638148",
+      "korean_text": "응……?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001ADC",
+      "locator": {
+        "offset": 6876
+      },
+      "source_text": "財布が落ちているみたいだ。",
+      "source_hex": "8de0957a82aa978e82bf82c482a282e982dd82bd82a282be8142",
+      "korean_text": "지갑이 떨어져 있네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001AF8",
+      "locator": {
+        "offset": 6904
+      },
+      "source_text": "オーナーのものかな？",
+      "source_hex": "8349815b8369815b82cc82e082cc82a982c88148",
+      "korean_text": "오너 것인가?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001B10",
+      "locator": {
+        "offset": 6928
+      },
+      "source_text": "あとで届けておこう……",
+      "source_hex": "82a082c682c593cd82af82c482a882b182a481638163",
+      "korean_text": "나중에 갖다줘야지……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001B28",
+      "locator": {
+        "offset": 6952
+      },
+      "source_text": "厨房に問題はないな……",
+      "source_hex": "907e965b82c996e291e882cd82c882a282c881638163",
+      "korean_text": "주방엔 문제없네……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001B40",
+      "locator": {
+        "offset": 6976
+      },
+      "source_text": "……ん？",
+      "source_hex": "8163816382f18148",
+      "korean_text": "……응?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001B4C",
+      "locator": {
+        "offset": 6988
+      },
+      "source_text": "キッチンの上に、",
+      "source_hex": "834c83628360839382cc8fe382c98141",
+      "korean_text": "주방 위에,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001B60",
+      "locator": {
+        "offset": 7008
+      },
+      "source_text": "お弁当が置いてあるぞ。",
+      "source_hex": "82a895d9939682aa927582a282c482a082e982bc8142",
+      "korean_text": "도시락이 놓여 있어.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001B78",
+      "locator": {
+        "offset": 7032
+      },
+      "source_text": "他の場所に行こう。",
+      "source_hex": "91bc82cc8fea8f8a82c98d7382b182a48142",
+      "korean_text": "다른 곳으로 가자.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001B8C",
+      "locator": {
+        "offset": 7052
+      },
+      "source_text": "やあ、エリカくん……",
+      "source_hex": "82e282a081418347838a834a82ad82f181638163",
+      "korean_text": "안녕, 에리카 군……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001BA4",
+      "locator": {
+        "offset": 7076
+      },
+      "source_text": "どうかしたのかい？",
+      "source_hex": "82c782a482a982b582bd82cc82a982a28148",
+      "korean_text": "무슨 일이니?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001BB8",
+      "locator": {
+        "offset": 7096
+      },
+      "source_text": "ひぐっ、大神さん……",
+      "source_hex": "82d082ae82c1814191e5905f82b382f181638163",
+      "korean_text": "흐윽, 오오가미 씨……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001BD0",
+      "locator": {
+        "offset": 7120
+      },
+      "source_text": "助けてください。",
+      "source_hex": "8f9582af82c482ad82be82b382a28142",
+      "korean_text": "도와주세요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001BE4",
+      "locator": {
+        "offset": 7140
+      },
+      "source_text": "さっき、シャンゼリゼの地下を",
+      "source_hex": "82b382c182ab8141835683838393835b838a835b82cc926e89ba82f0",
+      "korean_text": "아까, 샹젤리제 지하를",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001C04",
+      "locator": {
+        "offset": 7172
+      },
+      "source_text": "探検してた時に……",
+      "source_hex": "92548c9f82b582c482bd8e9e82c981638163",
+      "korean_text": "탐험하던 중에……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001C18",
+      "locator": {
+        "offset": 7192
+      },
+      "source_text": "転んだひょうしに、うっかり",
+      "source_hex": "935d82f182be82d082e582a482b582c9814182a482c182a982e8",
+      "korean_text": "넘어지는 바람에, 깜빡",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001C34",
+      "locator": {
+        "offset": 7220
+      },
+      "source_text": "大切なものを落としちゃって。",
+      "source_hex": "91e590d882c882e082cc82f0978e82c682b582bf82e182c182c48142",
+      "korean_text": "소중한 걸 떨어뜨렸어요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001C54",
+      "locator": {
+        "offset": 7252
+      },
+      "source_text": "でも、ひとりでは怖くて……",
+      "source_hex": "82c582e0814182d082c682e882c582cd957c82ad82c481638163",
+      "korean_text": "하지만, 혼자선 무서워서……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001C70",
+      "locator": {
+        "offset": 7280
+      },
+      "source_text": "一緒に来てもらえませんか？",
+      "source_hex": "88ea8f8f82c9978882c482e082e782a682dc82b982f182a98148",
+      "korean_text": "같이 와주시겠어요?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001C8C",
+      "locator": {
+        "offset": 7308
+      },
+      "source_text": "ああ、いいとも。",
+      "source_hex": "82a082a0814182a282a282c682e08142",
+      "korean_text": "그래, 좋아.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001CA0",
+      "locator": {
+        "offset": 7328
+      },
+      "source_text": "ごめん、今はちょっと……",
+      "source_hex": "82b282df82f181418da182cd82bf82e582c182c681638163",
+      "korean_text": "미안, 지금은 좀……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001CBC",
+      "locator": {
+        "offset": 7356
+      },
+      "source_text": "つきあうよ、エリカくん。",
+      "source_hex": "82c282ab82a082a482e681418347838a834a82ad82f18142",
+      "korean_text": "같이 가줄게, 에리카 군.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001CD8",
+      "locator": {
+        "offset": 7384
+      },
+      "source_text": "ホントですか……!?",
+      "source_hex": "837a8393836782c582b782a981638163213f",
+      "korean_text": "정말인가요……!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001CEC",
+      "locator": {
+        "offset": 7404
+      },
+      "source_text": "ありがとうございます！",
+      "source_hex": "82a082e882aa82c682a482b282b482a282dc82b78149",
+      "korean_text": "감사합니다!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001D04",
+      "locator": {
+        "offset": 7428
+      },
+      "source_text": "さすがは大神さん、",
+      "source_hex": "82b382b782aa82cd91e5905f82b382f18141",
+      "korean_text": "역시 오오가미 씨,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001D18",
+      "locator": {
+        "offset": 7448
+      },
+      "source_text": "世界一のお人よしですね!!",
+      "source_hex": "90a28a4588ea82cc82a8906c82e682b582c582b782cb2121",
+      "korean_text": "세상 제일 착한 사람이네요!!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001D34",
+      "locator": {
+        "offset": 7476
+      },
+      "source_text": "そ、そうだね……じゃ、",
+      "source_hex": "82bb814182bb82a482be82cb8163816382b682e18141",
+      "korean_text": "그, 그렇네……그럼,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001D4C",
+      "locator": {
+        "offset": 7500
+      },
+      "source_text": "作戦指令室で準備しよう。",
+      "source_hex": "8dec90ed8e7797df8eba82c58f8094f582b582e682a48142",
+      "korean_text": "작전지령실에서 준비하자.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001D68",
+      "locator": {
+        "offset": 7528
+      },
+      "source_text": "そ、そうですか……",
+      "source_hex": "82bb814182bb82a482c582b782a981638163",
+      "korean_text": "그, 그런가요……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001D7C",
+      "locator": {
+        "offset": 7548
+      },
+      "source_text": "じゃ、また今度にします。",
+      "source_hex": "82b682e1814182dc82bd8da1937882c982b582dc82b78142",
+      "korean_text": "그럼, 다음에 할게요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001D98",
+      "locator": {
+        "offset": 7576
+      },
+      "source_text": "悪いことしちゃったかな。",
+      "source_hex": "88ab82a282b182c682b582bf82e182c182bd82a982c88142",
+      "korean_text": "괜히 미안한 짓 했나.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001DB4",
+      "locator": {
+        "offset": 7604
+      },
+      "source_text": "さて、他の場所に行くか……",
+      "source_hex": "82b382c4814191bc82cc8fea8f8a82c98d7382ad82a981638163",
+      "korean_text": "자, 다른 곳으로 갈까……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001DD0",
+      "locator": {
+        "offset": 7632
+      },
+      "source_text": "ロビーには誰もいないな。",
+      "source_hex": "838d8372815b82c982cd924e82e082a282c882a282c88142",
+      "korean_text": "로비엔 아무도 없네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001DEC",
+      "locator": {
+        "offset": 7660
+      },
+      "source_text": "やあ、シーくん……",
+      "source_hex": "82e282a081418356815b82ad82f181638163",
+      "korean_text": "안녕, 시 군……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001E00",
+      "locator": {
+        "offset": 7680
+      },
+      "source_text": "どうしたんだい？",
+      "source_hex": "82c782a482b582bd82f182be82a28148",
+      "korean_text": "무슨 일이니?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001E14",
+      "locator": {
+        "offset": 7700
+      },
+      "source_text": "あっ、大神さん。",
+      "source_hex": "82a082c1814191e5905f82b382f18142",
+      "korean_text": "앗, 오오가미 씨.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001E28",
+      "locator": {
+        "offset": 7720
+      },
+      "source_text": "このチラシ、みてくださぁい！",
+      "source_hex": "82b182cc836083898356814182dd82c482ad82be82b3829f82a28149",
+      "korean_text": "이 전단지, 봐주세요~!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001E48",
+      "locator": {
+        "offset": 7752
+      },
+      "source_text": "なになに……ノートルダムに",
+      "source_hex": "82c882c982c882c981638163836d815b8367838b835f838082c9",
+      "korean_text": "어디 보자……노트르담에",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001E64",
+      "locator": {
+        "offset": 7780
+      },
+      "source_text": "新しくケーキ屋がオープン？",
+      "source_hex": "905682b582ad8350815b834c89ae82aa8349815b837683938148",
+      "korean_text": "새 케이크집이 오픈?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001E80",
+      "locator": {
+        "offset": 7808
+      },
+      "source_text": "そこ、へんぴな場所にしか出店",
+      "source_hex": "82bb82b1814182d682f182d282c88fea8f8a82c982b582a98f6f9358",
+      "korean_text": "거긴, 외진 곳에만 가게를",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001EA0",
+      "locator": {
+        "offset": 7840
+      },
+      "source_text": "しないことで有名なんですぅ。",
+      "source_hex": "82b582c882a282b182c682c5974c96bc82c882f182c582b782a38142",
+      "korean_text": "내기로 유명하거든요~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001EC0",
+      "locator": {
+        "offset": 7872
+      },
+      "source_text": "大神さん、お願いしますぅ。",
+      "source_hex": "91e5905f82b382f1814182a88ae882a282b582dc82b782a38142",
+      "korean_text": "오오가미 씨, 부탁해요~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001EDC",
+      "locator": {
+        "offset": 7900
+      },
+      "source_text": "あたしを連れてってくださぁい。",
+      "source_hex": "82a082bd82b582f0984182ea82c482c182c482ad82be82b3829f82a28142",
+      "korean_text": "저를 데려가 주세요~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001EFC",
+      "locator": {
+        "offset": 7932
+      },
+      "source_text": "行ってみよう、シーくん。",
+      "source_hex": "8d7382c182c482dd82e682a481418356815b82ad82f18142",
+      "korean_text": "가보자, 시 군.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001F18",
+      "locator": {
+        "offset": 7960
+      },
+      "source_text": "うわぁ、ホントですかぁ!?",
+      "source_hex": "82a482ed829f8141837a8393836782c582b782a9829f213f",
+      "korean_text": "와아, 정말이에요!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001F34",
+      "locator": {
+        "offset": 7988
+      },
+      "source_text": "ありがとうございますぅ！",
+      "source_hex": "82a082e882aa82c682a482b282b482a282dc82b782a38149",
+      "korean_text": "감사합니다~!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001F50",
+      "locator": {
+        "offset": 8016
+      },
+      "source_text": "ダンジョン探索でダイエットも",
+      "source_hex": "835f839383578387839392548df582c5835f834383478362836782e0",
+      "korean_text": "던전 탐색으로 다이어트도",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001F70",
+      "locator": {
+        "offset": 8048
+      },
+      "source_text": "できて、一石二鳥ですぅ！",
+      "source_hex": "82c582ab82c4814188ea90ce93f192b982c582b782a38149",
+      "korean_text": "되고, 일석이조예요~!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001F8C",
+      "locator": {
+        "offset": 8076
+      },
+      "source_text": "じゃあ、作戦指令室にもどって",
+      "source_hex": "82b682e182a081418dec90ed8e7797df8eba82c982e082c782c182c4",
+      "korean_text": "그럼, 작전지령실로 돌아가",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001FAC",
+      "locator": {
+        "offset": 8108
+      },
+      "source_text": "出発の準備をしよう。",
+      "source_hex": "8f6f94ad82cc8f8094f582f082b582e682a48142",
+      "korean_text": "출발 준비를 하자.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001FC4",
+      "locator": {
+        "offset": 8132
+      },
+      "source_text": "えーっ、残念だなぁ。",
+      "source_hex": "82a6815b82c181418e63944f82be82c8829f8142",
+      "korean_text": "에엣, 아쉽다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001FDC",
+      "locator": {
+        "offset": 8156
+      },
+      "source_text": "でも、しょうがないですねぇ。",
+      "source_hex": "82c582e0814182b582e582a482aa82c882a282c582b782cb82a58142",
+      "korean_text": "그래도, 어쩔 수 없네요~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00001FFC",
+      "locator": {
+        "offset": 8188
+      },
+      "source_text": "あっ、大神さんだぁ。",
+      "source_hex": "82a082c1814191e5905f82b382f182be829f8142",
+      "korean_text": "앗, 오오가미 씨다~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002014",
+      "locator": {
+        "offset": 8212
+      },
+      "source_text": "見まわりですかぁ？",
+      "source_hex": "8ca982dc82ed82e882c582b782a9829f8148",
+      "korean_text": "순찰 중인가요~?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002028",
+      "locator": {
+        "offset": 8232
+      },
+      "source_text": "うむうむ、感心ですねぇ。",
+      "source_hex": "82a482de82a482de81418ab4905382c582b782cb82a58142",
+      "korean_text": "음음, 기특하네요~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002044",
+      "locator": {
+        "offset": 8260
+      },
+      "source_text": "がんばってくださぁい！",
+      "source_hex": "82aa82f182ce82c182c482ad82be82b3829f82a28149",
+      "korean_text": "힘내세요~!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000205C",
+      "locator": {
+        "offset": 8284
+      },
+      "source_text": "ハハハ……ありがとう。",
+      "source_hex": "836e836e836e8163816382a082e882aa82c682a48142",
+      "korean_text": "하하하……고마워.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002074",
+      "locator": {
+        "offset": 8308
+      },
+      "source_text": "じゃ、他の場所に行くか。",
+      "source_hex": "82b682e1814191bc82cc8fea8f8a82c98d7382ad82a98142",
+      "korean_text": "그럼, 다른 곳으로 갈까.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002090",
+      "locator": {
+        "offset": 8336
+      },
+      "source_text": "やあ、メルくん……",
+      "source_hex": "82e282a081418381838b82ad82f181638163",
+      "korean_text": "안녕, 멜 군……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000020A4",
+      "locator": {
+        "offset": 8356
+      },
+      "source_text": "大神さん……",
+      "source_hex": "91e5905f82b382f181638163",
+      "korean_text": "오오가미 씨……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000020B4",
+      "locator": {
+        "offset": 8372
+      },
+      "source_text": "いえ、なんでもありません。",
+      "source_hex": "82a282a6814182c882f182c582e082a082e882dc82b982f18142",
+      "korean_text": "아뇨, 아무것도 아니에요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000020D0",
+      "locator": {
+        "offset": 8400
+      },
+      "source_text": "……なにか困りごとかい？",
+      "source_hex": "8163816382c882c982a98da282e882b282c682a982a28148",
+      "korean_text": "……뭔가 고민 있니?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000020EC",
+      "locator": {
+        "offset": 8428
+      },
+      "source_text": "言ってごらんよ。",
+      "source_hex": "8cbe82c182c482b282e782f182e68142",
+      "korean_text": "말해봐.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002100",
+      "locator": {
+        "offset": 8448
+      },
+      "source_text": "じつは、ノートルダム寺院に",
+      "source_hex": "82b682c282cd8141836d815b8367838b835f83808e9b894082c9",
+      "korean_text": "사실, 노트르담 대성당에",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000211C",
+      "locator": {
+        "offset": 8476
+      },
+      "source_text": "起きた異変について……",
+      "source_hex": "8b4e82ab82bd88d995cf82c982c282a282c481638163",
+      "korean_text": "일어난 이변에 대해……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002134",
+      "locator": {
+        "offset": 8500
+      },
+      "source_text": "まとめた報告書を作るようにと",
+      "source_hex": "82dc82c682df82bd95f18d908f9182f08dec82e982e682a482c982c6",
+      "korean_text": "정리한 보고서를 만들라고",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002154",
+      "locator": {
+        "offset": 8532
+      },
+      "source_text": "オーナーがおっしゃって。",
+      "source_hex": "8349815b8369815b82aa82a882c182b582e182c182c48142",
+      "korean_text": "오너가 말씀하셔서요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002170",
+      "locator": {
+        "offset": 8560
+      },
+      "source_text": "でもこの目で見ないことには",
+      "source_hex": "82c582e082b182cc96da82c58ca982c882a282b182c682c982cd",
+      "korean_text": "하지만 직접 보지 않으면",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000218C",
+      "locator": {
+        "offset": 8588
+      },
+      "source_text": "正確な報告書が作れなくて……",
+      "source_hex": "90b38a6d82c895f18d908f9182aa8dec82ea82c882ad82c481638163",
+      "korean_text": "정확한 보고서를 못 써서……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000021AC",
+      "locator": {
+        "offset": 8620
+      },
+      "source_text": "なるほど……",
+      "source_hex": "82c882e982d982c781638163",
+      "korean_text": "그렇구나……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000021BC",
+      "locator": {
+        "offset": 8636
+      },
+      "source_text": "じゃあ……",
+      "source_hex": "82b682e182a081638163",
+      "korean_text": "그럼……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000021C8",
+      "locator": {
+        "offset": 8648
+      },
+      "source_text": "一緒に、調べに行こうか。",
+      "source_hex": "88ea8f8f82c9814192b282d782c98d7382b182a482a98142",
+      "korean_text": "같이, 조사하러 갈까.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000021E4",
+      "locator": {
+        "offset": 8676
+      },
+      "source_text": "がんばってね。",
+      "source_hex": "82aa82f182ce82c182c482cb8142",
+      "korean_text": "힘내.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000021F4",
+      "locator": {
+        "offset": 8692
+      },
+      "source_text": "俺もつきあうよ、メルくん。",
+      "source_hex": "89b482e082c282ab82a082a482e681418381838b82ad82f18142",
+      "korean_text": "나도 같이 갈게, 멜 군.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002210",
+      "locator": {
+        "offset": 8720
+      },
+      "source_text": "そ、そんなご迷惑を",
+      "source_hex": "82bb814182bb82f182c882b296c0986682f0",
+      "korean_text": "그, 그런 폐를",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002224",
+      "locator": {
+        "offset": 8740
+      },
+      "source_text": "おかけするわけには……",
+      "source_hex": "82a882a982af82b782e982ed82af82c982cd81638163",
+      "korean_text": "끼칠 수는……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000223C",
+      "locator": {
+        "offset": 8764
+      },
+      "source_text": "いいから、いいから。",
+      "source_hex": "82a282a282a982e7814182a282a282a982e78142",
+      "korean_text": "괜찮아, 괜찮아.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002254",
+      "locator": {
+        "offset": 8788
+      },
+      "source_text": "じゃ、作戦指令室に戻ろう。",
+      "source_hex": "82b682e181418dec90ed8e7797df8eba82c996df82eb82a48142",
+      "korean_text": "그럼, 작전지령실로 가자.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002270",
+      "locator": {
+        "offset": 8816
+      },
+      "source_text": "大神さん……あいかわらず",
+      "source_hex": "91e5905f82b382f18163816382a082a282a982ed82e782b8",
+      "korean_text": "오오가미 씨……여전히",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000228C",
+      "locator": {
+        "offset": 8844
+      },
+      "source_text": "おせっかいですね。",
+      "source_hex": "82a882b982c182a982a282c582b782cb8142",
+      "korean_text": "참견쟁이시네요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000022A0",
+      "locator": {
+        "offset": 8864
+      },
+      "source_text": "でも……",
+      "source_hex": "82c582e081638163",
+      "korean_text": "하지만……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000022AC",
+      "locator": {
+        "offset": 8876
+      },
+      "source_text": "ありがとうございます。",
+      "source_hex": "82a082e882aa82c682a482b282b482a282dc82b78142",
+      "korean_text": "감사합니다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000022C4",
+      "locator": {
+        "offset": 8900
+      },
+      "source_text": "はい……",
+      "source_hex": "82cd82a281638163",
+      "korean_text": "네……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000022D0",
+      "locator": {
+        "offset": 8912
+      },
+      "source_text": "あ、大神さん……",
+      "source_hex": "82a0814191e5905f82b382f181638163",
+      "korean_text": "아, 오오가미 씨……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000022E4",
+      "locator": {
+        "offset": 8932
+      },
+      "source_text": "見まわりお疲れさまです。",
+      "source_hex": "8ca982dc82ed82e882a894e682ea82b382dc82c582b78142",
+      "korean_text": "순찰 수고하세요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002300",
+      "locator": {
+        "offset": 8960
+      },
+      "source_text": "事務室と支配人室には、",
+      "source_hex": "8e9696b18eba82c68e78947a906c8eba82c982cd8141",
+      "korean_text": "사무실과 지배인실엔,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002318",
+      "locator": {
+        "offset": 8984
+      },
+      "source_text": "異常はありませんよ。",
+      "source_hex": "88d98fed82cd82a082e882dc82b982f182e68142",
+      "korean_text": "이상 없어요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002330",
+      "locator": {
+        "offset": 9008
+      },
+      "source_text": "そうか……ありがとう。",
+      "source_hex": "82bb82a482a98163816382a082e882aa82c682a48142",
+      "korean_text": "그런가……고마워.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002348",
+      "locator": {
+        "offset": 9032
+      },
+      "source_text": "いつも見まわりご苦労だね、",
+      "source_hex": "82a282c282e08ca982dc82ed82e882b28bea984a82be82cb8141",
+      "korean_text": "늘 순찰하느라 수고네,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002364",
+      "locator": {
+        "offset": 9060
+      },
+      "source_text": "ムッシュ。",
+      "source_hex": "83808362835683858142",
+      "korean_text": "무슈.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002370",
+      "locator": {
+        "offset": 9072
+      },
+      "source_text": "そうだ、たまにはムッシュも",
+      "source_hex": "82bb82a482be814182bd82dc82c982cd838083628356838582e0",
+      "korean_text": "그래, 가끔은 무슈도",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000238C",
+      "locator": {
+        "offset": 9100
+      },
+      "source_text": "指輪でもしてみたらどうだい？",
+      "source_hex": "8e7797d682c582e082b582c482dd82bd82e782c782a482be82a28148",
+      "korean_text": "반지라도 껴보지 그래?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000023AC",
+      "locator": {
+        "offset": 9132
+      },
+      "source_text": "あたしのコレクションから",
+      "source_hex": "82a082bd82b582cc8352838c834e83568387839382a982e7",
+      "korean_text": "내 컬렉션에서",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000023C8",
+      "locator": {
+        "offset": 9160
+      },
+      "source_text": "１つプレゼントするからさ。",
+      "source_hex": "825082c28376838c835b8393836782b782e982a982e782b38142",
+      "korean_text": "하나 선물해줄 테니까.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000023E4",
+      "locator": {
+        "offset": 9188
+      },
+      "source_text": "は、はあ……",
+      "source_hex": "82cd814182cd82a081638163",
+      "korean_text": "네, 네……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000023F4",
+      "locator": {
+        "offset": 9204
+      },
+      "source_text": "いいってことさ。",
+      "source_hex": "82a282a282c182c482b182c682b38142",
+      "korean_text": "신경 쓰지 마.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002408",
+      "locator": {
+        "offset": 9224
+      },
+      "source_text": "しっかり頼んだよ、ムッシュ。",
+      "source_hex": "82b582c182a982e8978a82f182be82e6814183808362835683858142",
+      "korean_text": "잘 부탁해, 무슈.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002428",
+      "locator": {
+        "offset": 9256
+      },
+      "source_text": "了解しました！",
+      "source_hex": "97b989f082b582dc82b582bd8149",
+      "korean_text": "알겠습니다!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002438",
+      "locator": {
+        "offset": 9272
+      },
+      "source_text": "よし……",
+      "source_hex": "82e682b581638163",
+      "korean_text": "좋아……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002444",
+      "locator": {
+        "offset": 9284
+      },
+      "source_text": "支配人、今はいないようだな。",
+      "source_hex": "8e78947a906c81418da182cd82a282c882a282e682a482be82c88142",
+      "korean_text": "지배인은 지금 없나 보네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002464",
+      "locator": {
+        "offset": 9316
+      },
+      "source_text": "他の場所に行ってみよう……",
+      "source_hex": "91bc82cc8fea8f8a82c98d7382c182c482dd82e682a481638163",
+      "korean_text": "다른 곳에 가보자……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002480",
+      "locator": {
+        "offset": 9344
+      },
+      "source_text": "ロベリアはいないみたいだな。",
+      "source_hex": "838d8378838a834182cd82a282c882a282dd82bd82a282be82c88142",
+      "korean_text": "로벨리아는 없나 보네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000024A0",
+      "locator": {
+        "offset": 9376
+      },
+      "source_text": "他の場所に……",
+      "source_hex": "91bc82cc8fea8f8a82c981638163",
+      "korean_text": "다른 곳으로……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000024B0",
+      "locator": {
+        "offset": 9392
+      },
+      "source_text": "回胴式遊技機だ……",
+      "source_hex": "89f193b78eae97568b5a8b4082be81638163",
+      "korean_text": "슬롯머신이네……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000024C4",
+      "locator": {
+        "offset": 9412
+      },
+      "source_text": "こんな機械、いったい",
+      "source_hex": "82b182f182c88b408a42814182a282c182bd82a2",
+      "korean_text": "이런 기계를 대체",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000024DC",
+      "locator": {
+        "offset": 9436
+      },
+      "source_text": "どこから持ってきたんだ？",
+      "source_hex": "82c782b182a982e78e9d82c182c482ab82bd82f182be8148",
+      "korean_text": "어디서 가져온 거지?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000024F8",
+      "locator": {
+        "offset": 9464
+      },
+      "source_text": "金 100 で遊べるのか……",
+      "source_hex": "8be0203130302082c5975682d782e982cc82a981638163",
+      "korean_text": "금 100으로 놀 수 있나……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002510",
+      "locator": {
+        "offset": 9488
+      },
+      "source_text": "ちょっと遊ぼうかな……",
+      "source_hex": "82bf82e582c182c6975682da82a482a982c881638163",
+      "korean_text": "잠깐 해볼까……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002528",
+      "locator": {
+        "offset": 9512
+      },
+      "source_text": "……って、所持金不足だ。",
+      "source_hex": "8163816382c182c481418f8a8e9d8be0957391ab82be8142",
+      "korean_text": "……앗, 돈이 부족해.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002544",
+      "locator": {
+        "offset": 9540
+      },
+      "source_text": "ちょっと悲しいな……",
+      "source_hex": "82bf82e582c182c694df82b582a282c881638163",
+      "korean_text": "좀 슬프네……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000255C",
+      "locator": {
+        "offset": 9564
+      },
+      "source_text": "さて……しかたない、",
+      "source_hex": "82b382c48163816382b582a982bd82c882a28141",
+      "korean_text": "자……어쩔 수 없지,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002574",
+      "locator": {
+        "offset": 9588
+      },
+      "source_text": "ほかの場所に行くか……",
+      "source_hex": "82d982a982cc8fea8f8a82c98d7382ad82a981638163",
+      "korean_text": "다른 곳에 갈까……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000258C",
+      "locator": {
+        "offset": 9612
+      },
+      "source_text": "回胴式遊技機で遊ぶ。",
+      "source_hex": "89f193b78eae97568b5a8b4082c5975682d48142",
+      "korean_text": "슬롯머신으로 논다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000025A4",
+      "locator": {
+        "offset": 9636
+      },
+      "source_text": "やめておく。",
+      "source_hex": "82e282df82c482a882ad8142",
+      "korean_text": "그만둔다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000025B4",
+      "locator": {
+        "offset": 9652
+      },
+      "source_text": "よし、金 100 を入れて……",
+      "source_hex": "82e682b581418be0203130302082f093fc82ea82c481638163",
+      "korean_text": "좋아, 금 100을 넣고……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000025D0",
+      "locator": {
+        "offset": 9680
+      },
+      "source_text": "いくぞ……！",
+      "source_hex": "82a282ad82bc816381638149",
+      "korean_text": "간다……!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000025E0",
+      "locator": {
+        "offset": 9696
+      },
+      "source_text": "やった！",
+      "source_hex": "82e282c182bd8149",
+      "korean_text": "해냈다!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000025EC",
+      "locator": {
+        "offset": 9708
+      },
+      "source_text": "そろったぞ！",
+      "source_hex": "82bb82eb82c182bd82bc8149",
+      "korean_text": "맞췄다!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000025FC",
+      "locator": {
+        "offset": 9724
+      },
+      "source_text": "今日はツイていないみたいだ。",
+      "source_hex": "8da193fa82cd8363834382c482a282c882a282dd82bd82a282be8142",
+      "korean_text": "오늘은 운이 없나 보네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000261C",
+      "locator": {
+        "offset": 9756
+      },
+      "source_text": "やめておくか……",
+      "source_hex": "82e282df82c482a882ad82a981638163",
+      "korean_text": "그만둘까……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002630",
+      "locator": {
+        "offset": 9776
+      },
+      "source_text": "見まわりを続けるとしよう。",
+      "source_hex": "8ca982dc82ed82e882f091b182af82e982c682b582e682a48142",
+      "korean_text": "순찰을 계속하자.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000264C",
+      "locator": {
+        "offset": 9804
+      },
+      "source_text": "ここには誰もいないようだな。",
+      "source_hex": "82b182b182c982cd924e82e082a282c882a282e682a482be82c88142",
+      "korean_text": "여긴 아무도 없나 보네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000266C",
+      "locator": {
+        "offset": 9836
+      },
+      "source_text": "他の場所の見まわりに",
+      "source_hex": "91bc82cc8fea8f8a82cc8ca982dc82ed82e882c9",
+      "korean_text": "다른 곳을 순찰하러",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002684",
+      "locator": {
+        "offset": 9860
+      },
+      "source_text": "行ってみるか……",
+      "source_hex": "8d7382c182c482dd82e982a981638163",
+      "korean_text": "가볼까……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002698",
+      "locator": {
+        "offset": 9880
+      },
+      "source_text": "シャワー室に異常は……ん？",
+      "source_hex": "83568383838f815b8eba82c988d98fed82cd8163816382f18148",
+      "korean_text": "샤워실에 이상은……응?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000026B4",
+      "locator": {
+        "offset": 9908
+      },
+      "source_text": "誰か、入ってるみたいだな。",
+      "source_hex": "924e82a9814193fc82c182c482e982dd82bd82a282be82c88142",
+      "korean_text": "누가, 들어가 있나 보네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000026D0",
+      "locator": {
+        "offset": 9936
+      },
+      "source_text": "こ、この服は……%s!?",
+      "source_hex": "82b1814182b182cc959e82cd816381632573213f",
+      "korean_text": "이, 이 옷은……%s!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000026E8",
+      "locator": {
+        "offset": 9960
+      },
+      "source_text": "か……、か……",
+      "source_hex": "82a981638163814182a981638163",
+      "korean_text": "모……, 모……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000026F8",
+      "locator": {
+        "offset": 9976
+      },
+      "source_text": "体が勝手に！",
+      "source_hex": "91cc82aa8f9f8ee882c98149",
+      "korean_text": "몸이멋대로！",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002708",
+      "locator": {
+        "offset": 9992
+      },
+      "source_text": "い、いかん……",
+      "source_hex": "82a2814182a282a982f181638163",
+      "korean_text": "아, 안 돼……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002718",
+      "locator": {
+        "offset": 10008
+      },
+      "source_text": "体が……勝手に……!!",
+      "source_hex": "91cc82aa816381638f9f8ee882c9816381632121",
+      "korean_text": "몸이……멋대로……!!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002730",
+      "locator": {
+        "offset": 10032
+      },
+      "source_text": "ふぅ、ダンジョンってけっこう",
+      "source_hex": "82d382a38141835f839383578387839382c182c482af82c182b182a4",
+      "korean_text": "후우, 던전은 꽤",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002750",
+      "locator": {
+        "offset": 10064
+      },
+      "source_text": "髪がよごれるんですね〜。",
+      "source_hex": "94af82aa82e682b282ea82e982f182c582b782cb81608142",
+      "korean_text": "머리가 더러워지네요~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000276C",
+      "locator": {
+        "offset": 10092
+      },
+      "source_text": "（エリカくん……",
+      "source_hex": "81698347838a834a82ad82f181638163",
+      "korean_text": "(에리카 군……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002780",
+      "locator": {
+        "offset": 10112
+      },
+      "source_text": "　そんな、こっち向きで……）",
+      "source_hex": "814082bb82f182c8814182b182c182bf8cfc82ab82c581638163816a",
+      "korean_text": "　그렇게, 이쪽을 보면……)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000027A0",
+      "locator": {
+        "offset": 10144
+      },
+      "source_text": "（……って、それじゃ",
+      "source_hex": "81698163816382c182c4814182bb82ea82b682e1",
+      "korean_text": "(……아니, 그러면",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000027B8",
+      "locator": {
+        "offset": 10168
+      },
+      "source_text": "　目が合ってしまう……!!）",
+      "source_hex": "814096da82aa8d8782c182c482b582dc82a4816381632121816a",
+      "korean_text": "　눈이 마주치잖아……!!)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000027D4",
+      "locator": {
+        "offset": 10196
+      },
+      "source_text": "……あれ？",
+      "source_hex": "8163816382a082ea8148",
+      "korean_text": "……어라?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000027E0",
+      "locator": {
+        "offset": 10208
+      },
+      "source_text": "もしかして、大神さん……？",
+      "source_hex": "82e082b582a982b582c4814191e5905f82b382f1816381638148",
+      "korean_text": "혹시, 오오가미 씨……?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000027FC",
+      "locator": {
+        "offset": 10236
+      },
+      "source_text": "ふぅ……ダンジョンの後は",
+      "source_hex": "82d382a381638163835f839383578387839382cc8ce382cd",
+      "korean_text": "후우……던전 뒤엔",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002818",
+      "locator": {
+        "offset": 10264
+      },
+      "source_text": "シャワーに限るな……",
+      "source_hex": "83568383838f815b82c98cc082e982c881638163",
+      "korean_text": "샤워가 최고지……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002830",
+      "locator": {
+        "offset": 10288
+      },
+      "source_text": "（グリシーヌ……",
+      "source_hex": "8169834f838a8356815b836b81638163",
+      "korean_text": "(글리신……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002844",
+      "locator": {
+        "offset": 10308
+      },
+      "source_text": "　俺もそう思うよ……）",
+      "source_hex": "814089b482e082bb82a48e7682a482e681638163816a",
+      "korean_text": "　나도 그리 생각해……)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000285C",
+      "locator": {
+        "offset": 10332
+      },
+      "source_text": "……はっ！",
+      "source_hex": "8163816382cd82c18149",
+      "korean_text": "……헉!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002868",
+      "locator": {
+        "offset": 10344
+      },
+      "source_text": "そこにいるのは何者だっ……!?",
+      "source_hex": "82bb82b182c982a282e982cc82cd89bd8ed282be82c181638163213f",
+      "korean_text": "거기 있는 건 누구냐……!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002888",
+      "locator": {
+        "offset": 10376
+      },
+      "source_text": "イテテ……やっぱり、",
+      "source_hex": "8343836583658163816382e282c182cf82e88141",
+      "korean_text": "아야야……역시,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000028A0",
+      "locator": {
+        "offset": 10400
+      },
+      "source_text": "ひざをすりむいちゃってるや。",
+      "source_hex": "82d082b482f082b782e882de82a282bf82e182c182c482e982e28142",
+      "korean_text": "무릎이 까져 있네.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000028C0",
+      "locator": {
+        "offset": 10432
+      },
+      "source_text": "（コクリコ……",
+      "source_hex": "81698352834e838a835281638163",
+      "korean_text": "(코쿠리코……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000028D0",
+      "locator": {
+        "offset": 10448
+      },
+      "source_text": "　ひざ、大丈夫かい……？）",
+      "source_hex": "814082d082b4814191e58fe4957682a982a2816381638148816a",
+      "korean_text": "　무릎, 괜찮니……?)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000028EC",
+      "locator": {
+        "offset": 10476
+      },
+      "source_text": "なになに、だれかいるの!?",
+      "source_hex": "82c882c982c882c9814182be82ea82a982a282e982cc213f",
+      "korean_text": "뭐야, 누가 있는 거야!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002908",
+      "locator": {
+        "offset": 10504
+      },
+      "source_text": "（こ、これは……",
+      "source_hex": "816982b1814182b182ea82cd81638163",
+      "korean_text": "(이, 이건……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000291C",
+      "locator": {
+        "offset": 10524
+      },
+      "source_text": "　さすがはロベリアだ……）",
+      "source_hex": "814082b382b782aa82cd838d8378838a834182be81638163816a",
+      "korean_text": "　역시 로벨리아야……)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002938",
+      "locator": {
+        "offset": 10552
+      },
+      "source_text": "（……って、どうして",
+      "source_hex": "81698163816382c182c4814182c782a482b582c4",
+      "korean_text": "(……아니, 왜",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002950",
+      "locator": {
+        "offset": 10576
+      },
+      "source_text": "　こっちを見てるんだ……!?）",
+      "source_hex": "814082b182c182bf82f08ca982c482e982f182be81638163213f816a",
+      "korean_text": "　이쪽을 보는 거야……!?)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002970",
+      "locator": {
+        "offset": 10608
+      },
+      "source_text": "アンタ……",
+      "source_hex": "83418393835e81638163",
+      "korean_text": "너……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000297C",
+      "locator": {
+        "offset": 10620
+      },
+      "source_text": "また、のぞきかい……？",
+      "source_hex": "82dc82bd814182cc82bc82ab82a982a2816381638148",
+      "korean_text": "또, 훔쳐보는 거야……?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002994",
+      "locator": {
+        "offset": 10644
+      },
+      "source_text": "はぁ……いい気持ちですわ。",
+      "source_hex": "82cd829f8163816382a282a28b438e9d82bf82c582b782ed8142",
+      "korean_text": "하아……기분 좋네요.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000029B0",
+      "locator": {
+        "offset": 10672
+      },
+      "source_text": "このまま眠ってしまいそう……",
+      "source_hex": "82b182cc82dc82dc96b082c182c482b582dc82a282bb82a481638163",
+      "korean_text": "이대로 잠들 것 같아……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000029D0",
+      "locator": {
+        "offset": 10704
+      },
+      "source_text": "（花火くん……眠らないよう",
+      "source_hex": "816989d489ce82ad82f18163816396b082e782c882a282e682a4",
+      "korean_text": "(하나비 군……잠들지 않게",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000029EC",
+      "locator": {
+        "offset": 10732
+      },
+      "source_text": "　気をつけてくれよ……）",
+      "source_hex": "81408b4382f082c282af82c482ad82ea82e681638163816a",
+      "korean_text": "　조심해……)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002A08",
+      "locator": {
+        "offset": 10760
+      },
+      "source_text": "……きゃっ！",
+      "source_hex": "8163816382ab82e182c18149",
+      "korean_text": "……꺅!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002A18",
+      "locator": {
+        "offset": 10776
+      },
+      "source_text": "誰かいるんですかっ……!?",
+      "source_hex": "924e82a982a282e982f182c582b782a982c181638163213f",
+      "korean_text": "누가 있나요……!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002A34",
+      "locator": {
+        "offset": 10804
+      },
+      "source_text": "ねえ、シー。",
+      "source_hex": "82cb82a681418356815b8142",
+      "korean_text": "있지, 시.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002A44",
+      "locator": {
+        "offset": 10820
+      },
+      "source_text": "このシャンプー、変じゃない？",
+      "source_hex": "82b182cc8356838383938376815b814195cf82b682e182c882a28148",
+      "korean_text": "이 샴푸, 이상하지 않아?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002A64",
+      "locator": {
+        "offset": 10852
+      },
+      "source_text": "えーっ、そおかなぁ……？",
+      "source_hex": "82a6815b82c1814182bb82a882a982c8829f816381638148",
+      "korean_text": "에엣, 그런가……?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002A80",
+      "locator": {
+        "offset": 10880
+      },
+      "source_text": "どうしてぇ……？",
+      "source_hex": "82c782a482b582c482a5816381638148",
+      "korean_text": "왜에……?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002A94",
+      "locator": {
+        "offset": 10900
+      },
+      "source_text": "前にもあった気がするけど……",
+      "source_hex": "914f82c982e082a082c182bd8b4382aa82b782e982af82c781638163",
+      "korean_text": "전에도 이랬던 것 같은데……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002AB4",
+      "locator": {
+        "offset": 10932
+      },
+      "source_text": "洗っても泡が全然消えないの。",
+      "source_hex": "90f482c182c482e0964182aa915391528fc182a682c882a282cc8142",
+      "korean_text": "씻어도 거품이 안 사라져.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002AD4",
+      "locator": {
+        "offset": 10964
+      },
+      "source_text": "あー、最近そういうシャンプー",
+      "source_hex": "82a0815b81418dc58bdf82bb82a482a282a48356838383938376815b",
+      "korean_text": "아, 요즘 그런 샴푸가",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002AF4",
+      "locator": {
+        "offset": 10996
+      },
+      "source_text": "増えてるらしいよぅ。",
+      "source_hex": "919d82a682c482e982e782b582a282e682a38142",
+      "korean_text": "늘어난다더라~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002B0C",
+      "locator": {
+        "offset": 11020
+      },
+      "source_text": "（こら、シーくん……",
+      "source_hex": "816982b182e781418356815b82ad82f181638163",
+      "korean_text": "(이봐, 시 군……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002B24",
+      "locator": {
+        "offset": 11044
+      },
+      "source_text": "　イタズラが過ぎるぞ……）",
+      "source_hex": "81408343835e8359838982aa89df82ac82e982bc81638163816a",
+      "korean_text": "　장난이 지나치잖아……)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002B40",
+      "locator": {
+        "offset": 11072
+      },
+      "source_text": "（でも、メルくんの困った顔も",
+      "source_hex": "816982c582e081418381838b82ad82f182cc8da282c182bd8ae782e0",
+      "korean_text": "(근데 멜 군의 난처한 표정도",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002B60",
+      "locator": {
+        "offset": 11104
+      },
+      "source_text": "　かわいいなぁ……）",
+      "source_hex": "814082a982ed82a282a282c8829f81638163816a",
+      "korean_text": "　귀엽네……)",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002B78",
+      "locator": {
+        "offset": 11128
+      },
+      "source_text": "……ねえ、シー。",
+      "source_hex": "8163816382cb82a681418356815b8142",
+      "korean_text": "……있지, 시.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002B8C",
+      "locator": {
+        "offset": 11148
+      },
+      "source_text": "そこに誰かいない……!?",
+      "source_hex": "82bb82b182c9924e82a982a282c882a281638163213f",
+      "korean_text": "거기 누구 있지……!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002BA4",
+      "locator": {
+        "offset": 11172
+      },
+      "source_text": "い……いかん！",
+      "source_hex": "82a28163816382a282a982f18149",
+      "korean_text": "아……안 돼!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002BB4",
+      "locator": {
+        "offset": 11188
+      },
+      "source_text": "見つかる前に逃げるぞ……!!",
+      "source_hex": "8ca982c282a982e9914f82c993a682b082e982bc816381632121",
+      "korean_text": "들키기 전에 도망가자……!!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002BD0",
+      "locator": {
+        "offset": 11216
+      },
+      "source_text": "ふう……なんとか、",
+      "source_hex": "82d382a48163816382c882f182c682a98141",
+      "korean_text": "후우……어떻게든,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002BE4",
+      "locator": {
+        "offset": 11236
+      },
+      "source_text": "見つからずにすんだぞ……",
+      "source_hex": "8ca982c282a982e782b882c982b782f182be82bc81638163",
+      "korean_text": "안 들키고 끝났어……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002C00",
+      "locator": {
+        "offset": 11264
+      },
+      "source_text": "もう少し逃げるのが遅れたら、",
+      "source_hex": "82e082a48fad82b593a682b082e982cc82aa927882ea82bd82e78141",
+      "korean_text": "조금만 늦게 도망쳤다면,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002C20",
+      "locator": {
+        "offset": 11296
+      },
+      "source_text": "あぶないところだった……",
+      "source_hex": "82a082d482c882a282c682b182eb82be82c182bd81638163",
+      "korean_text": "큰일 날 뻔했어……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002C3C",
+      "locator": {
+        "offset": 11324
+      },
+      "source_text": "お……大神さん!?",
+      "source_hex": "82a88163816391e5905f82b382f1213f",
+      "korean_text": "오……오오가미 씨!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002C50",
+      "locator": {
+        "offset": 11344
+      },
+      "source_text": "なにしてるんですか……!?",
+      "source_hex": "82c882c982b582c482e982f182c582b782a981638163213f",
+      "korean_text": "뭐 하고 계세요……!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002C6C",
+      "locator": {
+        "offset": 11372
+      },
+      "source_text": "な、なにって……その……",
+      "source_hex": "82c8814182c882c982c182c48163816382bb82cc81638163",
+      "korean_text": "무, 뭐냐니……그게……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002C88",
+      "locator": {
+        "offset": 11400
+      },
+      "source_text": "すまない……エリカくん。",
+      "source_hex": "82b782dc82c882a2816381638347838a834a82ad82f18142",
+      "korean_text": "미안해……에리카 군.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002CA4",
+      "locator": {
+        "offset": 11428
+      },
+      "source_text": "大神さんが、そんな人だった",
+      "source_hex": "91e5905f82b382f182aa814182bb82f182c8906c82be82c182bd",
+      "korean_text": "오오가미 씨가, 그런 분일",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002CC0",
+      "locator": {
+        "offset": 11456
+      },
+      "source_text": "なんて……ひぐっ……",
+      "source_hex": "82c882f182c48163816382d082ae82c181638163",
+      "korean_text": "줄은……흐윽……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002CD8",
+      "locator": {
+        "offset": 11480
+      },
+      "source_text": "エリカくん……",
+      "source_hex": "8347838a834a82ad82f181638163",
+      "korean_text": "에리카 군……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002CE8",
+      "locator": {
+        "offset": 11496
+      },
+      "source_text": "すまなかった。",
+      "source_hex": "82b782dc82c882a982c182bd8142",
+      "korean_text": "미안했다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002CF8",
+      "locator": {
+        "offset": 11512
+      },
+      "source_text": "貴公……どういうことか、",
+      "source_hex": "8b4d8cf68163816382c782a482a282a482b182c682a98141",
+      "korean_text": "그대……무슨 일인지,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002D14",
+      "locator": {
+        "offset": 11540
+      },
+      "source_text": "説明してもらおうか。",
+      "source_hex": "90e096be82b582c482e082e782a882a482a98142",
+      "korean_text": "설명해주겠나.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002D2C",
+      "locator": {
+        "offset": 11564
+      },
+      "source_text": "ど、どういうって……",
+      "source_hex": "82c7814182c782a482a282a482c182c481638163",
+      "korean_text": "무, 무슨 일이라니……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002D44",
+      "locator": {
+        "offset": 11588
+      },
+      "source_text": "すまない……グリシーヌ。",
+      "source_hex": "82b782dc82c882a281638163834f838a8356815b836b8142",
+      "korean_text": "미안해……글리신.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002D60",
+      "locator": {
+        "offset": 11616
+      },
+      "source_text": "貴公は人間だ、理性があろう。",
+      "source_hex": "8b4d8cf682cd906c8ad482be8141979d90ab82aa82a082eb82a48142",
+      "korean_text": "그대는 인간, 이성이 있지.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002D80",
+      "locator": {
+        "offset": 11648
+      },
+      "source_text": "理性を持たぬ人間は……",
+      "source_hex": "979d90ab82f08e9d82bd82ca906c8ad482cd81638163",
+      "korean_text": "이성 없는 인간은……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002D98",
+      "locator": {
+        "offset": 11672
+      },
+      "source_text": "獣と、同じだ……",
+      "source_hex": "8f6282c6814193af82b682be81638163",
+      "korean_text": "짐승과, 똑같다……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002DAC",
+      "locator": {
+        "offset": 11692
+      },
+      "source_text": "よく肝に銘じておけ。",
+      "source_hex": "82e682ad8acc82c996c182b682c482a882af8142",
+      "korean_text": "잘 명심해둬.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002DC4",
+      "locator": {
+        "offset": 11716
+      },
+      "source_text": "グリシーヌ……",
+      "source_hex": "834f838a8356815b836b81638163",
+      "korean_text": "글리신……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002DD4",
+      "locator": {
+        "offset": 11732
+      },
+      "source_text": "イ……イチロー!?",
+      "source_hex": "83438163816383438360838d815b213f",
+      "korean_text": "이……이치로!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002DE8",
+      "locator": {
+        "offset": 11752
+      },
+      "source_text": "なにしてるの……!?",
+      "source_hex": "82c882c982b582c482e982cc81638163213f",
+      "korean_text": "뭐 하는 거야……!?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002DFC",
+      "locator": {
+        "offset": 11772
+      },
+      "source_text": "すまない……コクリコ。",
+      "source_hex": "82b782dc82c882a2816381638352834e838a83528142",
+      "korean_text": "미안해……코쿠리코.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002E14",
+      "locator": {
+        "offset": 11796
+      },
+      "source_text": "ボクのこと、のぞくなんて……",
+      "source_hex": "837b834e82cc82b182c6814182cc82bc82ad82c882f182c481638163",
+      "korean_text": "날 훔쳐보다니……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002E34",
+      "locator": {
+        "offset": 11828
+      },
+      "source_text": "ひどいよ、イチロー……",
+      "source_hex": "82d082c782a282e6814183438360838d815b81638163",
+      "korean_text": "너무해, 이치로……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002E4C",
+      "locator": {
+        "offset": 11852
+      },
+      "source_text": "コクリコ……",
+      "source_hex": "8352834e838a835281638163",
+      "korean_text": "코쿠리코……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002E5C",
+      "locator": {
+        "offset": 11868
+      },
+      "source_text": "アンタ、こそこそ逃げ出すとは",
+      "source_hex": "83418393835e814182b182bb82b182bb93a682b08f6f82b782c682cd",
+      "korean_text": "너, 몰래 도망치다니",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002E7C",
+      "locator": {
+        "offset": 11900
+      },
+      "source_text": "とんだ意気地なしだね……",
+      "source_hex": "82c682f182be88d38b43926e82c882b582be82cb81638163",
+      "korean_text": "정말 겁쟁이네……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002E98",
+      "locator": {
+        "offset": 11928
+      },
+      "source_text": "いや……その……",
+      "source_hex": "82a282e28163816382bb82cc81638163",
+      "korean_text": "아니……그게……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002EAC",
+      "locator": {
+        "offset": 11948
+      },
+      "source_text": "すまない……ロベリア。",
+      "source_hex": "82b782dc82c882a281638163838d8378838a83418142",
+      "korean_text": "미안해……로벨리아.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002EC4",
+      "locator": {
+        "offset": 11972
+      },
+      "source_text": "フン……",
+      "source_hex": "8374839381638163",
+      "korean_text": "흥……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002ED0",
+      "locator": {
+        "offset": 11984
+      },
+      "source_text": "情けない男だ。",
+      "source_hex": "8fee82af82c882a2926a82be8142",
+      "korean_text": "한심한 남자군.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002EE0",
+      "locator": {
+        "offset": 12000
+      },
+      "source_text": "ロベリア……",
+      "source_hex": "838d8378838a834181638163",
+      "korean_text": "로벨리아……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002EF0",
+      "locator": {
+        "offset": 12016
+      },
+      "source_text": "なにをされているのですか？",
+      "source_hex": "82c882c982f082b382ea82c482a282e982cc82c582b782a98148",
+      "korean_text": "뭘 하고 계신 건가요?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002F0C",
+      "locator": {
+        "offset": 12044
+      },
+      "source_text": "すまない……花火くん。",
+      "source_hex": "82b782dc82c882a28163816389d489ce82ad82f18142",
+      "korean_text": "미안해……하나비 군.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002F24",
+      "locator": {
+        "offset": 12068
+      },
+      "source_text": "大神さん……いままで、",
+      "source_hex": "91e5905f82b382f18163816382a282dc82dc82c58141",
+      "korean_text": "오오가미 씨……그동안,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002F3C",
+      "locator": {
+        "offset": 12092
+      },
+      "source_text": "お世話になりました……",
+      "source_hex": "82a890a2986282c982c882e882dc82b582bd81638163",
+      "korean_text": "신세 많이 졌습니다……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002F54",
+      "locator": {
+        "offset": 12116
+      },
+      "source_text": "ま……待ってくれ、花火くん！",
+      "source_hex": "82dc8163816391d282c182c482ad82ea814189d489ce82ad82f18149",
+      "korean_text": "자……잠깐, 하나비 군!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002F74",
+      "locator": {
+        "offset": 12148
+      },
+      "source_text": "俺が悪かった……許してくれ!!",
+      "source_hex": "89b482aa88ab82a982c182bd816381638b9682b582c482ad82ea2121",
+      "korean_text": "내가 잘못했어……용서해줘!!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002F94",
+      "locator": {
+        "offset": 12180
+      },
+      "source_text": "……失礼します。",
+      "source_hex": "816381638eb897e782b582dc82b78142",
+      "korean_text": "……실례하겠습니다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002FA8",
+      "locator": {
+        "offset": 12200
+      },
+      "source_text": "花火くん……",
+      "source_hex": "89d489ce82ad82f181638163",
+      "korean_text": "하나비 군……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002FB8",
+      "locator": {
+        "offset": 12216
+      },
+      "source_text": "お、大神さん……",
+      "source_hex": "82a8814191e5905f82b382f181638163",
+      "korean_text": "오, 오오가미 씨……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002FCC",
+      "locator": {
+        "offset": 12236
+      },
+      "source_text": "どういうことですか……？",
+      "source_hex": "82c782a482a282a482b182c682c582b782a9816381638148",
+      "korean_text": "무슨 일인가요……?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00002FE8",
+      "locator": {
+        "offset": 12264
+      },
+      "source_text": "ど、どうって……その……",
+      "source_hex": "82c7814182c782a482c182c48163816382bb82cc81638163",
+      "korean_text": "무, 무슨……그게……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003004",
+      "locator": {
+        "offset": 12292
+      },
+      "source_text": "すまない……メルくん。",
+      "source_hex": "82b782dc82c882a2816381638381838b82ad82f18142",
+      "korean_text": "미안해……멜 군.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000301C",
+      "locator": {
+        "offset": 12316
+      },
+      "source_text": "……オーナーに言いつけて、",
+      "source_hex": "816381638349815b8369815b82c98cbe82a282c282af82c48141",
+      "korean_text": "……오너에게 일러서,",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003038",
+      "locator": {
+        "offset": 12344
+      },
+      "source_text": "お給料減らしてもらいますぅ。",
+      "source_hex": "82a88b8b97bf8cb882e782b582c482e082e782a282dc82b782a38142",
+      "korean_text": "월급 깎아달라고 할 거예요~.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003058",
+      "locator": {
+        "offset": 12376
+      },
+      "source_text": "いや、その……",
+      "source_hex": "82a282e2814182bb82cc81638163",
+      "korean_text": "아니, 그게……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003068",
+      "locator": {
+        "offset": 12392
+      },
+      "source_text": "これは……違うんだ……",
+      "source_hex": "82b182ea82cd8163816388e182a482f182be81638163",
+      "korean_text": "이건……오해야……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003080",
+      "locator": {
+        "offset": 12416
+      },
+      "source_text": "メルくん、シーくん……",
+      "source_hex": "8381838b82ad82f181418356815b82ad82f181638163",
+      "korean_text": "멜 군, 시 군……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003098",
+      "locator": {
+        "offset": 12440
+      },
+      "source_text": "すまなかった……",
+      "source_hex": "82b782dc82c882a982c182bd81638163",
+      "korean_text": "미안했다……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000030AC",
+      "locator": {
+        "offset": 12460
+      },
+      "source_text": "はぁ……",
+      "source_hex": "82cd829f81638163",
+      "korean_text": "하아……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000030B8",
+      "locator": {
+        "offset": 12472
+      },
+      "source_text": "隊長がこんなことでは……",
+      "source_hex": "91e092b782aa82b182f182c882b182c682c582cd81638163",
+      "korean_text": "대장이 이래서야……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000030D4",
+      "locator": {
+        "offset": 12500
+      },
+      "source_text": "なんとか自制心を取り戻せて",
+      "source_hex": "82c882f182c682a98ea990a7905382f08ee682e896df82b982c4",
+      "korean_text": "어떻게든 자제심을 되찾아",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000030F0",
+      "locator": {
+        "offset": 12528
+      },
+      "source_text": "良かった……",
+      "source_hex": "97c782a982c182bd81638163",
+      "korean_text": "다행이다……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003100",
+      "locator": {
+        "offset": 12544
+      },
+      "source_text": "よく来たな！",
+      "source_hex": "82e682ad978882bd82c88149",
+      "korean_text": "잘 왔어!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003110",
+      "locator": {
+        "offset": 12560
+      },
+      "source_text": "また来いよ、隊長さん。",
+      "source_hex": "82dc82bd978882a282e6814191e092b782b382f18142",
+      "korean_text": "또 와, 대장님.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003128",
+      "locator": {
+        "offset": 12584
+      },
+      "source_text": "これは……われながら",
+      "source_hex": "82b182ea82cd8163816382ed82ea82c882aa82e7",
+      "korean_text": "이건……내가 봐도",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003140",
+      "locator": {
+        "offset": 12608
+      },
+      "source_text": "ホレボレする腕前だぜ！",
+      "source_hex": "837a838c837b838c82b782e99872914f82be82ba8149",
+      "korean_text": "감탄할 솜씨야!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003158",
+      "locator": {
+        "offset": 12632
+      },
+      "source_text": "よし、できたぜ。",
+      "source_hex": "82e682b5814182c582ab82bd82ba8142",
+      "korean_text": "좋아, 됐다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003170",
+      "locator": {
+        "offset": 12656
+      },
+      "source_text": "だ。",
+      "source_hex": "82be8142",
+      "korean_text": "다.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003178",
+      "locator": {
+        "offset": 12664
+      },
+      "source_text": "どの言霊だい？",
+      "source_hex": "82c782cc8cbe97ec82be82a28148",
+      "korean_text": "어느 언령이지?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003188",
+      "locator": {
+        "offset": 12680
+      },
+      "source_text": "どれにするんだ？",
+      "source_hex": "82c782ea82c982b782e982f182be8148",
+      "korean_text": "어느 걸로 할래?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000319C",
+      "locator": {
+        "offset": 12700
+      },
+      "source_text": "おいおい、隊長さん……",
+      "source_hex": "82a882a282a882a2814191e092b782b382f181638163",
+      "korean_text": "이봐, 대장님……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000031B4",
+      "locator": {
+        "offset": 12724
+      },
+      "source_text": "金が足りねぇみたいだぜ。",
+      "source_hex": "8be082aa91ab82e882cb82a582dd82bd82a282be82ba8142",
+      "korean_text": "돈이 부족한 모양이야.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000031D0",
+      "locator": {
+        "offset": 12752
+      },
+      "source_text": "%sだな。",
+      "source_hex": "257382be82c88142",
+      "korean_text": "%s구나.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000031DC",
+      "locator": {
+        "offset": 12764
+      },
+      "source_text": "金 \u0013 0,4;%d\u0013 0, 0; で修理できるぞ。",
+      "source_hex": "8be0201320302c343b25641320302c20303b2082c58f43979d82c582ab82e982bc8142",
+      "korean_text": "금 \u0013 0,4;%d\u0013 0, 0; 로 수리 가능.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003200",
+      "locator": {
+        "offset": 12800
+      },
+      "source_text": "%s を",
+      "source_hex": "25732082f0",
+      "korean_text": "%s 를",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003208",
+      "locator": {
+        "offset": 12808
+      },
+      "source_text": "金 \u0013 0,4;%d\u0013 0,0; で強化するか？",
+      "source_hex": "8be0201320302c343b25641320302c303b2082c58bad89bb82b782e982a98148",
+      "korean_text": "금 \u0013 0,4;%d\u0013 0,0; 로 강화할래?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000322C",
+      "locator": {
+        "offset": 12844
+      },
+      "source_text": "%sから",
+      "source_hex": "257382a982e7",
+      "korean_text": "%s에서",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003234",
+      "locator": {
+        "offset": 12852
+      },
+      "source_text": "%sの言霊を消せばいいんだな？",
+      "source_hex": "257382cc8cbe97ec82f08fc182b982ce82a282a282f182be82c88148",
+      "korean_text": "%s의 언령을 지우면 되지?",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003254",
+      "locator": {
+        "offset": 12884
+      },
+      "source_text": "おいおい、隊長さんよ……",
+      "source_hex": "82a882a282a882a2814191e092b782b382f182e681638163",
+      "korean_text": "이봐, 대장님……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003270",
+      "locator": {
+        "offset": 12912
+      },
+      "source_text": "持ち物がいっぱいだぜ。",
+      "source_hex": "8e9d82bf95a882aa82a282c182cf82a282be82ba8142",
+      "korean_text": "소지품이 가득 찼어.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003288",
+      "locator": {
+        "offset": 12936
+      },
+      "source_text": "ありがとよ！",
+      "source_hex": "82a082e882aa82c682e68149",
+      "korean_text": "고맙다!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003298",
+      "locator": {
+        "offset": 12952
+      },
+      "source_text": "隊長さん、あんた",
+      "source_hex": "91e092b782b382f1814182a082f182bd",
+      "korean_text": "대장님, 당신",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000032AC",
+      "locator": {
+        "offset": 12972
+      },
+      "source_text": "それを持ってないじゃないか。",
+      "source_hex": "82bb82ea82f08e9d82c182c482c882a282b682e182c882a282a98142",
+      "korean_text": "그거 안 갖고 있잖아.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000032CC",
+      "locator": {
+        "offset": 13004
+      },
+      "source_text": "は、もう強化できねぇぜ。",
+      "source_hex": "82cd814182e082a48bad89bb82c582ab82cb82a582ba8142",
+      "korean_text": "는, 더 강화 못 해.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000032E8",
+      "locator": {
+        "offset": 13032
+      },
+      "source_text": "隊長さん、無理いうなよ……",
+      "source_hex": "91e092b782b382f1814196b3979d82a282a482c882e681638163",
+      "korean_text": "대장님, 무리 말라고……",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003304",
+      "locator": {
+        "offset": 13060
+      },
+      "source_text": "ひと休みしてからな。",
+      "source_hex": "82d082c68b7882dd82b582c482a982e782c88142",
+      "korean_text": "좀 쉬고 나서 해.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@0000331C",
+      "locator": {
+        "offset": 13084
+      },
+      "source_text": "よし、待ってな。現場で",
+      "source_hex": "82e682b5814191d282c182c482c881428cbb8fea82c5",
+      "korean_text": "좋아, 기다려. 현장에서",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003334",
+      "locator": {
+        "offset": 13108
+      },
+      "source_text": "鍛えたこの腕、見せてやる！",
+      "source_hex": "926282a682bd82b182cc987281418ca982b982c482e282e98149",
+      "korean_text": "단련한 솜씨, 보여주지!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003350",
+      "locator": {
+        "offset": 13136
+      },
+      "source_text": "いくぜ……！",
+      "source_hex": "82a282ad82ba816381638149",
+      "korean_text": "간다……!",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003360",
+      "locator": {
+        "offset": 13152
+      },
+      "source_text": "ちょっとだけ待ってな。",
+      "source_hex": "82bf82e582c182c682be82af91d282c182c482c88142",
+      "korean_text": "잠깐만 기다려.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003378",
+      "locator": {
+        "offset": 13176
+      },
+      "source_text": "すぐ言霊を消してやるぜ。",
+      "source_hex": "82b782ae8cbe97ec82f08fc182b582c482e282e982ba8142",
+      "korean_text": "바로 언령을 지워주지.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003394",
+      "locator": {
+        "offset": 13204
+      },
+      "source_text": "よし、ちょっと待ってろ。",
+      "source_hex": "82e682b5814182bf82e582c182c691d282c182c482eb8142",
+      "korean_text": "좋아, 잠깐 기다려.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000033B0",
+      "locator": {
+        "offset": 13232
+      },
+      "source_text": "かるく直してやる。",
+      "source_hex": "82a982e982ad92bc82b582c482e282e98142",
+      "korean_text": "금방 고쳐주지.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000033C4",
+      "locator": {
+        "offset": 13252
+      },
+      "source_text": "おっと、もうこんな時間か。",
+      "source_hex": "82a882c182c6814182e082a482b182f182c88e9e8ad482a98142",
+      "korean_text": "이런, 벌써 이 시간인가.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@000033E0",
+      "locator": {
+        "offset": 13280
+      },
+      "source_text": "そろそろ作戦指令室に戻ろう。",
+      "source_hex": "82bb82eb82bb82eb8dec90ed8e7797df8eba82c996df82eb82a48142",
+      "korean_text": "슬슬 작전지령실로 돌아가자.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003400",
+      "locator": {
+        "offset": 13312
+      },
+      "source_text": "……さて、それじゃ",
+      "source_hex": "8163816382b382c4814182bb82ea82b682e1",
+      "korean_text": "……자, 그럼",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    },
+    {
+      "id": "arm9-overlay:10@00003414",
+      "locator": {
+        "offset": 13332
+      },
+      "source_text": "作戦指令室に戻るとするか。",
+      "source_hex": "8dec90ed8e7797df8eba82c996df82e982c682b782e982a98142",
+      "korean_text": "작전지령실로 돌아갈까.",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": ""
+    }
+  ]
+}

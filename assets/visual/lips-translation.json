@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "font": "Mulmaru",
+  "records": [
+    {
+      "path": "lips/lips01_00_00.NCGR",
+      "slot_record_id": "arm9@00157C24",
+      "source_phrases": ["ポーズ！"],
+      "korean_phrases": ["포ー즈！"],
+      "answer_record_ids": [["arm9-overlay:14@00007530"]],
+      "cells": {"2": "포", "6": "즈"}
+    },
+    {
+      "path": "lips/lips01_01_00.NCGR",
+      "slot_record_id": "arm9@00157D10",
+      "source_phrases": ["赤と青！", "青と赤！"],
+      "korean_phrases": ["적과청！", "청과적！"],
+      "answer_record_ids": [["arm9-overlay:15@00005250"], ["arm9-overlay:15@00005244"]],
+      "cells": {"2": "적", "4": "청", "6": "과"}
+    },
+    {
+      "path": "lips/lips01_02_00.NCGR",
+      "slot_record_id": "arm9@00157DFC",
+      "source_phrases": ["はぐれた？", "ほれた？"],
+      "korean_phrases": ["낙오했어？", "반했어？"],
+      "answer_record_ids": [["arm9-overlay:16@00002B00"], ["arm9-overlay:16@00002CC8"]],
+      "cells": {"2": "낙", "4": "오", "6": "했", "8": "어", "10": "반"}
+    },
+    {
+      "path": "lips/lips01_03_00.NCGR",
+      "slot_record_id": "arm9@00157EE8",
+      "source_phrases": ["風林火山！", "加山！", "川！", "山！"],
+      "korean_phrases": ["風林火山！", "加山！", "川！", "山！"],
+      "answer_record_ids": [["arm9-overlay:18@00003270"], ["arm9-overlay:18@000030B8"], ["arm9-overlay:18@00003024"], ["arm9-overlay:18@00003320"]],
+      "policy": "source_retained",
+      "cells": {}
+    },
+    {
+      "path": "lips/lips01_04_00.NCGR",
+      "slot_record_id": "arm9@00157FD4",
+      "source_phrases": ["いいですよ！", "いやですよ！"],
+      "korean_phrases": ["전좋은데요！", "전싫은데요！"],
+      "answer_record_ids": [["arm9-overlay:19@00003BD8"], ["arm9-overlay:19@00003CB4"]],
+      "cells": {"2": "전", "4": "좋", "6": "싫", "8": "은", "10": "데", "12": "요"}
+    },
+    {
+      "path": "lips/lips01_05_00.NCGR",
+      "slot_record_id": "arm9@001580C0",
+      "source_phrases": ["体が勝手に！"],
+      "korean_phrases": ["몸이멋대로！"],
+      "answer_record_ids": [["arm9-overlay:6@00001914", "arm9-overlay:7@000024BC", "arm9-overlay:10@000026F8"]],
+      "cells": {"2": "몸", "4": "이", "6": "멋", "8": "대", "10": "로"}
+    },
+    {
+      "path": "lips/lips01_06_00.NCGR",
+      "slot_record_id": "arm9@001581AC",
+      "source_phrases": ["ふんいき？", "ふいんき？", "むーど？"],
+      "korean_phrases": ["분위기지？", "분기위지？", "무드지？"],
+      "answer_record_ids": [["arm9-overlay:24@00003DB0"], ["arm9-overlay:24@00003E60"], ["arm9-overlay:24@00003F14"]],
+      "cells": {"2": "분", "4": "위", "6": "기", "8": "지", "10": "무", "12": "드", "14": "지"}
+    },
+    {
+      "path": "lips/lips01_07_00.NCGR",
+      "slot_record_id": "arm9@00158298",
+      "source_phrases": ["かたたたきき？"],
+      "korean_phrases": ["어깨마사지기？"],
+      "answer_record_ids": [["arm9-overlay:24@0000422C"]],
+      "cells": {"2": "어", "4": "깨", "6": "마", "8": "사", "10": "지", "12": "기", "14": "기"}
+    }
+  ]
+}

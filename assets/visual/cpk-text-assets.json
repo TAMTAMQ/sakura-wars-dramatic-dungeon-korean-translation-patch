@@ -1,0 +1,762 @@
+{
+  "schema_version": 1,
+  "source_profile_id": "ys9j-rev0-e6cafe64",
+  "note": "Edit the cell PNGs. tiles.png appears only where objects overlap and part of the picture cannot be read back.",
+  "record_count": 28,
+  "records": [
+    {
+      "name": "prompt-touch-pen",
+      "group": "prompt-touch-pen",
+      "note": "タッチペンの準備をしてね!",
+      "files": [
+        {
+          "png": "prompt-touch-pen-00.png",
+          "cell": 0
+        },
+        {
+          "png": "prompt-touch-pen-01.png",
+          "cell": 1
+        },
+        {
+          "png": "prompt-touch-pen-02.png",
+          "cell": 2
+        }
+      ],
+      "tile_sheet": "prompt-touch-pen-tiles.png",
+      "palette": "02-003f40.NCLR",
+      "cell_bank": "00-000020.NCER",
+      "has_hidden_pixels": true,
+      "targets": [
+        {
+          "cpk_entry_id": 1179,
+          "cpk_slot_size": 3020,
+          "payload_sha256": "0413e212156a76dd0e42f7ec972111c0fea9dc700fef06153f05a0daca408bc0",
+          "graphic_offset": 384,
+          "graphic_sha256": "9f16631ab6b428eb4a6080fb72bb2b73ae6d8d5d477aab2b1279b1625c9cf798"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "episode-2-matenrou-no-majin-sprite",
+      "group": "episode-2-matenrou-no-majin-sprite",
+      "note": "第二話 摩天楼の魔人",
+      "files": [
+        {
+          "png": "episode-2-matenrou-no-majin-sprite.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "08-05b520.NCLR",
+      "cell_bank": "02-029920.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1540,
+          "cpk_slot_size": 392776,
+          "payload_sha256": "91cd9e2db82b42c8dbb7fcf1d47448da8087efdbc1291f63e4be787f42bcfa79",
+          "graphic_offset": 323680,
+          "graphic_sha256": "6f92bc86ce96588b244ce1763bf3b83dca6f7a4ff8a1f6e2ce40bb76a9945e50"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "title-logo",
+      "group": "title-logo",
+      "note": "메인 화면 로고 + PRESS START BUTTON (세 항목이 같은 그림)",
+      "files": [
+        {
+          "png": "title-logo-00.png",
+          "cell": 0
+        },
+        {
+          "png": "title-logo-01.png",
+          "cell": 1
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "02-0063c0.NCLR",
+      "cell_bank": "00-0000e0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1546,
+          "cpk_slot_size": 230524,
+          "payload_sha256": "68f1222538b474c60e6f60283ace39d8bf692b14d4d3a14a41a4f91301f6988b",
+          "graphic_offset": 640,
+          "graphic_sha256": "57f674ea8230703ceba4b8a0d17cf1e53d37f183f0ba3e1a2cab2c4b35096747"
+        },
+        {
+          "cpk_entry_id": 1547,
+          "cpk_slot_size": 345492,
+          "payload_sha256": "334d98a79d8bf39c12d3c487003053ead37ad35e9a96e463b8cd868fcca0cffb",
+          "graphic_offset": 704,
+          "graphic_sha256": "57f674ea8230703ceba4b8a0d17cf1e53d37f183f0ba3e1a2cab2c4b35096747"
+        },
+        {
+          "cpk_entry_id": 1548,
+          "cpk_slot_size": 391952,
+          "payload_sha256": "3cb16832ddbab08e4b4caa5d80b6110e11a3ae2c3c0d0a1a98bdadab94dfeda0",
+          "graphic_offset": 736,
+          "graphic_sha256": "57f674ea8230703ceba4b8a0d17cf1e53d37f183f0ba3e1a2cab2c4b35096747"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1559-00",
+      "group": "subtitle-1559",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1559-00.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "12-002460.NCLR",
+      "cell_bank": "00-000120.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1559,
+          "cpk_slot_size": 102424,
+          "payload_sha256": "18905d71633bf671a6d2057bee2c5a2bd978aaaebedbbf11df8db25177abc9c9",
+          "graphic_offset": 1120,
+          "graphic_sha256": "49b993ec3c10285ab90d8ad1c298708befbace9f64decb43136e9614af38a3f5"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1559-01",
+      "group": "subtitle-1559",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1559-01.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "13-0024c0.NCLR",
+      "cell_bank": "01-0001a0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1559,
+          "cpk_slot_size": 102424,
+          "payload_sha256": "18905d71633bf671a6d2057bee2c5a2bd978aaaebedbbf11df8db25177abc9c9",
+          "graphic_offset": 2464,
+          "graphic_sha256": "fe10d8648d4d1a8f99d2263a27ef375eb4c61d981a2f15f882e5d8ad4bd8d5d7"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1559-02",
+      "group": "subtitle-1559",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1559-02.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "14-002520.NCLR",
+      "cell_bank": "02-000240.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1559,
+          "cpk_slot_size": 102424,
+          "payload_sha256": "18905d71633bf671a6d2057bee2c5a2bd978aaaebedbbf11df8db25177abc9c9",
+          "graphic_offset": 4192,
+          "graphic_sha256": "3db6da4b4ab0d157a783b82c13552b8301de71d6a7080f8c1aaee839c83ffcb5"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1559-03",
+      "group": "subtitle-1559",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1559-03.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "15-002580.NCLR",
+      "cell_bank": "03-0002c0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1559,
+          "cpk_slot_size": 102424,
+          "payload_sha256": "18905d71633bf671a6d2057bee2c5a2bd978aaaebedbbf11df8db25177abc9c9",
+          "graphic_offset": 5024,
+          "graphic_sha256": "134f0f32259e37ab7e971abaef1b82b457797bc1aa157dd31cdb93e71257199d"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1559-04",
+      "group": "subtitle-1559",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1559-04.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "16-0025e0.NCLR",
+      "cell_bank": "04-000340.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1559,
+          "cpk_slot_size": 102424,
+          "payload_sha256": "18905d71633bf671a6d2057bee2c5a2bd978aaaebedbbf11df8db25177abc9c9",
+          "graphic_offset": 6240,
+          "graphic_sha256": "7e88bc3fdd4594102179852cb10a682b7751bb0953894c6f71a80ef9ab2cd839"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1559-05",
+      "group": "subtitle-1559",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1559-05.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "17-002640.NCLR",
+      "cell_bank": "05-0003e0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1559,
+          "cpk_slot_size": 102424,
+          "payload_sha256": "18905d71633bf671a6d2057bee2c5a2bd978aaaebedbbf11df8db25177abc9c9",
+          "graphic_offset": 7840,
+          "graphic_sha256": "9a7935da5a78392dcda5bc53f02bbfd2cf5dffa0012b39015edd6edc8510eeea"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1560-00",
+      "group": "subtitle-1560",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1560-00.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "14-002820.NCLR",
+      "cell_bank": "00-000140.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1560,
+          "cpk_slot_size": 85892,
+          "payload_sha256": "2482177b814788247afe41faa2a1abf2aac9c3473cbb250b7eb1aa2b6a13753d",
+          "graphic_offset": 1248,
+          "graphic_sha256": "03769ce134b441198ebb0dc1759bfe41739c151c99469a13c768be9c1377a1f0"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1560-01",
+      "group": "subtitle-1560",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1560-01.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "15-002880.NCLR",
+      "cell_bank": "01-0001c0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1560,
+          "cpk_slot_size": 85892,
+          "payload_sha256": "2482177b814788247afe41faa2a1abf2aac9c3473cbb250b7eb1aa2b6a13753d",
+          "graphic_offset": 2080,
+          "graphic_sha256": "14e6c69dc8409cf59dc179f988ae7e345df3f0f700faea9ee48566d753bbc402"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1560-02",
+      "group": "subtitle-1560",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1560-02.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "16-0028e0.NCLR",
+      "cell_bank": "02-000240.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1560,
+          "cpk_slot_size": 85892,
+          "payload_sha256": "2482177b814788247afe41faa2a1abf2aac9c3473cbb250b7eb1aa2b6a13753d",
+          "graphic_offset": 2912,
+          "graphic_sha256": "4bdf770a0b1ba71d685f6d17d99fb515d6610b68e3e6f1365fa7e6268c711909"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1560-03",
+      "group": "subtitle-1560",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1560-03.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "17-002940.NCLR",
+      "cell_bank": "03-0002c0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1560,
+          "cpk_slot_size": 85892,
+          "payload_sha256": "2482177b814788247afe41faa2a1abf2aac9c3473cbb250b7eb1aa2b6a13753d",
+          "graphic_offset": 4512,
+          "graphic_sha256": "65d59319d4b7d4d5c5965f4205b36d55c1f089921ca6f2f9fe9eab555e23dbea"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1560-04",
+      "group": "subtitle-1560",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1560-04.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "18-0029a0.NCLR",
+      "cell_bank": "04-000340.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1560,
+          "cpk_slot_size": 85892,
+          "payload_sha256": "2482177b814788247afe41faa2a1abf2aac9c3473cbb250b7eb1aa2b6a13753d",
+          "graphic_offset": 5728,
+          "graphic_sha256": "41d6d93d95579ea059d3a58eb4939eb96f6343e1ec2b81d24b4437e5ebdb2820"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1560-05",
+      "group": "subtitle-1560",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1560-05.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "19-002a00.NCLR",
+      "cell_bank": "05-0003c0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1560,
+          "cpk_slot_size": 85892,
+          "payload_sha256": "2482177b814788247afe41faa2a1abf2aac9c3473cbb250b7eb1aa2b6a13753d",
+          "graphic_offset": 7328,
+          "graphic_sha256": "a10feee2bc7839ac4e8286935fc0eb309bca74790977964b12e15b26429eb73b"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1560-06",
+      "group": "subtitle-1560",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1560-06.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "20-002a60.NCLR",
+      "cell_bank": "06-000440.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1560,
+          "cpk_slot_size": 85892,
+          "payload_sha256": "2482177b814788247afe41faa2a1abf2aac9c3473cbb250b7eb1aa2b6a13753d",
+          "graphic_offset": 8544,
+          "graphic_sha256": "f63b0a35b753f7d01f053bc665085f6cc1ebe8e9ba5a4507a801f451bdf70f80"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1561-00",
+      "group": "subtitle-1561",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1561-00.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "16-002ae0.NCLR",
+      "cell_bank": "00-000160.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1561,
+          "cpk_slot_size": 91768,
+          "payload_sha256": "630922145b220f1ef36b32d10435968180bc94afef416e1f70b39cd98c4e74b9",
+          "graphic_offset": 1376,
+          "graphic_sha256": "ebf6e6941de04ceb0216a9b59287b9f9ab9ecdafe72e15b12146b0e6dfae63d5"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1561-01",
+      "group": "subtitle-1561",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1561-01.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "17-002b40.NCLR",
+      "cell_bank": "01-0001e0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1561,
+          "cpk_slot_size": 91768,
+          "payload_sha256": "630922145b220f1ef36b32d10435968180bc94afef416e1f70b39cd98c4e74b9",
+          "graphic_offset": 2720,
+          "graphic_sha256": "11850e07fb22b9c81ff3e39c4b5ef4672d0e16d22c7d165ae69d8e1b818fb886"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1561-02",
+      "group": "subtitle-1561",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1561-02.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "18-002ba0.NCLR",
+      "cell_bank": "02-000260.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1561,
+          "cpk_slot_size": 91768,
+          "payload_sha256": "630922145b220f1ef36b32d10435968180bc94afef416e1f70b39cd98c4e74b9",
+          "graphic_offset": 3552,
+          "graphic_sha256": "446896ee19cb5c05499672c259109a2677e1291a8016172f24778b44c9122acc"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1561-03",
+      "group": "subtitle-1561",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1561-03.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "19-002c00.NCLR",
+      "cell_bank": "03-0002e0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1561,
+          "cpk_slot_size": 91768,
+          "payload_sha256": "630922145b220f1ef36b32d10435968180bc94afef416e1f70b39cd98c4e74b9",
+          "graphic_offset": 5152,
+          "graphic_sha256": "f686a0506176286403b2b69388ac9a410232823ccd77edebd168a254457e37be"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1561-04",
+      "group": "subtitle-1561",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1561-04.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "20-002c60.NCLR",
+      "cell_bank": "04-000360.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1561,
+          "cpk_slot_size": 91768,
+          "payload_sha256": "630922145b220f1ef36b32d10435968180bc94afef416e1f70b39cd98c4e74b9",
+          "graphic_offset": 6368,
+          "graphic_sha256": "cf97d858fc2a5005fdc172e294e48d51747f1f4ab99e174b2e72eaef57d58b77"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1561-05",
+      "group": "subtitle-1561",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1561-05.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "21-002cc0.NCLR",
+      "cell_bank": "05-0003e0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1561,
+          "cpk_slot_size": 91768,
+          "payload_sha256": "630922145b220f1ef36b32d10435968180bc94afef416e1f70b39cd98c4e74b9",
+          "graphic_offset": 6944,
+          "graphic_sha256": "2fb7897715fedf911435d4bf55fcd2ef596198bbb1c1414bd288cb9d70271540"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1561-06",
+      "group": "subtitle-1561",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1561-06.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "22-002d20.NCLR",
+      "cell_bank": "06-000460.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1561,
+          "cpk_slot_size": 91768,
+          "payload_sha256": "630922145b220f1ef36b32d10435968180bc94afef416e1f70b39cd98c4e74b9",
+          "graphic_offset": 8416,
+          "graphic_sha256": "34278a6d4e6d083fc32461bfb3f7471a95e25513a9a95a8108ae2594fde6b752"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1561-07",
+      "group": "subtitle-1561",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1561-07.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "23-002d80.NCLR",
+      "cell_bank": "07-0004e0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1561,
+          "cpk_slot_size": 91768,
+          "payload_sha256": "630922145b220f1ef36b32d10435968180bc94afef416e1f70b39cd98c4e74b9",
+          "graphic_offset": 9504,
+          "graphic_sha256": "3693462391ec2232e3c7d2a53236206c1ee87da5086ec8eb408639872a58c6db"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1562-00",
+      "group": "subtitle-1562",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1562-00.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "08-0010c0.NCLR",
+      "cell_bank": "00-0000c0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1562,
+          "cpk_slot_size": 49920,
+          "payload_sha256": "a35f974f1c1b6eb5513ffbaa5ec66a7130cfa5f84c8d3381475e635c943188df",
+          "graphic_offset": 704,
+          "graphic_sha256": "992a067ef848206871253e04cc8d61d99514b8dbd79723902aca256f76ca67a0"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1562-01",
+      "group": "subtitle-1562",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1562-01.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "09-001120.NCLR",
+      "cell_bank": "01-000140.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1562,
+          "cpk_slot_size": 49920,
+          "payload_sha256": "a35f974f1c1b6eb5513ffbaa5ec66a7130cfa5f84c8d3381475e635c943188df",
+          "graphic_offset": 1664,
+          "graphic_sha256": "fbe265489e1071b116b346d0a54c09373a8e6b6488acfc50db16bd56aaa42735"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1562-02",
+      "group": "subtitle-1562",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1562-02.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "10-001180.NCLR",
+      "cell_bank": "02-0001c0.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1562,
+          "cpk_slot_size": 49920,
+          "payload_sha256": "a35f974f1c1b6eb5513ffbaa5ec66a7130cfa5f84c8d3381475e635c943188df",
+          "graphic_offset": 2752,
+          "graphic_sha256": "6f4d9cf9e0bb3806276f934fa863a0a93bc31f469eb8cec00fc5b1d3d5ea2307"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    },
+    {
+      "name": "subtitle-1562-03",
+      "group": "subtitle-1562",
+      "note": "컷신 자막",
+      "files": [
+        {
+          "png": "subtitle-1562-03.png",
+          "cell": 0
+        }
+      ],
+      "tile_sheet": null,
+      "palette": "11-0011e0.NCLR",
+      "cell_bank": "03-000240.NCER",
+      "has_hidden_pixels": false,
+      "targets": [
+        {
+          "cpk_entry_id": 1562,
+          "cpk_slot_size": 49920,
+          "payload_sha256": "a35f974f1c1b6eb5513ffbaa5ec66a7130cfa5f84c8d3381475e635c943188df",
+          "graphic_offset": 3584,
+          "graphic_sha256": "965d992f05a651fdcf9bb0919f601819619214fb7d6366674d769de21b0d3f13"
+        }
+      ],
+      "translation_status": "untranslated",
+      "review_status": "untranslated"
+    }
+  ]
+}

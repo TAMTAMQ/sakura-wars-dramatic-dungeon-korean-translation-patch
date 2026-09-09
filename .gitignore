@@ -2,11 +2,54 @@
 /target/
 /reference/rust/target/
 
+# Unused template/reference scaffolding
+/adapters/
+/conformance/
+/reference/
+/src/
+/config/
+/docs/
+/research/
+/tests/
+/AGENTS.md
+/CLAUDE.md
+
 # Copyrighted or locally supplied source media
 /originals/
 /roms/
 /disc/
 /DramaticDugeonSakuraTaisen_(Simpliefied-Chinese)_v1.0/
+*.cpk
+*.ml1
+*.ml2
+*.xdelta
+
+# Image artwork and rebuilt visual assets are kept locally.
+# Translation maps and manifests directly under assets/visual remain tracked.
+/assets/visual/edits/
+/assets/visual/replacements/
+/assets/visual.zip
+/assets/visual/index.test.json
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.tif
+*.tiff
+*.tga
+*.psd
+*.NCGR
+*.NCLR
+*.NCER
+*.NANR
+
+# 배포 산출물은 GitHub Releases로만 올린다
+/release/
+
+# 검수 진행용 작업 폴더 (배포와 무관)
+/.omo/
 
 # Reproducible builds, work files, and runtime evidence
 /out/
@@ -48,7 +91,18 @@
 
 # Host and editor noise
 .DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
 *.swp
 *~
 __pycache__/
 *.py[cod]
+*.log
+
+# Accidental Windows-device output occasionally created by shell commands
+/NUL

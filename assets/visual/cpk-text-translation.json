@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "font": "assets/fonts/sources/Mulmaru.ttf",
+  "record_count": 26,
+  "records": [
+    {
+      "png": "prompt-touch-pen-01.png",
+      "source": "タッチペンの準備をしてね!",
+      "korean": "터치펜을 준비해 주세요!",
+      "band": [
+        61,
+        79
+      ],
+      "font_size": 14,
+      "stroke": 2,
+      "fill": [
+        16,
+        16,
+        106
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1559-00.png",
+      "source": "頼りになりませんか？",
+      "korean": "믿음직스럽지 않나요?",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1559-01.png",
+      "source": "お手並み拝見といきますわ。",
+      "korean": "솜씨 좀 볼까요.",
+      "band": [
+        0,
+        17
+      ],
+      "font_size": 15,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1559-02.png",
+      "source": "おほほほ……",
+      "korean": "오호호호……",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 16,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1559-03.png",
+      "source": "私……信じています",
+      "korean": "저…… 믿고 있어요",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1559-04.png",
+      "source": "アイリス子供じゃないもん",
+      "korean": "아이리스 어린애 아니란 말야",
+      "band": [
+        1,
+        17
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1559-05.png",
+      "source": "こんなこともあろうかと",
+      "korean": "이럴 줄 알고",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1560-00.png",
+      "source": "気合いだぜ、",
+      "korean": "기합이다,",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1560-01.png",
+      "source": "チェストー！",
+      "korean": "체스토—!",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1560-02.png",
+      "source": "おちゃのこさいさいデース",
+      "korean": "누워서 떡 먹기에요~",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1560-03.png",
+      "source": "みんなに会えたから",
+      "korean": "모두를 만났으니까",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1560-04.png",
+      "source": "ボクは変わることが出来た",
+      "korean": "난 변할 수 있었어",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1560-05.png",
+      "source": "エリカ大感激でーす",
+      "korean": "에리카 대감격이에요—",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1560-06.png",
+      "source": "ブルーメール家の名にかけて",
+      "korean": "블뢰메르 가문의 이름을 걸고",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1561-00.png",
+      "source": "だからボクは笑うんだ",
+      "korean": "그래서 난 웃는 거야",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1561-01.png",
+      "source": "あたしのこと",
+      "korean": "나를",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1561-02.png",
+      "source": "しっかりと捕まえておきな",
+      "korean": "단단히 붙잡아 둬",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1561-03.png",
+      "source": "お待ちしております",
+      "korean": "기다리고 있겠습니다",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1561-04.png",
+      "source": "……ぽっ",
+      "korean": "……화끈",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1561-05.png",
+      "source": "なんちて、なんちてー！",
+      "korean": "농담, 농담이야—!",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1561-06.png",
+      "source": "このままいくよ、",
+      "korean": "이대로 갈게,",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1561-07.png",
+      "source": "アンタといけるとこまで",
+      "korean": "너와 갈 수 있는 데까지",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1562-00.png",
+      "source": "くるくるくるー",
+      "korean": "빙글빙글빙글—",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1562-01.png",
+      "source": "それが愛なのです",
+      "korean": "그것이 사랑입니다",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "png": "subtitle-1562-02.png",
+      "source": "昴はいった。",
+      "korean": "스바루는 말했다",
+      "band": [
+        0,
+        17
+      ],
+      "font_size": 11,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ],
+      "text_left": 0,
+      "text_right": 80,
+      "max_width": 80
+    },
+    {
+      "png": "subtitle-1562-03.png",
+      "source": "ありがとう",
+      "korean": "고마워",
+      "band": [
+        0,
+        16
+      ],
+      "font_size": 14,
+      "stroke": 1,
+      "fill": [
+        41,
+        0,
+        8
+      ],
+      "outline": [
+        255,
+        255,
+        255
+      ]
+    }
+  ]
+}

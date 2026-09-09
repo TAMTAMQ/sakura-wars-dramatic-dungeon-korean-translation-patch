@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "font": "Mulmaru",
+  "records": [
+    {"file": "top_screen_title_04.png", "source": "アイテム詳細", "korean": "아이템 상세", "theme": {"fill": [82, 57, 32], "highlight": [255, 246, 214], "accent": [181, 156, 57]}},
+    {"file": "top_screen_title_06.png", "source": "パーティー情報", "korean": "파티 정보", "theme": {"fill": [32, 57, 24], "highlight": [238, 246, 222], "accent": [82, 148, 49]}},
+    {"file": "top_screen_title_07.png", "source": "プロフィール", "korean": "프로필", "theme": {"fill": [32, 41, 57], "highlight": [222, 238, 246], "accent": [82, 132, 156]}},
+    {"file": "top_screen_title_08.png", "source": "モンスタープロフィール", "korean": "몬스터 프로필", "theme": {"fill": [65, 41, 41], "highlight": [246, 222, 222], "accent": [156, 82, 82]}},
+    {"file": "top_screen_title_10.png", "source": "モンスター情報", "korean": "몬스터 정보", "theme": {"fill": [74, 32, 49], "highlight": [246, 222, 238], "accent": [164, 57, 107]}},
+    {"file": "top_screen_title_11.png", "source": "ワナ情報", "korean": "함정 정보", "theme": {"fill": [24, 65, 74], "highlight": [222, 246, 246], "accent": [57, 148, 156]}}
+  ]
+}

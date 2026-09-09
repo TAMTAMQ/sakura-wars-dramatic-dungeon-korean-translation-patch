@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "records": [
+    {"file":"episode-1-orleans-no-shoujo.png","source":"第一話 オルレアンの少女","korean":"제1화 오를레앙의 소녀"},
+    {"file":"episode-2-matenrou-no-majin.png","source":"第二話 摩天楼の魔人","korean":"제2화 마천루의 마인"},
+    {"file":"episode-3-louvre-no-hihou.png","source":"第三話 ルーブルの秘宝","korean":"제3화 루브르의 비보"},
+    {"file":"episode-3-louvre-no-hihou-copy.png","source":"第三話 ルーブルの秘宝","korean":"제3화 루브르의 비보","copy_of":"episode-3-louvre-no-hihou.png"},
+    {"file":"episode-final-shiroki-hyouga-no-hate-ni.png","source":"最終回 白き氷河の果てに","korean":"최종화 하얀 빙하의 끝에서"},
+    {"file":"shuugeki-the-end.png","source":"終劇","korean":"종극"},
+    {"file":"logo-sakura-taisen.png","source":"サクラ大戦","korean":"사쿠라 대전","copy_of":"logo-sakura-taisen-kor.png"}
+  ]
+}

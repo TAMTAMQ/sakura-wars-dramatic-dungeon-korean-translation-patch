@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "note": "256x192 CLUT container images inside CPK entries.",
+  "record_count": 7,
+  "records": [
+    {
+      "png": "logo-sakura-taisen.png",
+      "kind": "clut",
+      "targets": [
+        {
+          "cpk_entry_id": 1378,
+          "compressed": true,
+          "offset": 0,
+          "size": 49888,
+          "width": 256,
+          "height": 192
+        }
+      ]
+    },
+    {
+      "png": "episode-1-orleans-no-shoujo.png",
+      "kind": "clut",
+      "targets": [
+        {
+          "cpk_entry_id": 1379,
+          "compressed": true,
+          "offset": 0,
+          "size": 51232,
+          "width": 256,
+          "height": 192
+        }
+      ]
+    },
+    {
+      "png": "episode-2-matenrou-no-majin.png",
+      "kind": "clut",
+      "targets": [
+        {
+          "cpk_entry_id": 1380,
+          "compressed": true,
+          "offset": 0,
+          "size": 51232,
+          "width": 256,
+          "height": 192
+        }
+      ]
+    },
+    {
+      "png": "episode-3-louvre-no-hihou.png",
+      "kind": "clut",
+      "targets": [
+        {
+          "cpk_entry_id": 1381,
+          "compressed": true,
+          "offset": 0,
+          "size": 51232,
+          "width": 256,
+          "height": 192
+        }
+      ]
+    },
+    {
+      "png": "episode-3-louvre-no-hihou-copy.png",
+      "kind": "clut",
+      "targets": [
+        {
+          "cpk_entry_id": 1542,
+          "compressed": true,
+          "offset": 134016,
+          "size": 51232,
+          "width": 256,
+          "height": 192
+        }
+      ]
+    },
+    {
+      "png": "episode-final-shiroki-hyouga-no-hate-ni.png",
+      "kind": "clut",
+      "targets": [
+        {
+          "cpk_entry_id": 1382,
+          "compressed": true,
+          "offset": 0,
+          "size": 51232,
+          "width": 256,
+          "height": 192
+        },
+        {
+          "cpk_entry_id": 1544,
+          "compressed": false,
+          "offset": 113632,
+          "size": 51232,
+          "width": 256,
+          "height": 192
+        }
+      ]
+    },
+    {
+      "png": "shuugeki-the-end.png",
+      "kind": "clut",
+      "targets": [
+        {
+          "cpk_entry_id": 1418,
+          "compressed": true,
+          "offset": 0,
+          "size": 51168,
+          "width": 256,
+          "height": 192
+        }
+      ]
+    }
+  ]
+}
