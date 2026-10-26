@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "source_profile_id": "ys9j-rev0-e6cafe64",
+  "source_cpk_sha256": "c74fbfbae1c13ecb0dcafeb8db03fded0865cf499c277b293a4fc38b249d0029",
+  "note": "Raw linear textures in preview resource archives; preserve UV coordinates, palettes, timing and every other resource.",
+  "record_count": 2,
+  "records": [
+    {
+      "name": "attract-preview",
+      "png": "attract-preview.png",
+      "source": "次回予告",
+      "korean": "차회예고",
+      "width": 256,
+      "height": 128,
+      "bpp": 4,
+      "targets": [
+        {
+          "cpk_entry_id": 1539,
+          "resource_index": 11,
+          "palette_index": 32,
+          "offset": 329248,
+          "size": 16384,
+          "source_sha256": "2cb875c01c5bac4841b31a775fc830e31561137323ae1709bb2e45649f99b35e",
+          "palette_sha256": "50db38cab5e69022cf9468a17bc3c326aee3f3b0cafab5ddbb8781bc6178c374",
+          "slot_offset": 28794272,
+          "slot_size": 449684,
+          "compressed": true,
+          "source_slot_sha256": "7a79b694833bbe9d71e822f6b471d602814592aebbf04159800f226c60a652a3"
+        },
+        {
+          "cpk_entry_id": 1540,
+          "resource_index": 16,
+          "palette_index": 23,
+          "offset": 375008,
+          "size": 16384,
+          "source_sha256": "2cb875c01c5bac4841b31a775fc830e31561137323ae1709bb2e45649f99b35e",
+          "palette_sha256": "50db38cab5e69022cf9468a17bc3c326aee3f3b0cafab5ddbb8781bc6178c374",
+          "slot_offset": 29243968,
+          "slot_size": 392776,
+          "compressed": true,
+          "source_slot_sha256": "13fa60404865f788b2993d3239bc42fc70dbdf0836519ab7ed368ff259083782"
+        },
+        {
+          "cpk_entry_id": 1542,
+          "resource_index": 16,
+          "palette_index": 26,
+          "offset": 347872,
+          "size": 16384,
+          "source_sha256": "2cb875c01c5bac4841b31a775fc830e31561137323ae1709bb2e45649f99b35e",
+          "palette_sha256": "50db38cab5e69022cf9468a17bc3c326aee3f3b0cafab5ddbb8781bc6178c374",
+          "slot_offset": 29771168,
+          "slot_size": 275812,
+          "compressed": true,
+          "source_slot_sha256": "220d01300ee71ce851204a3d07ea21ba26044a15dc7fb833f7f1ddbcb728df08"
+        },
+        {
+          "cpk_entry_id": 1544,
+          "resource_index": 7,
+          "palette_index": 20,
+          "offset": 214976,
+          "size": 16384,
+          "source_sha256": "2cb875c01c5bac4841b31a775fc830e31561137323ae1709bb2e45649f99b35e",
+          "palette_sha256": "50db38cab5e69022cf9468a17bc3c326aee3f3b0cafab5ddbb8781bc6178c374",
+          "slot_offset": 30197280,
+          "slot_size": 441920,
+          "compressed": false,
+          "source_slot_sha256": "25da7a875de5e352329d90e4c04443a26a7f617693129ea40f01732680431efd"
+        }
+      ],
+      "render_font": {
+        "name": "HCR Batang Bold",
+        "sha256": "91da0dde2995484b69fed48b01c27206dbce952a2b4820d70d0264d385b585b5"
+      },
+      "editable_regions": [
+        [
+          0,
+          0,
+          256,
+          104
+        ]
+      ],
+      "preserved_geometry": "Original width/height, resource slot, palette, UV coordinates, animation and all pixels outside editable rectangles",
+      "translation_status": "translated",
+      "review_status": "complete",
+      "original_character_cells": [
+        [
+          0,
+          0,
+          64,
+          104
+        ],
+        [
+          64,
+          0,
+          128,
+          104
+        ],
+        [
+          128,
+          0,
+          192,
+          104
+        ],
+        [
+          192,
+          0,
+          256,
+          104
+        ]
+      ]
+    },
+    {
+      "name": "attract-logo",
+      "png": "attract-logo.png",
+      "source": "ドラマチックダンジョン サクラ大戦 ～君あるがため～",
+      "korean": "드라마틱 던전 사쿠라 대전 ～그대가 있기에～",
+      "width": 256,
+      "height": 128,
+      "bpp": 8,
+      "targets": [
+        {
+          "cpk_entry_id": 1539,
+          "resource_index": 26,
+          "palette_index": 47,
+          "offset": 669216,
+          "size": 32768,
+          "source_sha256": "13892b59c5cb692439383e8cc977c0e5caf019624fdf2b9acb1ace9d917f679d",
+          "palette_sha256": "dd9e9cc698f38455875e964cbda382b525f63f78f36bc24978c8454d93a7b2da",
+          "slot_offset": 28794272,
+          "slot_size": 449684,
+          "compressed": true,
+          "source_slot_sha256": "7a79b694833bbe9d71e822f6b471d602814592aebbf04159800f226c60a652a3"
+        }
+      ],
+      "lettering_source": {
+        "png": "attract-complete-wordmark.png",
+        "sha256": "170ffe1f978bd6b2dc1841c2e6289b3595586a1433d8a7583c59ba51127a3b5c",
+        "method": "Complete wordmark as one layer, fixed source crop [16,32,2128,720] mapped once to screen [15,66,198,123]"
+      },
+      "editable_regions": [
+        [
+          0,
+          0,
+          40,
+          56
+        ],
+        [
+          40,
+          8,
+          96,
+          16
+        ],
+        [
+          40,
+          16,
+          72,
+          56
+        ],
+        [
+          70,
+          16,
+          96,
+          56
+        ],
+        [
+          96,
+          0,
+          138,
+          48
+        ],
+        [
+          136,
+          0,
+          192,
+          48
+        ],
+        [
+          0,
+          80,
+          105,
+          96
+        ],
+        [
+          0,
+          56,
+          96,
+          72
+        ]
+      ],
+      "preserved_geometry": "Original width/height, resource slot, palette, UV coordinates, animation and all pixels outside editable rectangles",
+      "translation_status": "translated",
+      "review_status": "complete",
+      "layout_method": "Crop fixed source rectangles from complete 256x192 master layers into original GPU UV rectangles, in original draw order. No image-boundary segmentation or per-character resizing.",
+      "coordinate_cuts": [
+        {
+          "name": "gpu-quad-0",
+          "source": "attract-master-body.png",
+          "source_sha256": "24a5fc2db5365a3995b904fcae40f4dc2de5eb179dbecbf77b48ceb93bc465c2",
+          "source_rectangle": [
+            15,
+            67,
+            55,
+            123
+          ],
+          "destination": [
+            0,
+            0,
+            40,
+            56
+          ]
+        },
+        {
+          "name": "gpu-quad-1",
+          "source": "attract-master-body.png",
+          "source_sha256": "24a5fc2db5365a3995b904fcae40f4dc2de5eb179dbecbf77b48ceb93bc465c2",
+          "source_rectangle": [
+            55,
+            75,
+            111,
+            83
+          ],
+          "destination": [
+            40,
+            8,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "gpu-quad-2",
+          "source": "attract-master-body.png",
+          "source_sha256": "24a5fc2db5365a3995b904fcae40f4dc2de5eb179dbecbf77b48ceb93bc465c2",
+          "source_rectangle": [
+            55,
+            80,
+            87,
+            120
+          ],
+          "destination": [
+            40,
+            16,
+            72,
+            56
+          ]
+        },
+        {
+          "name": "gpu-quad-3",
+          "source": "attract-master-body.png",
+          "source_sha256": "24a5fc2db5365a3995b904fcae40f4dc2de5eb179dbecbf77b48ceb93bc465c2",
+          "source_rectangle": [
+            85,
+            81,
+            111,
+            121
+          ],
+          "destination": [
+            70,
+            16,
+            96,
+            56
+          ]
+        },
+        {
+          "name": "gpu-quad-4",
+          "source": "attract-master-body.png",
+          "source_sha256": "24a5fc2db5365a3995b904fcae40f4dc2de5eb179dbecbf77b48ceb93bc465c2",
+          "source_rectangle": [
+            107,
+            67,
+            149,
+            115
+          ],
+          "destination": [
+            96,
+            0,
+            138,
+            48
+          ]
+        },
+        {
+          "name": "gpu-quad-5",
+          "source": "attract-master-body.png",
+          "source_sha256": "24a5fc2db5365a3995b904fcae40f4dc2de5eb179dbecbf77b48ceb93bc465c2",
+          "source_rectangle": [
+            144,
+            66,
+            198,
+            114
+          ],
+          "destination": [
+            136,
+            0,
+            192,
+            48
+          ]
+        },
+        {
+          "name": "gpu-quad-9",
+          "source": "attract-master-subtitle.png",
+          "source_sha256": "64bf45208ced1238cfcbe09541af29b45cb71ee8fb4e64dee6e83d5abef48d68",
+          "source_rectangle": [
+            76,
+            117,
+            181,
+            133
+          ],
+          "destination": [
+            0,
+            80,
+            105,
+            96
+          ]
+        },
+        {
+          "name": "gpu-quad-10",
+          "source": "attract-master-header.png",
+          "source_sha256": "5c83310e02ba743df8e80c025fb9b5d211ac79672afee37c4cb4a4415568f287",
+          "source_rectangle": [
+            16,
+            51,
+            112,
+            67
+          ],
+          "destination": [
+            0,
+            56,
+            96,
+            72
+          ]
+        }
+      ],
+      "uv_evidence": {
+        "source_profile": "ys9j-rev0-e6cafe64",
+        "capture": "work/untranslated-audit/logo-redo/actual-logo-uv.json",
+        "source": "DeSmuME rendered vertex buffer, preview logo, full assembly"
+      }
+    }
+  ]
+}

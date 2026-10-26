@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "note": "256x192 CLUT container images inside CPK entries.",
-  "record_count": 7,
+  "record_count": 8,
   "records": [
     {
       "png": "logo-sakura-taisen.png",
@@ -104,6 +104,20 @@
           "compressed": true,
           "offset": 0,
           "size": 51168,
+          "width": 256,
+          "height": 192
+        }
+      ]
+    },
+    {
+      "png": "startup-logo.png",
+      "kind": "clut",
+      "targets": [
+        {
+          "cpk_entry_id": 1538,
+          "compressed": false,
+          "offset": 96,
+          "size": 51232,
           "width": 256,
           "height": 192
         }

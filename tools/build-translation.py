@@ -12,6 +12,7 @@ import struct
 from pathlib import Path
 
 from PIL import ImageFont
+from cpk_raw_textures import verify_container
 
 
 CONTROL_TOKEN = re.compile(r"\{CTRL:01:([0-9A-F]{2})\}")
@@ -271,6 +272,7 @@ def main() -> None:
 
     visual_root = args.visual_index.resolve().parent
     applied_visuals = []
+    raw_texture_readbacks = 0
     for record in visual_index["records"]:
         source_item = files_by_path[record["path"]]
         file_id = int(source_item["file_id"])
@@ -299,6 +301,10 @@ def main() -> None:
             raise ValueError(f"visual replacement size mismatch: {record['id']}")
         if record.get("replacement_sha256") and sha256(replacement) != record["replacement_sha256"]:
             raise ValueError(f"visual replacement hash mismatch: {record['id']}")
+        if record['path'] == 'cpk/faCpkData.cpk':
+            raw_plan = json.loads((visual_root / 'cpk-raw-texture-translation.json').read_text(encoding='utf-8'))
+            raw_texture_readbacks = verify_container(source_asset, replacement, raw_plan,
+                                                     visual_root / 'edits/cpk/text-images')
         replacements[file_id] = bytearray(replacement)
         applied_visuals.append(record["id"])
 
@@ -457,6 +463,7 @@ def main() -> None:
         "visual_scope_record_count": int(visual_index["record_count"]),
         "applied_visual_count": len(applied_visuals),
         "applied_visual_ids": applied_visuals,
+        "cpk_raw_texture_readbacks": raw_texture_readbacks,
         "untranslated_visuals_are_original_japanese": True,
     }
     args.report.parent.mkdir(parents=True, exist_ok=True)

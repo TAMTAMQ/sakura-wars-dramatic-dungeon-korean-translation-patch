@@ -16,6 +16,8 @@ import json
 import shutil
 from pathlib import Path
 
+from cpk_raw_textures import apply_raw_edit, digest
+
 
 def load_module(name: str):
     path = Path(__file__).with_name(name)
@@ -41,9 +43,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--edits-root", type=Path, required=True)
     parser.add_argument("--sprite-targets", type=Path, required=True)
     parser.add_argument("--clut-targets", type=Path, required=True)
+    parser.add_argument("--raw-targets", type=Path,
+                        help="reviewed raw texture translations without NNS/CLUT headers")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--report", type=Path, required=True)
     parser.add_argument("--work-root", type=Path, required=True)
+    parser.add_argument("--visual-index", type=Path,
+                        help="update the combined CPK replacement locator/hash after building")
     parser.add_argument(
         "--skip-compressed",
         action="store_true",
@@ -84,12 +90,23 @@ def main() -> None:
     args = parse_args()
     cpk = bytearray(args.cpk.read_bytes())
     manifest = json.loads(args.cpk_manifest.read_text(encoding="utf-8"))
+    if digest(bytes(cpk)) != manifest['cpk_sha256']:
+        raise ValueError("source CPK hash does not match extraction manifest")
     slots = {int(r["id"]): r for r in manifest["records"]}
     sprites = json.loads(args.sprite_targets.read_text(encoding="utf-8"))
     cluts = json.loads(args.clut_targets.read_text(encoding="utf-8"))
 
     # Collect every edit per CPK entry so an entry is packed only once.
     per_entry: dict[int, list[dict]] = {}
+    if args.raw_targets:
+        raw_document = json.loads(args.raw_targets.read_text(encoding="utf-8"))
+        for record in raw_document['records']:
+            png = args.edits_root / record['png']
+            if not png.is_file():
+                raise ValueError(f"missing raw texture translation: {png}")
+            for target in record['targets']:
+                per_entry.setdefault(int(target['cpk_entry_id']), []).append(
+                    {'kind': 'raw', 'record': record, 'target': target, 'png': png})
     for record in cluts["records"]:
         png = args.edits_root / record["png"]
         if not png.exists():
@@ -134,10 +151,20 @@ def main() -> None:
             args.decompressed_root / f"{entry_id:04d}.bin" if compressed else args.extracted_root / slot["path"]
         )
         payload = bytearray(payload_path.read_bytes())
+        original_slot = bytes(cpk[int(slot['offset']):int(slot['offset']) + int(slot['file_size'])])
+        if sha256(original_slot) != slot['sha256']:
+            raise ValueError(f"original CPK slot precondition mismatch: {entry_id}")
+        original_payload = DECOMPRESSOR.decompress(original_slot) if compressed else original_slot
+        if bytes(payload) != original_payload:
+            raise ValueError(f"extracted CPK payload differs from immutable source: {entry_id}")
         changes = []
+        writes = []
 
         for edit in per_entry[entry_id]:
-            if edit["kind"] == "clut":
+            if edit["kind"] == "raw":
+                start, rebuilt = apply_raw_edit(bytes(payload), edit['record'], edit['target'], edit['png'])
+                label = edit['record']['name']
+            elif edit["kind"] == "clut":
                 stream = args.work_root / f"{entry_id:04d}-{edit['offset']:06x}.bin"
                 stream.parent.mkdir(parents=True, exist_ok=True)
                 stream.write_bytes(bytes(payload[edit["offset"] : edit["offset"] + edit["size"]]))
@@ -146,6 +173,11 @@ def main() -> None:
             else:
                 directory = args.nns_root / f"{entry_id:04d}"
                 graphic, palette_path, cell_path = resolve_graphic(directory, edit["offset"])
+                for source_file in (graphic, palette_path, cell_path):
+                    source_offset = int(source_file.stem.split('-')[1], 16)
+                    source_bytes = source_file.read_bytes()
+                    if original_payload[source_offset:source_offset + len(source_bytes)] != source_bytes:
+                        raise ValueError(f"extracted NNS resource differs from source: {source_file}")
                 cells = args.work_root / "cells" / f"{entry_id:04d}-{edit['offset']:06x}"
                 if cells.exists():
                     shutil.rmtree(cells)
@@ -158,9 +190,15 @@ def main() -> None:
                 rebuilt = REBUILDER.rebuild_ncer_ncgr(graphic, cells, palette_path, cell_path)
                 label = edit["name"]
 
-            start = edit["offset"]
-            if len(rebuilt) != (edit["size"] if edit["kind"] == "clut" else graphic.stat().st_size):
+            if edit['kind'] != 'raw':
+                start = edit["offset"]
+            expected_size = (edit['target']['size'] if edit['kind'] == 'raw' else
+                             edit['size'] if edit['kind'] == 'clut' else graphic.stat().st_size)
+            if len(rebuilt) != expected_size:
                 raise ValueError(f"rebuilt asset changed size: {label}")
+            if any(start < end and begin < start + len(rebuilt) for begin, end in writes):
+                raise ValueError(f"overlapping CPK artwork edits: {entry_id}/{label}")
+            writes.append((start, start + len(rebuilt)))
             payload[start : start + len(rebuilt)] = rebuilt
             changes.append(label)
 
@@ -203,6 +241,22 @@ def main() -> None:
     }
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if args.visual_index:
+        asset_root = args.visual_index.resolve().parent
+        output = args.output.resolve()
+        if not output.is_relative_to(asset_root):
+            raise ValueError("CPK replacement must remain inside the visual asset root")
+        index = json.loads(args.visual_index.read_text(encoding="utf-8"))
+        record = next(r for r in index['records'] if r['path'] == 'cpk/faCpkData.cpk')
+        relative = output.relative_to(asset_root).as_posix()
+        changed = (record.get('replacement_path') != relative or
+                   record.get('replacement_sha256') != document['output_cpk_sha256'])
+        record['translation_status'] = 'translated'
+        record['replacement_path'] = relative
+        record['replacement_sha256'] = document['output_cpk_sha256']
+        if changed:
+            record['review_status'] = 'in_progress'
+        args.visual_index.write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({k: v for k, v in document.items() if k != "entries"}, ensure_ascii=False, indent=2))
 
 

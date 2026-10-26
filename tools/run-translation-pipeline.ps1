@@ -149,16 +149,26 @@ if ($Mode -eq 'ImportPng') {
 }
 if ($Mode -eq 'ImportCpkPng') {
     Invoke-Python @(
-        (Join-Path $PSScriptRoot 'rebuild-cpk-visuals.py'),
+        (Join-Path $PSScriptRoot 'build-attract-logo.py'),
+        '--cpk', (Join-Path $VisualExportRoot 'cpk\faCpkData.cpk'),
+        '--plan', (Join-Path $projectRoot 'assets\visual\cpk-raw-texture-translation.json'),
+        '--edits-root', (Join-Path $cpkEditRoot 'text-images')
+    )
+    Invoke-Python @(
+        (Join-Path $PSScriptRoot 'apply-cpk-text-images.py'),
         '--cpk', (Join-Path $VisualExportRoot 'cpk\faCpkData.cpk'),
         '--cpk-manifest', (Join-Path $projectRoot 'work\cpk-extracted\manifest.json'),
-        '--visual-manifest', (Join-Path $projectRoot 'work\cpk-visual-png\manifest.json'),
-        '--visual-root', (Join-Path $projectRoot 'work\cpk-visual-png'),
-        '--edit-root', $cpkEditRoot,
+        '--decompressed-root', (Join-Path $projectRoot 'work\cpk-decompressed'),
+        '--extracted-root', (Join-Path $projectRoot 'work\cpk-extracted'),
+        '--nns-root', (Join-Path $projectRoot 'work\cpk-nns'),
+        '--edits-root', (Join-Path $cpkEditRoot 'text-images'),
+        '--sprite-targets', (Join-Path $projectRoot 'assets\visual\cpk-text-assets.json'),
+        '--clut-targets', (Join-Path $projectRoot 'assets\visual\cpk-clut-targets.json'),
+        '--raw-targets', (Join-Path $projectRoot 'assets\visual\cpk-raw-texture-translation.json'),
         '--visual-index', $visualIndex,
         '--output', (Join-Path $projectRoot 'assets\visual\replacements\cpk\faCpkData.cpk'),
         '--report', (Join-Path $projectRoot 'work\cpk-visual-import.report.json'),
-        '--update-index'
+        '--work-root', (Join-Path $projectRoot 'work\cpk-combined-rebuild')
     )
 }
 if ($Mode -in @('Validate', 'Build', 'All')) { Invoke-Validate }
