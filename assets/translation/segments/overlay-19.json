@@ -1260,7 +1260,7 @@
       },
       "source_text": "いいですよ！",
       "source_hex": "82a282a282c582b782e68149",
-      "korean_text": "전좋은데요！",
+      "korean_text": "좋아요！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1272,7 +1272,7 @@
       },
       "source_text": "いいです！",
       "source_hex": "82a282a282c582b78149",
-      "korean_text": "좋습니다!",
+      "korean_text": "좋아요！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1284,7 +1284,7 @@
       },
       "source_text": "よいです！",
       "source_hex": "82e682a282c582b78149",
-      "korean_text": "괜찮습니다!",
+      "korean_text": "좋아요！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1332,7 +1332,7 @@
       },
       "source_text": "いいよ！",
       "source_hex": "82a282a282e68149",
-      "korean_text": "좋아!",
+      "korean_text": "어좋아！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1380,7 +1380,7 @@
       },
       "source_text": "いやですよ！",
       "source_hex": "82a282e282c582b782e68149",
-      "korean_text": "전싫은데요！",
+      "korean_text": "싫어요！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1392,7 +1392,7 @@
       },
       "source_text": "いやです！",
       "source_hex": "82a282e282c582b78149",
-      "korean_text": "싫습니다!",
+      "korean_text": "싫어요！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1464,7 +1464,7 @@
       },
       "source_text": "いやよ！",
       "source_hex": "82a282e282e68149",
-      "korean_text": "싫어!",
+      "korean_text": "아싫어！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1488,7 +1488,7 @@
       },
       "source_text": "……なんで女言葉なんだよ。",
       "source_hex": "8163816382c882f182c58f978cbe977482c882f182be82e68142",
-      "korean_text": "……왜 여자 말투야.",
+      "korean_text": "……웬 앙탈이야.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1512,7 +1512,7 @@
       },
       "source_text": "いいや！",
       "source_hex": "82a282a282e28149",
-      "korean_text": "아니!",
+      "korean_text": "좋아싫어！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1524,7 +1524,7 @@
       },
       "source_text": "いいや……お断りなのか？",
       "source_hex": "82a282a282e28163816382a8926682e882c882cc82a98148",
-      "korean_text": "아니……거절이란 거야?",
+      "korean_text": "좋아……? 싫어……?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1536,7 +1536,7 @@
       },
       "source_text": "それとも、まあいいやなのか？",
       "source_hex": "82bb82ea82c682e0814182dc82a082a282a282e282c882cc82a98148",
-      "korean_text": "아니면 뭐 됐다는 거야?",
+      "korean_text": "대체 어느 쪽이야?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1548,7 +1548,7 @@
       },
       "source_text": "いでよ！",
       "source_hex": "82a282c582e68149",
-      "korean_text": "나와라!",
+      "korean_text": "아싸！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1560,7 +1560,7 @@
       },
       "source_text": "我がしもべ、サジータよ……！",
       "source_hex": "89e482aa82b582e082d7814183548357815b835e82e6816381638149",
-      "korean_text": "나의 부하, 사지타여……!",
+      "korean_text": "사지타 씨랑 단둘이……!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1572,7 +1572,7 @@
       },
       "source_text": "誰がしもべだ……!!",
       "source_hex": "924e82aa82b582e082d782be816381632121",
-      "korean_text": "누가 부하야……!!",
+      "korean_text": "뭘 기대해……!!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1608,7 +1608,7 @@
       },
       "source_text": "言い方が回りくどいんだよ。",
       "source_hex": "8cbe82a295fb82aa89f182e882ad82c782a282f182be82e68142",
-      "korean_text": "말하는 게 너무 빙빙 돌아.",
+      "korean_text": "반응 한번 요란하네.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1620,7 +1620,7 @@
       },
       "source_text": "やすいよ！",
       "source_hex": "82e282b782a282e68149",
-      "korean_text": "싸요!",
+      "korean_text": "싸요！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1668,7 +1668,7 @@
       },
       "source_text": "いい！",
       "source_hex": "82a282a28149",
-      "korean_text": "좋아!",
+      "korean_text": "좋아！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1692,7 +1692,7 @@
       },
       "source_text": "いや！",
       "source_hex": "82a282e28149",
-      "korean_text": "싫어!",
+      "korean_text": "싫어！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

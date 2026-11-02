@@ -87,6 +87,7 @@ def main() -> None:
     for translation in spec["records"]:
         record = records[translation["path"]]
         cells = {int(index): text for index, text in translation["cells"].items()}
+        skipped_before = len(skipped)
         for relative, metadata in zip(record["cell_png_paths"], record["cells"], strict=True):
             cell_index = int(metadata["index"])
             base_index = cell_index - 16 if cell_index >= 16 else cell_index
@@ -103,6 +104,13 @@ def main() -> None:
             image = render_cell(Image.open(template), cells[base_index], args.font)
             image.save(path, format="PNG", optimize=False)
             edited.append(str(path))
+        # verify-lips-consistency reads this to tell which tiles the cells
+        # show. A set with a kept (possibly hand drawn) cell gets no stamp.
+        if cells and len(skipped) == skipped_before:
+            cell_root = args.edit_root / PurePosixPath(translation["path"]).with_suffix(".cells")
+            (cell_root / "lips-cells.json").write_text(
+                json.dumps({"cells": translation["cells"]}, ensure_ascii=False) + "\n", encoding="utf-8"
+            )
         images = [Image.open(args.edit_root / PurePosixPath(path)).convert("RGBA")
                   for path in record["cell_png_paths"]]
         preview = converter.contact_sheet(images, record["cells"])

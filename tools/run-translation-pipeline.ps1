@@ -66,7 +66,9 @@ function Invoke-Validate {
     )
     Invoke-Python @(
         (Join-Path $PSScriptRoot 'verify-lips-consistency.py'),
-        '--spec', $lipsSpec, '--translation-index', $translationIndex
+        '--spec', $lipsSpec, '--translation-index', $translationIndex,
+        '--visual-index', $visualIndex, '--visual-edit-root', $visualEditRoot,
+        '--visual-source-root', $VisualExportRoot
     )
 }
 

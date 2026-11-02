@@ -228,7 +228,7 @@
       },
       "source_text": "行ってたんじゃ……",
       "source_hex": "8d7382c182c482bd82f182b682e181638163",
-      "korean_text": "갔던 거 아니었어……?", 
+      "korean_text": "갔던 거 아니었어……?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -552,7 +552,7 @@
       },
       "source_text": "「神の力」が得られるらしい。",
       "source_hex": "8175905f82cc97cd817682aa93be82e782ea82e982e782b582a28142",
-      "korean_text": "「신의 힘」을 얻는답니다.",
+      "korean_text": "「신의 힘」을 얻는다더군.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1092,7 +1092,7 @@
       },
       "source_text": "わからんなっとるやないか！",
       "source_hex": "82ed82a982e782f182c882c182c682e982e282c882a282a98149",
-      "korean_text": "영문을 모르겠잖아!",
+      "korean_text": "영문을 모르겠다 아이가!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3132,7 +3132,7 @@
       },
       "source_text": "小さいつづらには大判小判、",
       "source_hex": "8fac82b382a282c282c382e782c982cd91e594bb8fac94bb8141",
-      "korean_text": "작은 궤짝에는 오반·코반,",
+      "korean_text": "작은 궤짝에는 금은보화,",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

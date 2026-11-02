@@ -160,7 +160,7 @@
       "source_text": "！川風林火山加８",
       "source_hex": "814990ec959797d189ce8e5289c18257",
       "fixed_width_bytes": 16,
-      "korean_text": "！川風林火山加８",
+      "korean_text": "！강풍림화산가８",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": "LIPS 원본 한자 유지. 터치 슬롯 순서와 표시 NCGR 및 정답 문자열을 원본과 동일하게 유지한다."
@@ -173,7 +173,7 @@
       "source_text": "！いいやですよ８",
       "source_hex": "814982a282a282e282c582b782e68257",
       "fixed_width_bytes": 16,
-      "korean_text": "！전좋싫은데요８",
+      "korean_text": "！좋아싫어요싸８",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": "LIPS 입력 슬롯 데이터. 표시 NCGR 및 해당 정답 문자열과 동일한 문자 매핑을 유지한다."
@@ -41396,7 +41396,7 @@
       },
       "source_text": "れべるらくらっく",
       "source_hex": "82ea82d782e982e782ad82e782c182ad",
-      "korean_text": "레벨락락",
+      "korean_text": "레벨쑥쑥",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -41408,7 +41408,7 @@
       },
       "source_text": "レベルラクラック",
       "source_hex": "838c8378838b8389834e83898362834e",
-      "korean_text": "레벨락락",
+      "korean_text": "레벨쑥쑥",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

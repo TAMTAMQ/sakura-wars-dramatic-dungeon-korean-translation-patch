@@ -180,7 +180,7 @@
       },
       "source_text": "川！",
       "source_hex": "90ec8149",
-      "korean_text": "川！",
+      "korean_text": "강！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -264,7 +264,7 @@
       },
       "source_text": "加山！",
       "source_hex": "89c18e528149",
-      "korean_text": "加山！",
+      "korean_text": "가산！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -276,7 +276,7 @@
       },
       "source_text": "えーと……加山っ！",
       "source_hex": "82a6815b82c68163816389c18e5282c18149",
-      "korean_text": "음…… 카야마!",
+      "korean_text": "음…… 가산(加山)!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -480,7 +480,7 @@
       },
       "source_text": "風林火山！",
       "source_hex": "959797d189ce8e528149",
-      "korean_text": "風林火山！",
+      "korean_text": "풍림화산！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -576,7 +576,7 @@
       },
       "source_text": "山！",
       "source_hex": "8e528149",
-      "korean_text": "山！",
+      "korean_text": "산！",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

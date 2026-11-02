@@ -2244,7 +2244,7 @@
       },
       "source_text": "霊子水晶に異常が起きとる。",
       "source_hex": "97ec8e7190858fbb82c988d98fed82aa8b4e82ab82c682e98142",
-      "korean_text": "영자수정에 이상이 생겼어.",
+      "korean_text": "영자수정에 이상이 생겼데이",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2688,7 +2688,7 @@
       },
       "source_text": "通信できへんから注意してな。",
       "source_hex": "92ca904d82c582ab82d682f182a982e7928d88d382b582c482c88142",
-      "korean_text": "통신되니 조심하래이.",
+      "korean_text": "통신 안 되니 조심하래이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

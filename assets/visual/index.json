@@ -5309,7 +5309,7 @@
       "translation_status": "translated",
       "replacement_path": "replacements/lips/lips01_02_00.NCGR",
       "review_status": "complete",
-      "replacement_sha256": "e039a4de1bd1bbb25556d5acfebc89b94229eb96db334ab6f6e37397d7086bdf"
+      "replacement_sha256": "9142105c46fed53cdd5818767661f2164c07b354de8b5ae2f9624d2561dd13cd"
     },
     {
       "id": "nitrofs:lips/lips01_03_00.NCGR",
@@ -5326,10 +5326,10 @@
       "first_changed_offset": null,
       "last_changed_offset": null,
       "extraction_status": "pending",
-      "translation_status": "source_retained",
-      "replacement_path": null,
-      "review_status": "source_retained",
-      "replacement_sha256": null
+      "translation_status": "translated",
+      "replacement_path": "replacements/lips/lips01_03_00.NCGR",
+      "review_status": "complete",
+      "replacement_sha256": "fc041a3124d95e407560f1f641e2e668053a64d2ac68fdea13841b8e93147e3c"
     },
     {
       "id": "nitrofs:lips/lips01_04_00.NCGR",
@@ -5349,7 +5349,7 @@
       "translation_status": "translated",
       "replacement_path": "replacements/lips/lips01_04_00.NCGR",
       "review_status": "complete",
-      "replacement_sha256": "493c66882c9c67553055bc16626c3cea09ed522361713affa1667abb74c5168f"
+      "replacement_sha256": "b72346920f8d36501d11aa9fab294550a6395ab68f3d403cb26ed48a55a30967"
     },
     {
       "id": "nitrofs:lips/lips01_05_00.NCGR",

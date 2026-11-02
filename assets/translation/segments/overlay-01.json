@@ -3180,7 +3180,7 @@
       },
       "source_text": "紐育からもどっとったんやな。",
       "source_hex": "955288e782a982e782e082c782c182c682c182bd82f182e282c88142",
-      "korean_text": "뉴욕에서 돌아왔구나.",
+      "korean_text": "뉴욕서 돌아와 있었는갑네.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3324,7 +3324,7 @@
       },
       "source_text": "ウチは信じられへんな。",
       "source_hex": "8345836082cd904d82b682e782ea82d682f182c88142",
-      "korean_text": "난 못 믿겠다.",
+      "korean_text": "난 몬 믿겠데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3744,7 +3744,7 @@
       },
       "source_text": "大差無いのかも知れへんな。",
       "source_hex": "91e58db796b382a282cc82a982e0926d82ea82d682f182c88142",
-      "korean_text": "별 차이 없을지도 모르겠네.",
+      "korean_text": "별 차이 없을지도 모른데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3828,7 +3828,7 @@
       },
       "source_text": "そうか……そうやな。",
       "source_hex": "82bb82a482a98163816382bb82a482e282c88142",
-      "korean_text": "그래…그러네.",
+      "korean_text": "그렇나…그렇제.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3888,7 +3888,7 @@
       },
       "source_text": "ウチはウチや……やったるで！",
       "source_hex": "8345836082cd8345836082e28163816382e282c182bd82e982c58149",
-      "korean_text": "난 나다…해보자!",
+      "korean_text": "난 난기라…해볼 끼다!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

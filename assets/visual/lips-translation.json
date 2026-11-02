@@ -13,9 +13,14 @@
     {
       "path": "lips/lips01_01_00.NCGR",
       "slot_record_id": "arm9@00157D10",
-      "source_phrases": ["赤と青！", "青と赤！"],
-      "korean_phrases": ["적과청！", "청과적！"],
-      "answer_record_ids": [["arm9-overlay:15@00005250"], ["arm9-overlay:15@00005244"]],
+      "source_phrases": ["赤と青！", "青と赤！", "赤！", "青！"],
+      "korean_phrases": ["적과청！", "청과적！", "적！", "청！"],
+      "answer_record_ids": [
+        ["arm9-overlay:15@00005250"],
+        ["arm9-overlay:15@00005244"],
+        ["arm9-overlay:15@0000541C"],
+        ["arm9-overlay:15@00005588"]
+      ],
       "cells": {"2": "적", "4": "청", "6": "과"}
     },
     {
@@ -35,18 +40,32 @@
       "path": "lips/lips01_03_00.NCGR",
       "slot_record_id": "arm9@00157EE8",
       "source_phrases": ["風林火山！", "加山！", "川！", "山！"],
-      "korean_phrases": ["風林火山！", "加山！", "川！", "山！"],
+      "korean_phrases": ["풍림화산！", "가산！", "강！", "산！"],
       "answer_record_ids": [["arm9-overlay:18@00003270"], ["arm9-overlay:18@000030B8"], ["arm9-overlay:18@00003024"], ["arm9-overlay:18@00003320"]],
-      "policy": "source_retained",
-      "cells": {}
+      "cells": {"2": "강", "4": "풍", "6": "림", "8": "화", "10": "산", "12": "가"}
     },
     {
       "path": "lips/lips01_04_00.NCGR",
       "slot_record_id": "arm9@00157FD4",
-      "source_phrases": ["いいですよ！", "いやですよ！"],
-      "korean_phrases": ["전좋은데요！", "전싫은데요！"],
-      "answer_record_ids": [["arm9-overlay:19@00003BD8"], ["arm9-overlay:19@00003CB4"]],
-      "cells": {"2": "전", "4": "좋", "6": "싫", "8": "은", "10": "데", "12": "요"}
+      "composition": "korean_tiles",
+      "source_phrases": [
+        "いいですよ！", "いいです！", "よいです！", "いいよ！", "いい！",
+        "いやですよ！", "いやです！", "いやよ！", "いや！",
+        "いいや！", "いでよ！", "やすいよ！"
+      ],
+      "korean_phrases": [
+        "좋아요！", "좋아요！", "좋아요！", "어좋아！", "좋아！",
+        "싫어요！", "싫어요！", "아싫어！", "싫어！",
+        "좋아싫어！", "아싸！", "싸요！"
+      ],
+      "answer_record_ids": [
+        ["arm9-overlay:19@00003BD8"], ["arm9-overlay:19@00003BE8"], ["arm9-overlay:19@00003BF4"],
+        ["arm9-overlay:19@00003C54"], ["arm9-overlay:19@00003EE0"],
+        ["arm9-overlay:19@00003CB4"], ["arm9-overlay:19@00003CC4"],
+        ["arm9-overlay:19@00003D60"], ["arm9-overlay:19@00003F04"],
+        ["arm9-overlay:19@00003DBC"], ["arm9-overlay:19@00003E04"], ["arm9-overlay:19@00003E94"]
+      ],
+      "cells": {"2": "좋", "4": "아", "6": "싫", "8": "어", "10": "요", "12": "싸"}
     },
     {
       "path": "lips/lips01_05_00.NCGR",

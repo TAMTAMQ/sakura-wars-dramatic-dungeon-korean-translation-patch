@@ -468,7 +468,7 @@
       },
       "source_text": "なんや、冷たいなぁ。そないな",
       "source_hex": "82c882f182e2814197e282bd82a282c8829f814282bb82c882a282c8",
-      "korean_text": "뭐야, 매정하네. 그렇게",
+      "korean_text": "뭐꼬, 매정하데이. 그런",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -480,7 +480,7 @@
       },
       "source_text": "こと言うと、ウチの新発明……",
       "source_hex": "82b182c68cbe82a482c681418345836082cc905694ad96be81638163",
-      "korean_text": "말하면 내 새 발명……",
+      "korean_text": "말 하모 내 새 발명……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -540,7 +540,7 @@
       },
       "source_text": "怪しいなんてビックリや……",
       "source_hex": "89f682b582a282c882f182c483728362834e838a82e281638163",
-      "korean_text": "수상하다니 놀랍네……",
+      "korean_text": "수상하다니 놀랍데이……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -564,7 +564,7 @@
       },
       "source_text": "怪しさ大爆発やねん！",
       "source_hex": "89f682b582b391e5949a94ad82e282cb82f18149",
-      "korean_text": "수상함 대폭발이야!",
+      "korean_text": "수상함 대폭발이데이!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -576,7 +576,7 @@
       },
       "source_text": "そないなことばっか言っとると",
       "source_hex": "82bb82c882a282c882b182c682ce82c182a98cbe82c182c682e982c6",
-      "korean_text": "그런 말만 계속하면",
+      "korean_text": "그런 말만 자꾸 하모",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -600,7 +600,7 @@
       },
       "source_text": "をお見舞いするで？",
       "source_hex": "82f082a88ca9959182a282b782e982c58148",
-      "korean_text": "을 맛보여줄까?",
+      "korean_text": "을 맛보여 주까?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -696,7 +696,7 @@
       },
       "source_text": "そうでっか？",
       "source_hex": "82bb82a482c582c182a98148",
-      "korean_text": "그래?",
+      "korean_text": "그렇나?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -708,7 +708,7 @@
       },
       "source_text": "わざわざ、すんまへんなぁ。",
       "source_hex": "82ed82b482ed82b4814182b782f182dc82d682f182c8829f8142",
-      "korean_text": "일부러 와줘서 미안하네.",
+      "korean_text": "일부러 와 줘서 미안하데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1404,7 +1404,7 @@
       },
       "source_text": "今使うたるさかい、よう見とき！",
       "source_hex": "8da18e6782a482bd82e982b382a982a2814182e682a48ca982c682ab8149",
-      "korean_text": "지금 쓸 테니 잘 봐!",
+      "korean_text": "지금 쓸 끼니까 잘 봐래이!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1416,7 +1416,7 @@
       },
       "source_text": "えらい言われようやな……",
       "source_hex": "82a682e782a28cbe82ed82ea82e682a482e282c881638163",
-      "korean_text": "말이 너무하네……",
+      "korean_text": "말이 억수로 심하네……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1428,7 +1428,7 @@
       },
       "source_text": "そのために出したんやないか。",
       "source_hex": "82bb82cc82bd82df82c98f6f82b582bd82f182e282c882a282a98142",
-      "korean_text": "그걸 위해 꺼낸 거잖아.",
+      "korean_text": "그라려고 꺼낸 거 아이가.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1440,7 +1440,7 @@
       },
       "source_text": "まあええわ……",
       "source_hex": "82dc82a082a682a682ed81638163",
-      "korean_text": "뭐, 됐어……",
+      "korean_text": "뭐, 됐다……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1896,7 +1896,7 @@
       },
       "source_text": "なんや、すみれはんやったんか！",
       "source_hex": "82c882f182e2814182b782dd82ea82cd82f182e282c182bd82f182a98149",
-      "korean_text": "뭐야, 스미레 씨였어!",
+      "korean_text": "뭐꼬, 스미레 씨였나!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3264,7 +3264,7 @@
       },
       "source_text": "お前らの悪夢を食うバク！",
       "source_hex": "82a8914f82e782cc88ab96b282f0904882a4836f834e8149",
-      "korean_text": "너희 악몽을 먹을 바쿠!",
+      "korean_text": "너희 악몽을 먹어 주마폭!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3300,7 +3300,7 @@
       },
       "source_text": "やられたバクー！",
       "source_hex": "82e282e782ea82bd836f834e815b8149",
-      "korean_text": "당했다바쿠-!",
+      "korean_text": "당했다폭-!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3324,7 +3324,7 @@
       },
       "source_text": "お前も道連れバク！",
       "source_hex": "82a8914f82e093b9984182ea836f834e8149",
-      "korean_text": "너도 길동무다바쿠!",
+      "korean_text": "너도 길동무다폭!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3720,7 +3720,7 @@
       },
       "source_text": "ん？　なんや、この紙切れ？",
       "source_hex": "82f18148814082c882f182e2814182b182cc8e8690d882ea8148",
-      "korean_text": "응?　뭐야, 이 종잇조각?",
+      "korean_text": "응?　뭐꼬, 이 종잇조각?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3768,7 +3768,7 @@
       },
       "source_text": "　どっちが多かったバクか？」",
       "source_hex": "814082c782c182bf82aa91bd82a982c182bd836f834e82a981488176",
-      "korean_text": "　어느 쪽이 더 많았바쿠?」",
+      "korean_text": "　어느 쪽이 더 많았냐폭?」",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3792,7 +3792,7 @@
       },
       "source_text": "　さぁ、どっちバク？」",
       "source_hex": "814082b3829f814182c782c182bf836f834e81488176",
-      "korean_text": "　자, 어느 쪽바쿠?」",
+      "korean_text": "　자, 어느 쪽이냐폭?」",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3804,7 +3804,7 @@
       },
       "source_text": "なんやねん、コイツ。",
       "source_hex": "82c882f182e282cb82f181418352834383638142",
-      "korean_text": "뭐야, 이 녀석.",
+      "korean_text": "뭐꼬, 이 녀석.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3816,7 +3816,7 @@
       },
       "source_text": "そんなん、わかるかいな！",
       "source_hex": "82bb82f182c882f1814182ed82a982e982a982a282c88149",
-      "korean_text": "그걸 어떻게 알아!",
+      "korean_text": "그걸 우째 아노!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -4140,7 +4140,7 @@
       },
       "source_text": "これは、レベルラクラックや。",
       "source_hex": "82b182ea82cd8141838c8378838b8389834e83898362834e82e28142",
-      "korean_text": "이건 레벨 라쿠락이데이.",
+      "korean_text": "이건 레벨쑥쑥이데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -4236,10 +4236,10 @@
       },
       "source_text": "赤！",
       "source_hex": "90d48149",
-      "korean_text": "빨강!",
+      "korean_text": "적！",
       "apply_translation": true,
       "review_status": "cross_review_required",
-      "note": ""
+      "note": "LIPS lips01_01 정답 문자열. 슬롯 ！적청과 조합과 동일해야 한다."
     },
     {
       "id": "arm9-overlay:15@00005424",
@@ -4416,10 +4416,10 @@
       },
       "source_text": "青！",
       "source_hex": "90c28149",
-      "korean_text": "파랑!",
+      "korean_text": "청！",
       "apply_translation": true,
       "review_status": "cross_review_required",
-      "note": ""
+      "note": "LIPS lips01_01 정답 문자열. 슬롯 ！적청과 조합과 동일해야 한다."
     },
     {
       "id": "arm9-overlay:15@00005590",
@@ -4632,7 +4632,7 @@
       },
       "source_text": "時計と火薬がつながっとらん。",
       "source_hex": "8e9e8c7682c689ce96f282aa82c282c882aa82c182c682e782f18142",
-      "korean_text": "시계와 화약이 연결 안 됐어.",
+      "korean_text": "시계랑 화약이 안 이어졌데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -4644,7 +4644,7 @@
       },
       "source_text": "こりゃ、設計ミスやな。",
       "source_hex": "82b182e882e1814190dd8c76837e835882e282c88142",
-      "korean_text": "이건 설계 실수네.",
+      "korean_text": "이건 설계 실수데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -4704,7 +4704,7 @@
       },
       "source_text": "要するに、そういうこっちゃ。",
       "source_hex": "977682b782e982c9814182bb82a482a282a482b182c182bf82e18142",
-      "korean_text": "한마디로 그런 거야.",
+      "korean_text": "한마디로 그런 기라.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
