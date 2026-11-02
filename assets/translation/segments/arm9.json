@@ -147,10 +147,10 @@
       "source_text": "？はぐれたほ７８",
       "source_hex": "814882cd82ae82ea82bd82d982568257",
       "fixed_width_bytes": 16,
-      "korean_text": "？낙오했어반７８",
+      "korean_text": "？뒤처졌어빠７８",
       "apply_translation": true,
       "review_status": "cross_review_required",
-      "note": "LIPS 터치 슬롯 순서: ？/낙/오/했/어/반/７/８. 표시 NCGR 및 정답 문자열과 동일하게 유지한다."
+      "note": "LIPS 터치 슬롯 순서: ？/뒤/처/졌/어/빠/７/８. 원문 はぐれた/ぐれた/ほぐれた/ほれた 네 갈래가 뒤처졌어/처졌어/빠처졌어/빠졌어로 모두 조합되도록 같은 슬롯 위치를 유지한다. 표시 NCGR 및 정답 문자열과 동일하게 유지한다."
     },
     {
       "id": "arm9@00157EE8",
@@ -45764,7 +45764,7 @@
       },
       "source_text": "読むと、連れている仲間全員を\n自分の隣のマスに呼び寄せる。\nフロアのどこにいても飛んで\nくるので、はぐれた時に便利。\n",
       "source_hex": "93c782de82c68141984182ea82c482a282e992878ad4915388f582f00a8ea995aa82cc97d782cc837d835882c98cc482d18af182b982e981420a8374838d834182cc82c782b182c982a282c482e094f282f182c50a82ad82e982cc82c5814182cd82ae82ea82bd8e9e82c995d6979881420a",
-      "korean_text": "읽으면 데리고 있는 동료 전원을\n자신의 옆 칸으로 불러 모은다.\n플로어 어디에 있어도 날아오므로\n떨어졌을 때 편리하다.\n",
+      "korean_text": "읽으면 데리고 있는 동료 전원을\n자신의 옆 칸으로 불러 모은다.\n플로어 어디에 있어도 날아오므로\n흩어졌을 때 편리하다.\n",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

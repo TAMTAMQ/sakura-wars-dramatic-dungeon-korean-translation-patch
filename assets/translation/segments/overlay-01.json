@@ -396,7 +396,7 @@
       },
       "source_text": "でも、レニがぐれていなくて",
       "source_hex": "82c582e08141838c836a82aa82ae82ea82c482a282c882ad82c4",
-      "korean_text": "그래도 레니는 멀쩡해서",
+      "korean_text": "그래도 레니가 처지지 않아서",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2772,7 +2772,7 @@
       },
       "source_text": "織姫とはぐれちゃったんだね。",
       "source_hex": "9044955082c682cd82ae82ea82bf82e182c182bd82f182be82cb8142",
-      "korean_text": "오리히메와 떨어졌구나.",
+      "korean_text": "오리히메와 헤어졌구나.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2820,7 +2820,7 @@
       },
       "source_text": "織姫くんがはぐれたんじゃ……",
       "source_hex": "9044955082ad82f182aa82cd82ae82ea82bd82f182b682e181638163",
-      "korean_text": "오리히메 군이 떨어진 게…",
+      "korean_text": "오리히메 군이 뒤처진 게…",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -6072,7 +6072,7 @@
       },
       "source_text": "ではぐれたとの救援要請が……",
       "source_hex": "82c582cd82ae82ea82bd82c682cc8b7e8987977690bf82aa81638163",
-      "korean_text": "긴자에서 낙오, 구조 요청…",
+      "korean_text": "긴자에서 뒤처져 구조 요청…",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -6096,7 +6096,7 @@
       },
       "source_text": "はぐれてしまったんでしょう？",
       "source_hex": "82cd82ae82ea82c482b582dc82c182bd82f182c582b582e582a48148",
-      "korean_text": "떨어진 걸까요?",
+      "korean_text": "뒤처진 걸까요?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

@@ -21,10 +21,15 @@
     {
       "path": "lips/lips01_02_00.NCGR",
       "slot_record_id": "arm9@00157DFC",
-      "source_phrases": ["はぐれた？", "ほれた？"],
-      "korean_phrases": ["낙오했어？", "반했어？"],
-      "answer_record_ids": [["arm9-overlay:16@00002B00"], ["arm9-overlay:16@00002CC8"]],
-      "cells": {"2": "낙", "4": "오", "6": "했", "8": "어", "10": "반"}
+      "source_phrases": ["はぐれた？", "ぐれた？", "ほぐれた？", "ほれた？"],
+      "korean_phrases": ["뒤처졌어？", "처졌어？", "빠처졌어？", "빠졌어？"],
+      "answer_record_ids": [
+        ["arm9-overlay:16@00002B00"],
+        ["arm9-overlay:16@00002B90"],
+        ["arm9-overlay:16@00002C40"],
+        ["arm9-overlay:16@00002CC8"]
+      ],
+      "cells": {"2": "뒤", "4": "처", "6": "졌", "8": "어", "10": "빠"}
     },
     {
       "path": "lips/lips01_03_00.NCGR",

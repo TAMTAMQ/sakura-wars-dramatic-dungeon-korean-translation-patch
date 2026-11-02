@@ -768,7 +768,7 @@
       },
       "source_text": "グレてしまいました！",
       "source_hex": "834f838c82c482b582dc82a282dc82b582bd8149",
-      "korean_text": "삐뚤어져 버렸어요!",
+      "korean_text": "처져 버렸어요!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -780,7 +780,7 @@
       },
       "source_text": "ぐ、グレたって……",
       "source_hex": "82ae8141834f838c82bd82c182c481638163",
-      "korean_text": "삐, 삐뚤어졌다고……",
+      "korean_text": "처, 처졌다고……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -828,7 +828,7 @@
       },
       "source_text": "気がついたらグレてましたー。",
       "source_hex": "8b4382aa82c282a282bd82e7834f838c82c482dc82b582bd815b8142",
-      "korean_text": "정신 차리니 삐뚤어졌어요-.",
+      "korean_text": "정신 차리니 처져 있었어요-.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -852,10 +852,10 @@
       },
       "source_text": "はぐれた？",
       "source_hex": "82cd82ae82ea82bd8148",
-      "korean_text": "낙오했어？",
+      "korean_text": "뒤처졌어？",
       "apply_translation": true,
       "review_status": "cross_review_required",
-      "note": ""
+      "note": "LIPS lips01_02 정답 문자열. 슬롯 ？뒤처졌어빠 조합과 동일해야 한다."
     },
     {
       "id": "arm9-overlay:16@00002B0C",
@@ -864,7 +864,7 @@
       },
       "source_text": "はぐれた……",
       "source_hex": "82cd82ae82ea82bd81638163",
-      "korean_text": "떨어졌다……",
+      "korean_text": "뒤처졌다……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -936,10 +936,10 @@
       },
       "source_text": "ぐれた？",
       "source_hex": "82ae82ea82bd8148",
-      "korean_text": "삐뚤어졌어?",
+      "korean_text": "처졌어？",
       "apply_translation": true,
       "review_status": "cross_review_required",
-      "note": ""
+      "note": "LIPS lips01_02 정답 문자열. 슬롯 ？뒤처졌어빠 조합과 동일해야 한다."
     },
     {
       "id": "arm9-overlay:16@00002B9C",
@@ -948,7 +948,7 @@
       },
       "source_text": "ぐれた……？",
       "source_hex": "82ae82ea82bd816381638148",
-      "korean_text": "삐뚤어졌어……?",
+      "korean_text": "처졌어……?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -984,7 +984,7 @@
       },
       "source_text": "「はぐれた」じゃないですか？",
       "source_hex": "817582cd82ae82ea82bd817682b682e182c882a282c582b782a98148",
-      "korean_text": "「떨어졌다」 아닌가요?",
+      "korean_text": "「뒤처졌다」 아닌가요?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -996,7 +996,7 @@
       },
       "source_text": "レニがはぐれたのでーす！",
       "source_hex": "838c836a82aa82cd82ae82ea82bd82cc82c5815b82b78149",
-      "korean_text": "레니가 떨어진 거예요오!",
+      "korean_text": "레니가 뒤처진 거예요오!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1032,10 +1032,10 @@
       },
       "source_text": "ほぐれた？",
       "source_hex": "82d982ae82ea82bd8148",
-      "korean_text": "풀렸어?",
+      "korean_text": "빠처졌어？",
       "apply_translation": true,
       "review_status": "cross_review_required",
-      "note": ""
+      "note": "LIPS lips01_02 정답 문자열. 슬롯 ？뒤처졌어빠 조합과 동일해야 한다."
     },
     {
       "id": "arm9-overlay:16@00002C4C",
@@ -1044,7 +1044,7 @@
       },
       "source_text": "ほぐれた……",
       "source_hex": "82d982ae82ea82bd81638163",
-      "korean_text": "풀렸다……",
+      "korean_text": "빠처졌다……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1068,7 +1068,7 @@
       },
       "source_text": "レニがほぐれたのでーす！",
       "source_hex": "838c836a82aa82d982ae82ea82bd82cc82c5815b82b78149",
-      "korean_text": "레니가 풀린 거예요오!",
+      "korean_text": "레니가 빠처진 거예요오!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1104,10 +1104,10 @@
       },
       "source_text": "ほれた？",
       "source_hex": "82d982ea82bd8148",
-      "korean_text": "반했어？",
+      "korean_text": "빠졌어？",
       "apply_translation": true,
       "review_status": "cross_review_required",
-      "note": ""
+      "note": "LIPS lips01_02 정답 문자열. 슬롯 ？뒤처졌어빠 조합과 동일해야 한다."
     },
     {
       "id": "arm9-overlay:16@00002CD4",
@@ -1116,7 +1116,7 @@
       },
       "source_text": "ほれた……",
       "source_hex": "82d982ea82bd81638163",
-      "korean_text": "반했다……",
+      "korean_text": "빠졌다……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1128,7 +1128,7 @@
       },
       "source_text": "レニがほれたのでーす！",
       "source_hex": "838c836a82aa82d982ea82bd82cc82c5815b82b78149",
-      "korean_text": "레니가 반한 거예요오!",
+      "korean_text": "레니가 빠진 거예요오!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1140,7 +1140,7 @@
       },
       "source_text": "ふふっ、レニが誰にほれたのか",
       "source_hex": "82d382d382c18141838c836a82aa924e82c982d982ea82bd82cc82a9",
-      "korean_text": "후훗, 레니가 누구에게 반했나",
+      "korean_text": "후훗, 레니가 누구에게 빠졌는지",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1164,7 +1164,7 @@
       },
       "source_text": "「はぐれた」の間違いじゃ",
       "source_hex": "817582cd82ae82ea82bd817682cc8ad488e182a282b682e1",
-      "korean_text": "「떨어졌다」를 잘못 말한 거",
+      "korean_text": "「뒤처졌다」를 잘못 말한 거",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2112,7 +2112,7 @@
       },
       "source_text": "はぐれたままなのかい？",
       "source_hex": "82cd82ae82ea82bd82dc82dc82c882cc82a982a28148",
-      "korean_text": "떨어진 채인 거야?",
+      "korean_text": "헤어진 채인 거야?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2364,7 +2364,7 @@
       },
       "source_text": "はぐれたと聞いて、心配したよ。",
       "source_hex": "82cd82ae82ea82bd82c695b782a282c481419053947a82b582bd82e68142",
-      "korean_text": "떨어졌다길래 걱정했어.",
+      "korean_text": "뒤처졌다길래 걱정했어.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2388,7 +2388,7 @@
       },
       "source_text": "はぐれたのは織姫のほう。",
       "source_hex": "82cd82ae82ea82bd82cc82cd9044955082cc82d982a48142",
-      "korean_text": "떨어진 건 오리히메 쪽이야.",
+      "korean_text": "뒤처진 건 오리히메 쪽이야.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
