@@ -3,7 +3,7 @@
   "source_profile_id": "ys9j-rev0-e6cafe64",
   "source_cpk_sha256": "c74fbfbae1c13ecb0dcafeb8db03fded0865cf499c277b293a4fc38b249d0029",
   "note": "Raw linear textures in preview resource archives; preserve UV coordinates, palettes, timing and every other resource.",
-  "record_count": 2,
+  "record_count": 3,
   "records": [
     {
       "name": "attract-preview",
@@ -334,6 +334,699 @@
         "capture": "work/untranslated-audit/logo-redo/actual-logo-uv.json",
         "source": "DeSmuME rendered vertex buffer, preview logo, full assembly"
       }
+    },
+    {
+      "name": "preview-complete-logo",
+      "png": "preview-complete-logo.png",
+      "source": "ドラマチックダンジョン サクラ大戦 ～君あるがため～（予告用 一枚絵）",
+      "korean": "드라마틱 던전 사쿠라 대전 ～그대가 있기에～",
+      "width": 256,
+      "height": 128,
+      "bpp": 8,
+      "editable_regions": [
+        [
+          14,
+          42,
+          54,
+          98
+        ],
+        [
+          54,
+          50,
+          110,
+          58
+        ],
+        [
+          54,
+          55,
+          86,
+          95
+        ],
+        [
+          84,
+          56,
+          110,
+          96
+        ],
+        [
+          106,
+          42,
+          148,
+          90
+        ],
+        [
+          143,
+          41,
+          197,
+          89
+        ],
+        [
+          75,
+          92,
+          180,
+          108
+        ],
+        [
+          15,
+          26,
+          111,
+          42
+        ],
+        [
+          111,
+          37,
+          112,
+          38
+        ],
+        [
+          111,
+          38,
+          112,
+          39
+        ],
+        [
+          111,
+          39,
+          112,
+          40
+        ],
+        [
+          54,
+          42,
+          55,
+          43
+        ],
+        [
+          54,
+          43,
+          55,
+          44
+        ],
+        [
+          55,
+          43,
+          56,
+          44
+        ],
+        [
+          54,
+          44,
+          55,
+          45
+        ],
+        [
+          55,
+          44,
+          56,
+          45
+        ],
+        [
+          54,
+          45,
+          55,
+          46
+        ],
+        [
+          55,
+          45,
+          56,
+          46
+        ],
+        [
+          54,
+          46,
+          55,
+          47
+        ],
+        [
+          55,
+          46,
+          56,
+          47
+        ],
+        [
+          54,
+          47,
+          55,
+          48
+        ],
+        [
+          55,
+          47,
+          56,
+          48
+        ],
+        [
+          54,
+          48,
+          55,
+          49
+        ],
+        [
+          55,
+          48,
+          56,
+          49
+        ],
+        [
+          54,
+          49,
+          55,
+          50
+        ],
+        [
+          55,
+          49,
+          56,
+          50
+        ],
+        [
+          105,
+          49,
+          106,
+          50
+        ],
+        [
+          54,
+          95,
+          55,
+          96
+        ],
+        [
+          54,
+          96,
+          55,
+          97
+        ],
+        [
+          54,
+          97,
+          55,
+          98
+        ],
+        [
+          54,
+          98,
+          55,
+          99
+        ]
+      ],
+      "preserved_geometry": "Original width/height, resource slot, palettes (animated), UV coordinates, ornament and its halo outside the text quad boxes",
+      "translation_status": "translated",
+      "review_status": "complete",
+      "layout_method": "The finished preview logo equals the attract quad composition shifted by texture_from_screen. The Korean attract atlas is drawn through the recorded quads in order and copied only inside the text quads boxes.",
+      "screen_composite": {
+        "atlas": "attract-logo.png",
+        "atlas_sha256": "619a3939c86f6d1d2bcce9ef83482d92426503c833aa9dff2bbb6406861ea23a",
+        "texture_from_screen": [
+          -1,
+          -25
+        ],
+        "replaced_quads": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10
+        ],
+        "quads": [
+          {
+            "vertex": 0,
+            "uv": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                40.0,
+                0.0
+              ],
+              [
+                40.0,
+                56.0
+              ],
+              [
+                0.0,
+                56.0
+              ]
+            ],
+            "screen": [
+              [
+                15.0,
+                67.171875
+              ],
+              [
+                55.0,
+                67.171875
+              ],
+              [
+                55.0,
+                123.3046875
+              ],
+              [
+                15.0,
+                123.3046875
+              ]
+            ]
+          },
+          {
+            "vertex": 4,
+            "uv": [
+              [
+                40.0,
+                8.0
+              ],
+              [
+                96.0,
+                8.0
+              ],
+              [
+                96.0,
+                16.0
+              ],
+              [
+                40.0,
+                16.0
+              ]
+            ],
+            "screen": [
+              [
+                55.0,
+                75.1875
+              ],
+              [
+                111.0,
+                75.1875
+              ],
+              [
+                111.0,
+                83.203125
+              ],
+              [
+                55.0,
+                83.203125
+              ]
+            ]
+          },
+          {
+            "vertex": 8,
+            "uv": [
+              [
+                40.0,
+                16.0
+              ],
+              [
+                72.0,
+                16.0
+              ],
+              [
+                72.0,
+                56.0
+              ],
+              [
+                40.0,
+                56.0
+              ]
+            ],
+            "screen": [
+              [
+                55.0,
+                80.203125
+              ],
+              [
+                87.0,
+                80.203125
+              ],
+              [
+                87.0,
+                120.3046875
+              ],
+              [
+                55.0,
+                120.3046875
+              ]
+            ]
+          },
+          {
+            "vertex": 12,
+            "uv": [
+              [
+                70.0,
+                16.0
+              ],
+              [
+                96.0,
+                16.0
+              ],
+              [
+                96.0,
+                56.0
+              ],
+              [
+                70.0,
+                56.0
+              ]
+            ],
+            "screen": [
+              [
+                85.0,
+                81.2109375
+              ],
+              [
+                111.0,
+                81.2109375
+              ],
+              [
+                111.0,
+                121.3125
+              ],
+              [
+                85.0,
+                121.3125
+              ]
+            ]
+          },
+          {
+            "vertex": 16,
+            "uv": [
+              [
+                96.0,
+                0.0
+              ],
+              [
+                138.0,
+                0.0
+              ],
+              [
+                138.0,
+                48.0
+              ],
+              [
+                96.0,
+                48.0
+              ]
+            ],
+            "screen": [
+              [
+                107.0,
+                67.171875
+              ],
+              [
+                149.0,
+                67.171875
+              ],
+              [
+                149.0,
+                115.2890625
+              ],
+              [
+                107.0,
+                115.2890625
+              ]
+            ]
+          },
+          {
+            "vertex": 20,
+            "uv": [
+              [
+                136.0,
+                0.0
+              ],
+              [
+                192.0,
+                0.0
+              ],
+              [
+                192.0,
+                48.0
+              ],
+              [
+                136.0,
+                48.0
+              ]
+            ],
+            "screen": [
+              [
+                144.0,
+                66.1640625
+              ],
+              [
+                198.0,
+                66.1640625
+              ],
+              [
+                198.0,
+                114.28125
+              ],
+              [
+                144.0,
+                114.28125
+              ]
+            ]
+          },
+          {
+            "vertex": 24,
+            "uv": [
+              [
+                112.0,
+                48.0
+              ],
+              [
+                160.0,
+                48.0
+              ],
+              [
+                160.0,
+                96.0
+              ],
+              [
+                112.0,
+                96.0
+              ]
+            ],
+            "screen": [
+              [
+                140.0,
+                32.0859375
+              ],
+              [
+                188.0,
+                32.0859375
+              ],
+              [
+                188.0,
+                80.203125
+              ],
+              [
+                140.0,
+                80.203125
+              ]
+            ]
+          },
+          {
+            "vertex": 28,
+            "uv": [
+              [
+                160.0,
+                48.0
+              ],
+              [
+                216.0,
+                48.0
+              ],
+              [
+                216.0,
+                128.0
+              ],
+              [
+                160.0,
+                128.0
+              ]
+            ],
+            "screen": [
+              [
+                188.0,
+                32.0859375
+              ],
+              [
+                244.0,
+                32.0859375
+              ],
+              [
+                244.0,
+                112.2890625
+              ],
+              [
+                188.0,
+                112.2890625
+              ]
+            ]
+          },
+          {
+            "vertex": 32,
+            "uv": [
+              [
+                0.0,
+                96.0
+              ],
+              [
+                160.0,
+                96.0
+              ],
+              [
+                160.0,
+                128.0
+              ],
+              [
+                0.0,
+                128.0
+              ]
+            ],
+            "screen": [
+              [
+                56.0,
+                104.25
+              ],
+              [
+                216.0,
+                104.25
+              ],
+              [
+                216.0,
+                136.3359375
+              ],
+              [
+                56.0,
+                136.3359375
+              ]
+            ]
+          },
+          {
+            "vertex": 36,
+            "uv": [
+              [
+                0.0,
+                80.0
+              ],
+              [
+                105.0,
+                80.0
+              ],
+              [
+                105.0,
+                96.0
+              ],
+              [
+                0.0,
+                96.0
+              ]
+            ],
+            "screen": [
+              [
+                76.0,
+                117.28125
+              ],
+              [
+                181.0,
+                117.28125
+              ],
+              [
+                181.0,
+                133.3359375
+              ],
+              [
+                76.0,
+                133.3359375
+              ]
+            ]
+          },
+          {
+            "vertex": 40,
+            "uv": [
+              [
+                0.0,
+                56.0
+              ],
+              [
+                96.0,
+                56.0
+              ],
+              [
+                96.0,
+                72.0
+              ],
+              [
+                0.0,
+                72.0
+              ]
+            ],
+            "screen": [
+              [
+                16.0,
+                51.140625
+              ],
+              [
+                112.0,
+                51.140625
+              ],
+              [
+                112.0,
+                67.171875
+              ],
+              [
+                16.0,
+                67.171875
+              ]
+            ]
+          }
+        ],
+        "alignment_evidence": "Original Japanese attract composition vs this texture: opaque-pixel IoU 0.891 at (+1,+25) screen offset; residue is the white halo and sub-pixel edges.",
+        "halo_cleanup": "Pixels within 3 px of a text box, outside all eleven quads, that the original attract composition leaves transparent: the finished texture halo of the Japanese lettering. Listed as 1x1 editable regions and cleared."
+      },
+      "targets": [
+        {
+          "cpk_entry_id": 1540,
+          "resource_index": 20,
+          "palette_index": 27,
+          "offset": 588000,
+          "size": 32768,
+          "source_sha256": "8765d74c59e860b73126cb881ee4be6678fdf0827a6d5fd2a5937d638aa8a797",
+          "palette_sha256": "8068d42b1d5fa365a8fc091dce70e6f1149f5f91317635621e727cca700d2d3a",
+          "slot_offset": 29243968,
+          "slot_size": 392776,
+          "compressed": true,
+          "source_slot_sha256": "13fa60404865f788b2993d3239bc42fc70dbdf0836519ab7ed368ff259083782"
+        },
+        {
+          "cpk_entry_id": 1542,
+          "resource_index": 23,
+          "palette_index": 33,
+          "offset": 560864,
+          "size": 32768,
+          "source_sha256": "8765d74c59e860b73126cb881ee4be6678fdf0827a6d5fd2a5937d638aa8a797",
+          "palette_sha256": "8068d42b1d5fa365a8fc091dce70e6f1149f5f91317635621e727cca700d2d3a",
+          "slot_offset": 29771168,
+          "slot_size": 275812,
+          "compressed": true,
+          "source_slot_sha256": "220d01300ee71ce851204a3d07ea21ba26044a15dc7fb833f7f1ddbcb728df08"
+        },
+        {
+          "cpk_entry_id": 1544,
+          "resource_index": 14,
+          "palette_index": 27,
+          "offset": 374720,
+          "size": 32768,
+          "source_sha256": "8765d74c59e860b73126cb881ee4be6678fdf0827a6d5fd2a5937d638aa8a797",
+          "palette_sha256": "8068d42b1d5fa365a8fc091dce70e6f1149f5f91317635621e727cca700d2d3a",
+          "slot_offset": 30197280,
+          "slot_size": 441920,
+          "compressed": false,
+          "source_slot_sha256": "25da7a875de5e352329d90e4c04443a26a7f617693129ea40f01732680431efd"
+        }
+      ]
     }
   ]
 }

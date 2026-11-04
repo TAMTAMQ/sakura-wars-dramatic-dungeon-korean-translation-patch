@@ -156,6 +156,13 @@ if ($Mode -eq 'ImportCpkPng') {
         '--plan', (Join-Path $projectRoot 'assets\visual\cpk-raw-texture-translation.json'),
         '--edits-root', (Join-Path $cpkEditRoot 'text-images')
     )
+    # The finished logo the chapter previews draw is built from the atlas above.
+    Invoke-Python @(
+        (Join-Path $PSScriptRoot 'build-preview-logo.py'),
+        '--cpk', (Join-Path $VisualExportRoot 'cpk\faCpkData.cpk'),
+        '--plan', (Join-Path $projectRoot 'assets\visual\cpk-raw-texture-translation.json'),
+        '--edits-root', (Join-Path $cpkEditRoot 'text-images')
+    )
     Invoke-Python @(
         (Join-Path $PSScriptRoot 'apply-cpk-text-images.py'),
         '--cpk', (Join-Path $VisualExportRoot 'cpk\faCpkData.cpk'),

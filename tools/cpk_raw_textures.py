@@ -125,6 +125,43 @@ def compose_texture_parts(original: Image.Image, record: dict, edits_root: Path)
     return image
 
 
+def compose_screen_quads(atlas: Image.Image, quads: list[dict]) -> Image.Image:
+    """Draw textured quads on the 256x192 screen in their recorded order."""
+    canvas = Image.new('RGBA', (256, 192), (0, 0, 0, 0))
+    for quad in quads:
+        (u0, v0), _, (u1, v1), _ = quad['uv']
+        (x0, y0), _, (x1, y1), _ = quad['screen']
+        part = atlas.crop((int(u0), int(v0), int(u1), int(v1)))
+        size = (round(x1 - x0), round(y1 - y0))
+        if part.size != size:
+            part = part.resize(size, Image.Resampling.NEAREST)
+        canvas.alpha_composite(part, (round(x0), round(y0)))
+    return canvas
+
+
+def compose_screen_regions(original: Image.Image, record: dict, edits_root: Path) -> Image.Image:
+    """Rebuild the text of a pre-assembled logo from the split attract logo.
+
+    Some previews draw one finished logo texture instead of the attract's
+    eleven quads. Its artwork is the attract composition shifted by a fixed
+    screen offset (plus a halo the quads lack), so the Korean atlas is drawn
+    through the same recorded quads and only the text quads' boxes are taken
+    from it. Everything else, the ornament halo included, stays original.
+    """
+    spec = record['screen_composite']
+    atlas_path = edits_root / spec['atlas']
+    if digest(atlas_path.read_bytes()) != spec['atlas_sha256']:
+        raise ValueError(f"screen composite atlas changed without review: {record['name']}")
+    screen = compose_screen_quads(Image.open(atlas_path).convert('RGBA'), spec['quads'])
+    dx, dy = spec['texture_from_screen']
+    shifted = Image.new('RGBA', original.size, (0, 0, 0, 0))
+    shifted.alpha_composite(screen.crop((-dx, -dy, -dx + original.width, -dy + original.height)))
+    image = original.convert('RGBA')
+    for box in record['editable_regions']:
+        image.paste(shifted.crop(tuple(box)), tuple(box[:2]))
+    return image
+
+
 def apply_raw_edit(payload: bytes, record: dict, target: dict, png: Path) -> tuple[int, bytes]:
     resources = archive_resources(payload)
     offset, size = resources[target['resource_index']]
@@ -135,9 +172,12 @@ def apply_raw_edit(payload: bytes, record: dict, target: dict, png: Path) -> tup
     palette = payload[palette_offset:palette_offset + palette_size]
     if digest(raw) != target['source_sha256'] or digest(palette) != target['palette_sha256']:
         raise ValueError(f"raw texture source precondition mismatch: {record['name']}")
-    if record.get('coordinate_cuts'):
+    if record.get('coordinate_cuts') or record.get('screen_composite'):
         original = render_texture(raw, palette, record['width'], record['height'], record['bpp'])
-        expected_image = compose_texture_parts(original, record, png.parent)
+        if record.get('screen_composite'):
+            expected_image = compose_screen_regions(original, record, png.parent)
+        else:
+            expected_image = compose_texture_parts(original, record, png.parent)
         current_image = Image.open(png).convert('RGBA')
         if current_image.size != expected_image.size or any(
             band.getbbox() is not None for band in ImageChops.difference(current_image, expected_image).split()
