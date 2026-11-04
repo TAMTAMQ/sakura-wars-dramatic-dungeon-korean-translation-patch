@@ -394,6 +394,27 @@ def main() -> None:
             # byte either way, which is what DEC-TEXTSLOT-002 relies on.
             buffer[start:zero_end] = encoded + bytes(zero_end - start - len(encoded))
 
+    # Non-text ARM9 data (currently the name-entry key types). Each patch must
+    # still find its source bytes after the text writes, so a translation that
+    # spilled over a patched word fails here instead of being overwritten.
+    data_patch_path = args.translation_index.resolve().parent / "arm9-data-patches.json"
+    data_patches = []
+    if data_patch_path.exists():
+        data_patches = json.loads(data_patch_path.read_text(encoding="utf-8"))["patches"]
+    source_arm9 = source[source_arm9_offset : source_arm9_offset + source_arm9_size]
+    for patch in data_patches:
+        if patch["region"] != "arm9":
+            raise ValueError(f"unsupported data patch region: {patch['region']}")
+        start = int(patch["offset"])
+        expected = bytes.fromhex(patch["expected_hex"])
+        replacement = bytes.fromhex(patch["replacement_hex"])
+        if len(expected) != len(replacement):
+            raise ValueError(f"data patch changes size at {start:#x}")
+        end = start + len(expected)
+        if source_arm9[start:end] != expected or bytes(arm9[start:end]) != expected:
+            raise ValueError(f"data patch precondition mismatch at {start:#x}")
+        arm9[start:end] = replacement
+
     planned = []
     rebuilt = bytearray(base)
     arm9_replacement = bytes(arm9)
@@ -458,6 +479,7 @@ def main() -> None:
         "font_record_count": len(font_records),
         "font_extent_record_capacity": 3300,
         "planned_write_count": len(planned),
+        "arm9_data_patch_count": len(data_patches),
         "deferred_slot_overflow_count": len(deferred_slot_overflow),
         "deferred_slot_overflow": deferred_slot_overflow,
         "all_final_diffs_registered": True,

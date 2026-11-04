@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "patches": [
+    {
+      "region": "arm9",
+      "offset": 1402048,
+      "expected_hex": "0e000000",
+      "replacement_hex": "10000000",
+      "note": "이름 입력 자판: 탁점/반탁점 변환 키를 글자 입력 키로"
+    },
+    {
+      "region": "arm9",
+      "offset": 1402056,
+      "expected_hex": "0f000000",
+      "replacement_hex": "10000000",
+      "note": "이름 입력 자판: 탁점/반탁점 변환 키를 글자 입력 키로"
+    },
+    {
+      "region": "arm9",
+      "offset": 1402688,
+      "expected_hex": "0e000000",
+      "replacement_hex": "10000000",
+      "note": "이름 입력 자판: 탁점/반탁점 변환 키를 글자 입력 키로"
+    },
+    {
+      "region": "arm9",
+      "offset": 1402696,
+      "expected_hex": "0f000000",
+      "replacement_hex": "10000000",
+      "note": "이름 입력 자판: 탁점/반탁점 변환 키를 글자 입력 키로"
+    },
+    {
+      "region": "arm9",
+      "offset": 1405888,
+      "expected_hex": "0e000000",
+      "replacement_hex": "10000000",
+      "note": "이름 입력 자판: 탁점/반탁점 변환 키를 글자 입력 키로"
+    },
+    {
+      "region": "arm9",
+      "offset": 1405896,
+      "expected_hex": "0f000000",
+      "replacement_hex": "10000000",
+      "note": "이름 입력 자판: 탁점/반탁점 변환 키를 글자 입력 키로"
+    },
+    {
+      "region": "arm9",
+      "offset": 1406528,
+      "expected_hex": "0e000000",
+      "replacement_hex": "10000000",
+      "note": "이름 입력 자판: 탁점/반탁점 변환 키를 글자 입력 키로"
+    },
+    {
+      "region": "arm9",
+      "offset": 1406536,
+      "expected_hex": "0f000000",
+      "replacement_hex": "10000000",
+      "note": "이름 입력 자판: 탁점/반탁점 변환 키를 글자 입력 키로"
+    }
+  ]
+}

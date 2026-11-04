@@ -4,7 +4,7 @@
   "source_sha256": "e6cafe64437080bf5474fa7f9cfec6568b2af7626b65c3ab0d27d30308cec7c4",
   "scope_decision": "DEC-PATCHMAP-001",
   "scope_population_state": "patch_selected_lower_bound",
-  "scope_record_count": 23549,
+  "scope_record_count": 23661,
   "translation_policy": {
     "untranslated_records_use_source": true,
     "korean_text_requires_apply_translation": false,
@@ -15,8 +15,8 @@
     {
       "path": "segments/arm9.json",
       "region": "arm9",
-      "record_count": 4763,
-      "sha256": "40f91a0cac611729190ed0bb2dd60b332532d04b64d603fbdd26316bd7d6f586"
+      "record_count": 4875,
+      "sha256": "61265ed0fd5733b12dc4afe57ca11f04ba7e95eb3771b2956aa0b57a73bf35be"
     },
     {
       "path": "segments/campdata.json",

@@ -6,6 +6,1350 @@
   "scope": "prior_patch_changed_nul_shift_jis_candidates",
   "records": [
     {
+      "id": "arm9@00155A08",
+      "locator": {
+        "offset": 1399304
+      },
+      "source_text": "う",
+      "source_hex": "82a4",
+      "korean_text": "우",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155A18",
+      "locator": {
+        "offset": 1399320
+      },
+      "source_text": "い",
+      "source_hex": "82a2",
+      "korean_text": "이",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155A38",
+      "locator": {
+        "offset": 1399352
+      },
+      "source_text": "あ",
+      "source_hex": "82a0",
+      "korean_text": "아",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155AF4",
+      "locator": {
+        "offset": 1399540
+      },
+      "source_text": "ュ",
+      "source_hex": "8385",
+      "korean_text": "양",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155AF8",
+      "locator": {
+        "offset": 1399544
+      },
+      "source_text": "ョ",
+      "source_hex": "8387",
+      "korean_text": "손",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155AFC",
+      "locator": {
+        "offset": 1399548
+      },
+      "source_text": "ャ",
+      "source_hex": "8383",
+      "korean_text": "문",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155BE8",
+      "locator": {
+        "offset": 1399784
+      },
+      "source_text": "ッ",
+      "source_hex": "8362",
+      "korean_text": "일",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155BF8",
+      "locator": {
+        "offset": 1399800
+      },
+      "source_text": "ォ",
+      "source_hex": "8348",
+      "korean_text": "전",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155BFC",
+      "locator": {
+        "offset": 1399804
+      },
+      "source_text": "ェ",
+      "source_hex": "8346",
+      "korean_text": "홍",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C00",
+      "locator": {
+        "offset": 1399808
+      },
+      "source_text": "ゥ",
+      "source_hex": "8344",
+      "korean_text": "안",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C04",
+      "locator": {
+        "offset": 1399812
+      },
+      "source_text": "ィ",
+      "source_hex": "8342",
+      "korean_text": "임",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C08",
+      "locator": {
+        "offset": 1399816
+      },
+      "source_text": "ァ",
+      "source_hex": "8340",
+      "korean_text": "장",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C0C",
+      "locator": {
+        "offset": 1399820
+      },
+      "source_text": "ン",
+      "source_hex": "8393",
+      "korean_text": "권",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C10",
+      "locator": {
+        "offset": 1399824
+      },
+      "source_text": "ヲ",
+      "source_hex": "8392",
+      "korean_text": "신",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C14",
+      "locator": {
+        "offset": 1399828
+      },
+      "source_text": "ワ",
+      "source_hex": "838f",
+      "korean_text": "송",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C18",
+      "locator": {
+        "offset": 1399832
+      },
+      "source_text": "ノ",
+      "source_hex": "836d",
+      "korean_text": "남",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C1C",
+      "locator": {
+        "offset": 1399836
+      },
+      "source_text": "ネ",
+      "source_hex": "836c",
+      "korean_text": "숙",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C20",
+      "locator": {
+        "offset": 1399840
+      },
+      "source_text": "ヌ",
+      "source_hex": "836b",
+      "korean_text": "순",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C24",
+      "locator": {
+        "offset": 1399844
+      },
+      "source_text": "ニ",
+      "source_hex": "836a",
+      "korean_text": "인",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C28",
+      "locator": {
+        "offset": 1399848
+      },
+      "source_text": "ナ",
+      "source_hex": "8369",
+      "korean_text": "형",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C2C",
+      "locator": {
+        "offset": 1399852
+      },
+      "source_text": "ロ",
+      "source_hex": "838d",
+      "korean_text": "범",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C30",
+      "locator": {
+        "offset": 1399856
+      },
+      "source_text": "レ",
+      "source_hex": "838c",
+      "korean_text": "윤",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C34",
+      "locator": {
+        "offset": 1399860
+      },
+      "source_text": "ル",
+      "source_hex": "838b",
+      "korean_text": "한",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C38",
+      "locator": {
+        "offset": 1399864
+      },
+      "source_text": "リ",
+      "source_hex": "838a",
+      "korean_text": "명",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C3C",
+      "locator": {
+        "offset": 1399868
+      },
+      "source_text": "ラ",
+      "source_hex": "8389",
+      "korean_text": "환",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C40",
+      "locator": {
+        "offset": 1399872
+      },
+      "source_text": "ト",
+      "source_hex": "8367",
+      "korean_text": "용",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C44",
+      "locator": {
+        "offset": 1399876
+      },
+      "source_text": "テ",
+      "source_hex": "8365",
+      "korean_text": "선",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C48",
+      "locator": {
+        "offset": 1399880
+      },
+      "source_text": "ツ",
+      "source_hex": "8363",
+      "korean_text": "혜",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C4C",
+      "locator": {
+        "offset": 1399884
+      },
+      "source_text": "チ",
+      "source_hex": "8360",
+      "korean_text": "경",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C50",
+      "locator": {
+        "offset": 1399888
+      },
+      "source_text": "タ",
+      "source_hex": "835e",
+      "korean_text": "동",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C54",
+      "locator": {
+        "offset": 1399892
+      },
+      "source_text": "ヨ",
+      "source_hex": "8388",
+      "korean_text": "철",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C58",
+      "locator": {
+        "offset": 1399896
+      },
+      "source_text": "ユ",
+      "source_hex": "8386",
+      "korean_text": "석",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C5C",
+      "locator": {
+        "offset": 1399900
+      },
+      "source_text": "ヤ",
+      "source_hex": "8384",
+      "korean_text": "훈",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C60",
+      "locator": {
+        "offset": 1399904
+      },
+      "source_text": "ソ",
+      "source_hex": "835c",
+      "korean_text": "원",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C64",
+      "locator": {
+        "offset": 1399908
+      },
+      "source_text": "セ",
+      "source_hex": "835a",
+      "korean_text": "상",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C68",
+      "locator": {
+        "offset": 1399912
+      },
+      "source_text": "ス",
+      "source_hex": "8358",
+      "korean_text": "연",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C6C",
+      "locator": {
+        "offset": 1399916
+      },
+      "source_text": "シ",
+      "source_hex": "8356",
+      "korean_text": "진",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C70",
+      "locator": {
+        "offset": 1399920
+      },
+      "source_text": "サ",
+      "source_hex": "8354",
+      "korean_text": "성",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C74",
+      "locator": {
+        "offset": 1399924
+      },
+      "source_text": "モ",
+      "source_hex": "8382",
+      "korean_text": "현",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C78",
+      "locator": {
+        "offset": 1399928
+      },
+      "source_text": "メ",
+      "source_hex": "8381",
+      "korean_text": "은",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C7C",
+      "locator": {
+        "offset": 1399932
+      },
+      "source_text": "ム",
+      "source_hex": "8380",
+      "korean_text": "영",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C80",
+      "locator": {
+        "offset": 1399936
+      },
+      "source_text": "ミ",
+      "source_hex": "837e",
+      "korean_text": "준",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C84",
+      "locator": {
+        "offset": 1399940
+      },
+      "source_text": "マ",
+      "source_hex": "837d",
+      "korean_text": "민",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C88",
+      "locator": {
+        "offset": 1399944
+      },
+      "source_text": "コ",
+      "source_hex": "8352",
+      "korean_text": "강",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C8C",
+      "locator": {
+        "offset": 1399948
+      },
+      "source_text": "ケ",
+      "source_hex": "8350",
+      "korean_text": "정",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C90",
+      "locator": {
+        "offset": 1399952
+      },
+      "source_text": "ク",
+      "source_hex": "834e",
+      "korean_text": "최",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C94",
+      "locator": {
+        "offset": 1399956
+      },
+      "source_text": "キ",
+      "source_hex": "834c",
+      "korean_text": "박",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C98",
+      "locator": {
+        "offset": 1399960
+      },
+      "source_text": "カ",
+      "source_hex": "834a",
+      "korean_text": "김",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155C9C",
+      "locator": {
+        "offset": 1399964
+      },
+      "source_text": "ホ",
+      "source_hex": "837a",
+      "korean_text": "차",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CA0",
+      "locator": {
+        "offset": 1399968
+      },
+      "source_text": "ヘ",
+      "source_hex": "8377",
+      "korean_text": "치",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CA4",
+      "locator": {
+        "offset": 1399972
+      },
+      "source_text": "フ",
+      "source_hex": "8374",
+      "korean_text": "츠",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CA8",
+      "locator": {
+        "offset": 1399976
+      },
+      "source_text": "ヒ",
+      "source_hex": "8371",
+      "korean_text": "토",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CAC",
+      "locator": {
+        "offset": 1399980
+      },
+      "source_text": "ハ",
+      "source_hex": "836e",
+      "korean_text": "타",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CB0",
+      "locator": {
+        "offset": 1399984
+      },
+      "source_text": "オ",
+      "source_hex": "8349",
+      "korean_text": "코",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CB4",
+      "locator": {
+        "offset": 1399988
+      },
+      "source_text": "エ",
+      "source_hex": "8347",
+      "korean_text": "케",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CB8",
+      "locator": {
+        "offset": 1399992
+      },
+      "source_text": "ウ",
+      "source_hex": "8345",
+      "korean_text": "쿠",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CBC",
+      "locator": {
+        "offset": 1399996
+      },
+      "source_text": "イ",
+      "source_hex": "8343",
+      "korean_text": "키",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CC0",
+      "locator": {
+        "offset": 1400000
+      },
+      "source_text": "ア",
+      "source_hex": "8341",
+      "korean_text": "카",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CD0",
+      "locator": {
+        "offset": 1400016
+      },
+      "source_text": "っ",
+      "source_hex": "82c1",
+      "korean_text": "애",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CD4",
+      "locator": {
+        "offset": 1400020
+      },
+      "source_text": "ょ",
+      "source_hex": "82e5",
+      "korean_text": "서",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CD8",
+      "locator": {
+        "offset": 1400024
+      },
+      "source_text": "ゅ",
+      "source_hex": "82e3",
+      "korean_text": "여",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CDC",
+      "locator": {
+        "offset": 1400028
+      },
+      "source_text": "ゃ",
+      "source_hex": "82e1",
+      "korean_text": "어",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CE0",
+      "locator": {
+        "offset": 1400032
+      },
+      "source_text": "ぉ",
+      "source_hex": "82a7",
+      "korean_text": "조",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CE4",
+      "locator": {
+        "offset": 1400036
+      },
+      "source_text": "ぇ",
+      "source_hex": "82a5",
+      "korean_text": "제",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CE8",
+      "locator": {
+        "offset": 1400040
+      },
+      "source_text": "ぅ",
+      "source_hex": "82a3",
+      "korean_text": "주",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CEC",
+      "locator": {
+        "offset": 1400044
+      },
+      "source_text": "ぃ",
+      "source_hex": "82a1",
+      "korean_text": "지",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CF0",
+      "locator": {
+        "offset": 1400048
+      },
+      "source_text": "ぁ",
+      "source_hex": "829f",
+      "korean_text": "자",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CF4",
+      "locator": {
+        "offset": 1400052
+      },
+      "source_text": "゜",
+      "source_hex": "814b",
+      "korean_text": "파",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CF8",
+      "locator": {
+        "offset": 1400056
+      },
+      "source_text": "゛",
+      "source_hex": "814a",
+      "korean_text": "바",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155CFC",
+      "locator": {
+        "offset": 1400060
+      },
+      "source_text": "ん",
+      "source_hex": "82f1",
+      "korean_text": "의",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D00",
+      "locator": {
+        "offset": 1400064
+      },
+      "source_text": "を",
+      "source_hex": "82f0",
+      "korean_text": "위",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D04",
+      "locator": {
+        "offset": 1400068
+      },
+      "source_text": "わ",
+      "source_hex": "82ed",
+      "korean_text": "와",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D08",
+      "locator": {
+        "offset": 1400072
+      },
+      "source_text": "の",
+      "source_hex": "82cc",
+      "korean_text": "노",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D0C",
+      "locator": {
+        "offset": 1400076
+      },
+      "source_text": "ね",
+      "source_hex": "82cb",
+      "korean_text": "네",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D10",
+      "locator": {
+        "offset": 1400080
+      },
+      "source_text": "ぬ",
+      "source_hex": "82ca",
+      "korean_text": "누",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D14",
+      "locator": {
+        "offset": 1400084
+      },
+      "source_text": "に",
+      "source_hex": "82c9",
+      "korean_text": "니",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D18",
+      "locator": {
+        "offset": 1400088
+      },
+      "source_text": "な",
+      "source_hex": "82c8",
+      "korean_text": "나",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D1C",
+      "locator": {
+        "offset": 1400092
+      },
+      "source_text": "ろ",
+      "source_hex": "82eb",
+      "korean_text": "로",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D20",
+      "locator": {
+        "offset": 1400096
+      },
+      "source_text": "れ",
+      "source_hex": "82ea",
+      "korean_text": "레",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D24",
+      "locator": {
+        "offset": 1400100
+      },
+      "source_text": "る",
+      "source_hex": "82e9",
+      "korean_text": "루",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D28",
+      "locator": {
+        "offset": 1400104
+      },
+      "source_text": "り",
+      "source_hex": "82e8",
+      "korean_text": "리",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D2C",
+      "locator": {
+        "offset": 1400108
+      },
+      "source_text": "ら",
+      "source_hex": "82e7",
+      "korean_text": "라",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D30",
+      "locator": {
+        "offset": 1400112
+      },
+      "source_text": "と",
+      "source_hex": "82c6",
+      "korean_text": "도",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D34",
+      "locator": {
+        "offset": 1400116
+      },
+      "source_text": "て",
+      "source_hex": "82c4",
+      "korean_text": "데",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D38",
+      "locator": {
+        "offset": 1400120
+      },
+      "source_text": "つ",
+      "source_hex": "82c2",
+      "korean_text": "두",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D3C",
+      "locator": {
+        "offset": 1400124
+      },
+      "source_text": "ち",
+      "source_hex": "82bf",
+      "korean_text": "디",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D40",
+      "locator": {
+        "offset": 1400128
+      },
+      "source_text": "た",
+      "source_hex": "82bd",
+      "korean_text": "다",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D44",
+      "locator": {
+        "offset": 1400132
+      },
+      "source_text": "よ",
+      "source_hex": "82e6",
+      "korean_text": "요",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D48",
+      "locator": {
+        "offset": 1400136
+      },
+      "source_text": "ゆ",
+      "source_hex": "82e4",
+      "korean_text": "유",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D4C",
+      "locator": {
+        "offset": 1400140
+      },
+      "source_text": "や",
+      "source_hex": "82e2",
+      "korean_text": "야",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D50",
+      "locator": {
+        "offset": 1400144
+      },
+      "source_text": "そ",
+      "source_hex": "82bb",
+      "korean_text": "소",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D54",
+      "locator": {
+        "offset": 1400148
+      },
+      "source_text": "せ",
+      "source_hex": "82b9",
+      "korean_text": "세",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D58",
+      "locator": {
+        "offset": 1400152
+      },
+      "source_text": "す",
+      "source_hex": "82b7",
+      "korean_text": "수",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D5C",
+      "locator": {
+        "offset": 1400156
+      },
+      "source_text": "し",
+      "source_hex": "82b5",
+      "korean_text": "시",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D60",
+      "locator": {
+        "offset": 1400160
+      },
+      "source_text": "さ",
+      "source_hex": "82b3",
+      "korean_text": "사",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D64",
+      "locator": {
+        "offset": 1400164
+      },
+      "source_text": "も",
+      "source_hex": "82e0",
+      "korean_text": "모",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D68",
+      "locator": {
+        "offset": 1400168
+      },
+      "source_text": "め",
+      "source_hex": "82df",
+      "korean_text": "메",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D6C",
+      "locator": {
+        "offset": 1400172
+      },
+      "source_text": "む",
+      "source_hex": "82de",
+      "korean_text": "무",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D70",
+      "locator": {
+        "offset": 1400176
+      },
+      "source_text": "み",
+      "source_hex": "82dd",
+      "korean_text": "미",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D74",
+      "locator": {
+        "offset": 1400180
+      },
+      "source_text": "ま",
+      "source_hex": "82dc",
+      "korean_text": "마",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D78",
+      "locator": {
+        "offset": 1400184
+      },
+      "source_text": "こ",
+      "source_hex": "82b1",
+      "korean_text": "고",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D7C",
+      "locator": {
+        "offset": 1400188
+      },
+      "source_text": "け",
+      "source_hex": "82af",
+      "korean_text": "게",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D80",
+      "locator": {
+        "offset": 1400192
+      },
+      "source_text": "く",
+      "source_hex": "82ad",
+      "korean_text": "구",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D84",
+      "locator": {
+        "offset": 1400196
+      },
+      "source_text": "き",
+      "source_hex": "82ab",
+      "korean_text": "기",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D88",
+      "locator": {
+        "offset": 1400200
+      },
+      "source_text": "か",
+      "source_hex": "82a9",
+      "korean_text": "가",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D8C",
+      "locator": {
+        "offset": 1400204
+      },
+      "source_text": "ほ",
+      "source_hex": "82d9",
+      "korean_text": "호",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D90",
+      "locator": {
+        "offset": 1400208
+      },
+      "source_text": "へ",
+      "source_hex": "82d6",
+      "korean_text": "해",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D94",
+      "locator": {
+        "offset": 1400212
+      },
+      "source_text": "ふ",
+      "source_hex": "82d3",
+      "korean_text": "후",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D98",
+      "locator": {
+        "offset": 1400216
+      },
+      "source_text": "ひ",
+      "source_hex": "82d0",
+      "korean_text": "히",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155D9C",
+      "locator": {
+        "offset": 1400220
+      },
+      "source_text": "は",
+      "source_hex": "82cd",
+      "korean_text": "하",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155DA0",
+      "locator": {
+        "offset": 1400224
+      },
+      "source_text": "お",
+      "source_hex": "82a8",
+      "korean_text": "오",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
+      "id": "arm9@00155DA4",
+      "locator": {
+        "offset": 1400228
+      },
+      "source_text": "え",
+      "source_hex": "82a6",
+      "korean_text": "에",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "이름 입력 자판의 키 글자 (add-hangul-keyboard.py)"
+    },
+    {
       "id": "arm9@00155DA8",
       "locator": {
         "offset": 1400232
@@ -48,7 +1392,7 @@
       },
       "source_text": "かな ",
       "source_hex": "82a982c820",
-      "korean_text": "히라 ",
+      "korean_text": "한글1 ",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -60,7 +1404,7 @@
       },
       "source_text": "カナ ",
       "source_hex": "834a836920",
-      "korean_text": "가타 ",
+      "korean_text": "한글2 ",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
