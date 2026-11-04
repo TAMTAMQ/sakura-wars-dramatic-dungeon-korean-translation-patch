@@ -9,7 +9,8 @@ param(
     [string]$VisualExportRoot = '',
     [string]$VisualPngRoot = '',
     [string]$Output = '',
-    [string]$Python = ''
+    [string]$Python = '',
+    [string]$Armips = ''
 )
 
 Set-StrictMode -Version Latest
@@ -35,6 +36,11 @@ $cpkEditRoot = Join-Path $projectRoot 'assets\visual\edits\cpk'
 $report = [IO.Path]::ChangeExtension($Output, '.report.json')
 $buildStage = Join-Path $projectRoot 'work\build-stage.nds'
 $buildStageReport = Join-Path $projectRoot 'work\build-stage.report.json'
+$relocatedStage = Join-Path $projectRoot 'work\build-relocated.nds'
+$previewReport = Join-Path $projectRoot 'work\preview-subtitles\build-report.json'
+if ([string]::IsNullOrWhiteSpace($Armips)) {
+    $Armips = Join-Path $projectRoot '..\..\vendor\armips-v0.11.0\armips.exe'
+}
 $relocationReport = Join-Path $projectRoot 'work\relocate-overflow.report.json'
 $relocationVerifyReport = Join-Path $projectRoot 'work\relocation-verify.json'
 
@@ -203,24 +209,42 @@ if ($Mode -in @('Build', 'All')) {
         (Join-Path $PSScriptRoot 'relocate-overflow-strings.py'),
         '--source', $Source, '--rom', $buildStage, '--inventory', $sourceInventory,
         '--index', $translationIndex, '--build-report', $buildStageReport,
-        '--output', $Output, '--report', $relocationReport
+        '--output', $relocatedStage, '--report', $relocationReport
     )
     Invoke-Python @(
         (Join-Path $PSScriptRoot 'verify-relocation.py'),
-        '--before', $buildStage, '--after', $Output, '--index', $translationIndex,
+        '--before', $buildStage, '--after', $relocatedStage, '--index', $translationIndex,
         '--build-report', $buildStageReport, '--relocation-report', $relocationReport,
         '--report', $relocationVerifyReport
     )
     Invoke-Python @(
         (Join-Path $PSScriptRoot 'verify-lips-consistency.py'),
         '--spec', $lipsSpec, '--translation-index', $translationIndex,
-        '--visual-index', $visualIndex, '--rom', $Output, '--build-report', $buildStageReport
+        '--visual-index', $visualIndex, '--rom', $relocatedStage, '--build-report', $buildStageReport
+    )
+
+    # Refuse incomplete relocation before replacing the final ROM.
+    $relocationResult = Get-Content -LiteralPath $relocationReport -Raw | ConvertFrom-Json
+    if ($relocationResult.skipped_count -ne 0) {
+        throw "String relocation left $($relocationResult.skipped_count) unresolved records; final ROM was not written"
+    }
+    $relocationVerification = Get-Content -LiteralPath $relocationVerifyReport -Raw | ConvertFrom-Json
+    if ($relocationVerification.finding_count -ne 0) {
+        throw "String relocation verification failed; final ROM was not written"
+    }
+
+    Invoke-Python @(
+        (Join-Path $PSScriptRoot 'build-preview-subtitles.py'),
+        '--source', $Source, '--rom', $relocatedStage, '--output', $Output,
+        '--report', $previewReport, '--armips', $Armips,
+        '--work-root', (Join-Path $projectRoot 'work\preview-subtitles\build')
     )
 
     Invoke-Python @(
         (Join-Path $PSScriptRoot 'finalize-build-report.py'),
         '--build-report', $buildStageReport, '--relocation-report', $relocationReport,
         '--relocation-verify-report', $relocationVerifyReport,
+        '--preview-subtitles-report', $previewReport,
         '--rom', $Output, '--output', $report
     )
 

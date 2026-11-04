@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "screen": "top",
+  "panel_y": 144,
+  "font": "assets/fonts/sources/NotoSerifKR-SemiBold.otf",
+  "font_sha256": "a63051d299d7219132a98ff3c2b76a62022344e50e9f3b50fdb9b0ee4560f583",
+  "font_size": 13,
+  "panel_bpp": 2,
+  "previews": [
+    {
+      "id": "opening-preview",
+      "adx_cpk_id": 331,
+      "voice_index": 330,
+      "cues": [
+        {"start_ms": 4180, "end_ms": 7540, "japanese": "銀座大帝国劇場は今日も満員御礼", "korean": "긴자 대제국극장은\n오늘도 만원사례!"},
+        {"start_ms": 7540, "end_ms": 9500, "japanese": "大観衆が見守る中", "korean": "수많은 관객이 지켜보는 가운데"},
+        {"start_ms": 9500, "end_ms": 12040, "japanese": "花組の舞台に突然現れた", "korean": "화조의 무대에 갑자기 나타난"},
+        {"start_ms": 12040, "end_ms": 13900, "japanese": "謎の女剣士", "korean": "수수께끼의 여검사!"},
+        {"start_ms": 14780, "end_ms": 15640, "japanese": "サクラ大戦", "korean": "사쿠라 대전"},
+        {"start_ms": 16160, "end_ms": 17600, "japanese": "君あるがため", "korean": "그대가 있기에"},
+        {"start_ms": 18360, "end_ms": 20500, "japanese": "太正桜に浪漫の嵐", "korean": "태정의 벚꽃에 낭만의 폭풍!"},
+        {"start_ms": 22080, "end_ms": 24500, "japanese": "今、新たなる戦いが始まる", "korean": "지금, 새로운 싸움이 시작된다!"}
+      ]
+    },
+    {
+      "id": "episode-2",
+      "adx_cpk_id": 333,
+      "voice_index": 332,
+      "cues": [
+        {"start_ms": 2540, "end_ms": 4800, "japanese": "一郎叔父が重傷！？", "korean": "이치로 삼촌이 중상을!?"},
+        {"start_ms": 4980, "end_ms": 8160, "japanese": "時を同じくして、ニューヨークにも異変が", "korean": "그와 동시에\n뉴욕에서도 이변이…!"},
+        {"start_ms": 8160, "end_ms": 9300, "japanese": "行こう、みんな！", "korean": "가자, 다들!"},
+        {"start_ms": 9680, "end_ms": 11000, "japanese": "奴らの好きにはさせない！", "korean": "놈들 마음대로 하게 두진 않아!"},
+        {"start_ms": 11460, "end_ms": 14000, "japanese": "次回、摩天楼の魔人", "korean": "다음 이야기\n마천루의 마인"},
+        {"start_ms": 14780, "end_ms": 17300, "japanese": "あなたは、どうしてここに？", "korean": "당신이… 어째서 여기에?"},
+        {"start_ms": 17680, "end_ms": 18800, "japanese": "摩天楼に", "korean": "마천루에…"},
+        {"start_ms": 19080, "end_ms": 20000, "japanese": "バキュン！", "korean": "빵!"}
+      ]
+    },
+    {
+      "id": "episode-3",
+      "adx_cpk_id": 332,
+      "voice_index": 331,
+      "cues": [
+        {"start_ms": 5580, "end_ms": 9380, "japanese": "エイハブの墜落で、俺たちは散り散りになってしまった", "korean": "에이허브호의 추락으로\n우리는 뿔뿔이 흩어지고 말았다."},
+        {"start_ms": 10380, "end_ms": 13500, "japanese": "そしてついに、パリにジャンヌの魔の手が", "korean": "그리고 마침내 파리에도\n잔느의 마수가…!"},
+        {"start_ms": 14960, "end_ms": 17700, "japanese": "次回、ルーブルの秘宝", "korean": "다음 이야기\n루브르의 비보"},
+        {"start_ms": 17700, "end_ms": 20100, "japanese": "愛の御旗のもとに", "korean": "사랑의 깃발 아래"},
+        {"start_ms": 20860, "end_ms": 23700, "japanese": "みんな、無事でいてくれ！", "korean": "다들, 무사히 있어 줘!"}
+      ]
+    },
+    {
+      "id": "final-episode",
+      "adx_cpk_id": 334,
+      "voice_index": 333,
+      "cues": [
+        {"start_ms": 4140, "end_ms": 6500, "japanese": "決戦の地は、南極", "korean": "결전의 땅은 남극!"},
+        {"start_ms": 6920, "end_ms": 9100, "japanese": "氷に閉ざされた世界の果てに", "korean": "얼음에 갇힌 세계의 끝에"},
+        {"start_ms": 9300, "end_ms": 11800, "japanese": "帝都、パリ、ニューヨーク", "korean": "제도, 파리, 뉴욕."},
+        {"start_ms": 12280, "end_ms": 14300, "japanese": "みんなの力が結集する", "korean": "모두의 힘이 하나로 모인다!"},
+        {"start_ms": 15180, "end_ms": 18300, "japanese": "最終回、白き氷河の果てに", "korean": "마지막 이야기\n하얀 빙하의 끝에서"},
+        {"start_ms": 19220, "end_ms": 20800, "japanese": "君がいるから", "korean": "그대가 있으니까."}
+      ]
+    }
+  ]
+}

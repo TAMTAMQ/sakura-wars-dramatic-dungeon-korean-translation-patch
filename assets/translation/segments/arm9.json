@@ -29672,7 +29672,7 @@
       },
       "source_text": "ありゃりゃ、困ったね。",
       "source_hex": "82a082e882e182e882e181418da282c182bd82cb8142",
-      "korean_text": "어라라, 곤란하네.",
+      "korean_text": "이런, 곤란하네.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -30728,7 +30728,7 @@
       },
       "source_text": "ギャーッ!!\nこっち来るなーっ!!",
       "source_hex": "834d8383815b836221210a82b182c182bf978882e982c8815b82c12121",
-      "korean_text": "꺄악!!\n이쪽으로 오지 마~!!",
+      "korean_text": "으아악!!\n이쪽으로 오지 마~!!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -33644,7 +33644,7 @@
       },
       "source_text": "うひゃあっ、すごいぞっ!!\nどっかーんだぞっ!!",
       "source_hex": "82a482d082e182a082c1814182b782b282a282bc82c121210a82c782c182a9815b82f182be82bc82c12121",
-      "korean_text": "우햐앗, 대단하다!!\n쾅~이다!!",
+      "korean_text": "우와, 대단하다!!\n쾅~이다!!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -33884,7 +33884,7 @@
       },
       "source_text": "お待たせしました！\nエリカ、エンジン全開です！",
       "source_hex": "82a891d282bd82b982b582dc82b582bd81490a8347838a834a8141834783938357839391538a4a82c582b78149",
-      "korean_text": "기다리셨습니다!\n에리카, 엔진 전개예요!",
+      "korean_text": "기다리셨습니다!\n에리카, 전력으로 갑니다!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -56876,7 +56876,7 @@
       },
       "source_text": "またどうぞ、ごひいきに！",
       "source_hex": "82dc82bd82c782a482bc814182b282d082a282ab82c98149",
-      "korean_text": "또 찾아 주세요, 단골손님!",
+      "korean_text": "앞으로도 자주 찾아주세요!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

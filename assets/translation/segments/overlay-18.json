@@ -348,7 +348,7 @@
       },
       "source_text": "わひゃあっ、加山さん!?",
       "source_hex": "82ed82d082e182a082c1814189c18e5282b382f1213f",
-      "korean_text": "으악, 카야마 씨!?",
+      "korean_text": "으앗, 카야마 씨!?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1812,7 +1812,7 @@
       },
       "source_text": "わひゃあっ……!?",
       "source_hex": "82ed82d082e182a082c181638163213f",
-      "korean_text": "와햐앗……!?",
+      "korean_text": "으앗……!?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1908,7 +1908,7 @@
       },
       "source_text": "わひゃっ……!?",
       "source_hex": "82ed82d082e182c181638163213f",
-      "korean_text": "와햣……!?",
+      "korean_text": "으앗……!?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -4260,7 +4260,7 @@
       },
       "source_text": "わーっ!!",
       "source_hex": "82ed815b82c12121",
-      "korean_text": "와~!!",
+      "korean_text": "으아악!!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

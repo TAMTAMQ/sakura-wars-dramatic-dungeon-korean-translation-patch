@@ -274,7 +274,9 @@ def main() -> None:
         for index in range(bisect.bisect_left(candidate_sizes, need), len(candidates)):
             candidate = candidates[index]
             size, record_id, text_end, terminator, hole_start, hole_end, hole_region = candidate
-            if record_id in spent or not reachable(region, hole_region):
+            # A pending eviction clears its entire old slot. Its tail cannot
+            # host a recursive move that must survive that clear.
+            if record_id in spent or record_id in in_flight or not reachable(region, hole_region):
                 continue
             spent.add(record_id)
             rom[text_end:terminator] = bytes(terminator - text_end)

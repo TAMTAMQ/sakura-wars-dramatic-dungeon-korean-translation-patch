@@ -144,7 +144,7 @@
       },
       "source_text": "きゃーっ、どうしよう……",
       "source_hex": "82ab82e1815b82c1814182c782a482b582e682a481638163",
-      "korean_text": "꺄악, 어떡하죠……",
+      "korean_text": "어머나, 어떡하죠……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -192,7 +192,7 @@
       },
       "source_text": "大神さん……大神さん……",
       "source_hex": "91e5905f82b382f18163816391e5905f82b382f181638163",
-      "korean_text": "오오가미 씨……오오가미……",
+      "korean_text": "오오가미 씨…오오가미 씨…",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -288,7 +288,7 @@
       },
       "source_text": "死んじゃイヤです……",
       "source_hex": "8e8082f182b682e18343838482c582b781638163",
-      "korean_text": "죽으면 싫어요……",
+      "korean_text": "죽지 마세요……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -360,7 +360,7 @@
       },
       "source_text": "いいっ……!?",
       "source_hex": "82a282a282c181638163213f",
-      "korean_text": "히익……!?",
+      "korean_text": "어……!?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -372,7 +372,7 @@
       },
       "source_text": "大神さん、目がさめましたか!?",
       "source_hex": "91e5905f82b382f1814196da82aa82b382df82dc82b582bd82a9213f",
-      "korean_text": "오오가미 씨, 깨어났어요!?",
+      "korean_text": "오오가미 씨, 정신 드셨어요?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -396,7 +396,7 @@
       },
       "source_text": "おはようございます、",
       "source_hex": "82a882cd82e682a482b282b482a282dc82b78141",
-      "korean_text": "안녕하세요,",
+      "korean_text": "좋은 아침이에요,",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -432,7 +432,7 @@
       },
       "source_text": "お、おはよう……",
       "source_hex": "82a8814182a882cd82e682a481638163",
-      "korean_text": "아, 안녕……",
+      "korean_text": "조, 좋은 아침……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -444,7 +444,7 @@
       },
       "source_text": "どちらさまでしたっけ？",
       "source_hex": "82c782bf82e782b382dc82c582b582bd82c182af8148",
-      "korean_text": "누구셨더라?",
+      "korean_text": "누구시더라?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -492,7 +492,7 @@
       },
       "source_text": "もう、大神さんったら……",
       "source_hex": "82e082a4814191e5905f82b382f182c182bd82e781638163",
-      "korean_text": "정말, 오오가미 씨도……",
+      "korean_text": "정말, 오오가미 씨도 참……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -504,7 +504,7 @@
       },
       "source_text": "ずっと気絶してたんですよ。",
       "source_hex": "82b882c182c68b4390e282b582c482bd82f182c582b782e68142",
-      "korean_text": "계속 기절해 있었어요.",
+      "korean_text": "줄곧 기절해 계셨어요.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -516,7 +516,7 @@
       },
       "source_text": "いくら目が覚めたからって……",
       "source_hex": "82a282ad82e796da82aa8a6f82df82bd82a982e782c182c481638163",
-      "korean_text": "아무리 깨어났다 해도……",
+      "korean_text": "아무리 눈을 떴다지만……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -528,7 +528,7 @@
       },
       "source_text": "「おはよう」だなんて、",
       "source_hex": "817582a882cd82e682a4817682be82c882f182c48141",
-      "korean_text": "「안녕」이라니,",
+      "korean_text": "「좋은 아침」이라니,",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -540,7 +540,7 @@
       },
       "source_text": "緊張感なさすぎですよ。",
       "source_hex": "8bd992a38ab482c882b382b782ac82c582b782e68142",
-      "korean_text": "너무 긴장감 없어요.",
+      "korean_text": "너무 태평하시잖아요.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -636,7 +636,7 @@
       },
       "source_text": "頭の打ち所が……だろ？",
       "source_hex": "93aa82cc91c582bf8f8a82aa8163816382be82eb8148",
-      "korean_text": "머리를 부딪힌……거지?",
+      "korean_text": "머리를 잘못 부딪혔겠지?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -936,7 +936,7 @@
       },
       "source_text": "な〜んだ、そうですか。",
       "source_hex": "82c8816082f182be814182bb82a482c582b782a98142",
-      "korean_text": "뭐야~, 그랬군요.",
+      "korean_text": "아~ 그런 거였군요.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1116,7 +1116,7 @@
       },
       "source_text": "他のみんなは、無事なのか!?",
       "source_hex": "91bc82cc82dd82f182c882cd814196b38e9682c882cc82a9213f",
-      "korean_text": "다른 모두는 무사한가!?",
+      "korean_text": "다른 사람들도 무사한가!?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1404,7 +1404,7 @@
       },
       "source_text": "それに、エリカ！",
       "source_hex": "82bb82ea82c981418347838a834a8149",
-      "korean_text": "게다가 에리카!",
+      "korean_text": "에리카도 있네!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1608,7 +1608,7 @@
       },
       "source_text": "水の上をジャンプするなんて！",
       "source_hex": "908582cc8fe382f0835783838393837682b782e982c882f182c48149",
-      "korean_text": "물 위를 점프하다니!",
+      "korean_text": "물 위를 뛰어넘다니!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1908,7 +1908,7 @@
       },
       "source_text": "エリカ、エンジン全開です!!",
       "source_hex": "8347838a834a8141834783938357839391538a4a82c582b72121",
-      "korean_text": "에리카, 엔진 전개입니다!!",
+      "korean_text": "에리카, 전력으로 갑니다!!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2220,7 +2220,7 @@
       },
       "source_text": "きゃっ！　魔物がアイテムに",
       "source_hex": "82ab82e182c181498140968295a882aa834183438365838082c9",
-      "korean_text": "꺄악!　마물이 아이템으로",
+      "korean_text": "앗!　마물이 아이템으로",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2232,7 +2232,7 @@
       },
       "source_text": "化けていたんですね!?",
       "source_hex": "89bb82af82c482a282bd82f182c582b782cb213f",
-      "korean_text": "변장한 거군요!?",
+      "korean_text": "둔갑해 있었던 거군요!?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2316,7 +2316,7 @@
       },
       "source_text": "きゃあっ……!?",
       "source_hex": "82ab82e182a082c181638163213f",
-      "korean_text": "꺄악……!?",
+      "korean_text": "어머나……!?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2556,7 +2556,7 @@
       },
       "source_text": "大神さん……？　あーん、",
       "source_hex": "91e5905f82b382f1816381638148814082a0815b82f18141",
-      "korean_text": "오오가미 씨……?　아앙,",
+      "korean_text": "오오가미 씨……?　설마,",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2568,7 +2568,7 @@
       },
       "source_text": "大神さんまでニセモノなの!?",
       "source_hex": "91e5905f82b382f182dc82c5836a835a8382836d82c882cc213f",
-      "korean_text": "오오가미 씨도 가짜예요!?",
+      "korean_text": "오오가미 씨까지 가짜예요!?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2700,7 +2700,7 @@
       },
       "source_text": "ものども、かかれ！",
       "source_hex": "82e082cc82c782e0814182a982a982ea8149",
-      "korean_text": "녀석들아, 덤벼라!",
+      "korean_text": "얘들아, 공격해라!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

@@ -14,6 +14,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--build-report", type=Path, required=True)
     parser.add_argument("--relocation-report", type=Path, required=True)
     parser.add_argument("--relocation-verify-report", type=Path, required=True)
+    parser.add_argument("--preview-subtitles-report", type=Path)
     parser.add_argument("--rom", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     return parser.parse_args()
@@ -45,7 +46,14 @@ def main() -> None:
         raise ValueError("deferred overflow population does not match relocation population")
 
     final_hash = sha256(args.rom)
-    if final_hash != relocation["output_sha256"]:
+    preview = None
+    expected_final = relocation["output_sha256"]
+    if args.preview_subtitles_report:
+        preview = json.loads(args.preview_subtitles_report.read_text(encoding="utf-8"))
+        if not preview['ok'] or preview['input_sha256'] != expected_final:
+            raise ValueError('preview subtitles input does not match relocation output')
+        expected_final = preview['output_sha256']
+    if final_hash != expected_final:
         raise ValueError("final ROM hash does not match relocation output")
 
     build["status"] = "development_translation_pipeline_with_relocation"
@@ -56,6 +64,10 @@ def main() -> None:
     build["relocation_donor_count"] = relocation["donor_count"]
     build["relocation_evicted_count"] = relocation["evicted_count"]
     build["relocation_verified"] = True
+    if preview:
+        build['preview_subtitles'] = preview
+        build['status'] = 'development_translation_pipeline_with_preview_subtitles'
+        build['layout_note'] = 'Base build and string relocation offsets refer to the intermediate ROM; final FAT extents shift by preview_subtitles.extent_shift_bytes.'
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     temporary = args.output.with_suffix(args.output.suffix + ".tmp")

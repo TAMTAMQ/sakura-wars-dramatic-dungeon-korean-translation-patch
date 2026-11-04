@@ -4,6 +4,13 @@
 
 ## 채택한 글꼴 자산
 
+예고 음성 자막에는 `sources/NotoSerifKR-SemiBold.otf`(Noto Serif KR 2.003)를
+사용한다. 원본은 [공식 Noto CJK 저장소](https://github.com/notofonts/noto-cjk/blob/main/Serif/SubsetOTF/KR/NotoSerifKR-SemiBold.otf)이며,
+SHA-256은 `a63051d299d7219132a98ff3c2b76a62022344e50e9f3b50fdb9b0ee4560f583`이다.
+라이선스는 `sources/NotoSerifKR-LICENSE.txt`의 SIL OFL 1.1이다.
+13px·4단계 안티앨리어싱·아이보리색으로 래스터화하며 입력 및 변환은
+`assets/translation/preview-subtitles.json`과 `tools/build-preview-subtitles.py`에 고정한다.
+
 `sources/`에는 빌드가 직접 소비할 정확한 글꼴·글리프 자산이나, 사용자가 별도로 공급할 파일을 식별하는 프로젝트 입력을 둔다. 채택한 자산마다 다음을 확인한다.
 
 - 안정된 식별자와 정확한 파일을 확인할 강한 해시
