@@ -90,6 +90,43 @@ def decompress(data: bytes) -> bytes:
     return bytes(output)
 
 
+def inplace_margin(data: bytes) -> int:
+    """Smallest gap between the next write and the highest unread input byte.
+
+    The game loads an entry at the start of its output buffer and decodes it
+    there, writing downward over the stream it is still reading. A gap of zero
+    or less means the decoder overwrites input before reading it, which leaves
+    the low end of the image (header, palette, map) as garbage.
+    """
+    uncompressed_size, raw_header_offset = struct.unpack_from("<II", data, 8)
+    reader = BackwardBitReader(data, 16 + raw_header_offset - 1)
+    position = uncompressed_size + RAW_HEADER_SIZE - 1
+    margin = None
+    while position >= RAW_HEADER_SIZE:
+        if reader.read(1):
+            reader.read(13)
+            length = 3
+            for level in LENGTH_LEVELS:
+                bits = reader.read(level)
+                length += bits
+                if bits != (1 << level) - 1:
+                    break
+            else:
+                while True:
+                    bits = reader.read(8)
+                    length += bits
+                    if bits != 0xFF:
+                        break
+        else:
+            reader.read(8)
+            length = 1
+        lowest_write = max(position - length + 1, RAW_HEADER_SIZE)
+        gap = lowest_write - reader._position
+        margin = gap if margin is None else min(margin, gap)
+        position -= length
+    return margin if margin is not None else len(data)
+
+
 def main() -> None:
     args = parse_args()
     manifest = json.loads(args.cpk_manifest.read_text(encoding="utf-8"))

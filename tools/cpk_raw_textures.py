@@ -158,6 +158,37 @@ def apply_raw_edit(payload: bytes, record: dict, target: dict, png: Path) -> tup
     return offset, rebuilt
 
 
+MIN_INPLACE_MARGIN = 8
+
+
+def _tool(filename: str):
+    spec = importlib.util.spec_from_file_location(filename[:-3].replace('-', '_'),
+        Path(__file__).with_name(filename))
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def verify_inplace_decoding(source: bytes, replacement: bytes) -> int:
+    """Every rebuilt CRILAYLA entry must decode in place without the writer
+    overrunning unread input; a stream that does decodes fine on a PC and
+    leaves the game on a black screen (chapter 3 title card, entry 1381)."""
+    itoc = _tool('extract-cpk-itoc.py')
+    decoder = _tool('decompress-cpk-entries.py')
+    _header, entries = itoc.parse_cpk(replacement)
+    checked = 0
+    for entry in entries:
+        begin, end = entry['offset'], entry['offset'] + entry['file_size']
+        if not entry['compressed'] or source[begin:end] == replacement[begin:end]:
+            continue
+        margin = decoder.inplace_margin(replacement[begin:end])
+        if margin < MIN_INPLACE_MARGIN:
+            raise ValueError(f"CPK entry {entry['id']} overruns its input when decoded in place "
+                             f"(margin {margin} < {MIN_INPLACE_MARGIN})")
+        checked += 1
+    return checked
+
+
 def verify_container(source: bytes, replacement: bytes, plan: dict, edits_root: Path) -> int:
     """Reject a stale CPK even when its outer hash still matches the visual index."""
     if digest(source) != plan['source_cpk_sha256'] or len(source) != len(replacement):

@@ -206,28 +206,30 @@ def expand_tokens(data: bytes, tokens: list[tuple[int, int]], needed_bits: int) 
     largest-gain-first so the count stays small; the last few bits are made up
     by three-byte matches, whose 11-bit gain is finer than the seven bytes of
     slack the target allows.
+
+    The game decodes in place: the entry is loaded at the start of its output
+    buffer and the decoder writes downward over the stream it is still reading.
+    Every extra bit read after a token is extra distance the reader has not yet
+    covered when that token is written, so splitting a late-decoded match can
+    let the writer overrun unread input (entry 1381 froze the chapter 3 title
+    card this way). Splits are therefore taken from the earliest-decoded
+    tokens, where the writer is tens of kilobytes clear of the reader.
     """
     if needed_bits <= 0:
         return tokens
-    gains = []
-    for index, (length, _) in enumerate(tokens):
-        if length:
-            gains.append((9 * length - 14 - length_bits(length), index))
-    gains.sort(reverse=True)
     chosen: set[int] = set()
     remaining = needed_bits
-    low = 0
-    high = len(gains)
-    # gains is descending, so walk it once picking the largest gain that still fits.
-    while remaining > 0 and low < high:
-        while low < high and gains[low][0] > remaining:
-            low += 1
-        if low >= high:
+    # tokens are in decode order, so walking forward grows the stream only
+    # where the in-place margin is largest.
+    for index, (length, _) in enumerate(tokens):
+        if remaining <= 0:
             break
-        gain, index = gains[low]
-        chosen.add(index)
-        remaining -= gain
-        low += 1
+        if not length:
+            continue
+        gain = 9 * length - 14 - length_bits(length)
+        if gain <= remaining:
+            chosen.add(index)
+            remaining -= gain
 
     if not chosen:
         return tokens
@@ -245,6 +247,33 @@ def expand_tokens(data: bytes, tokens: list[tuple[int, int]], needed_bits: int) 
             grown.append((length, value))
         position += length
     return grown
+
+
+def inplace_margin(payload_size: int, target: int, tokens: list[tuple[int, int]]) -> int:
+    """Smallest gap between the decoder's write index and the highest unread
+    input byte when the entry is decoded in place (see expand_tokens).
+
+    The stream ends at entry byte 16 + target - 1 and is read downward one
+    byte per eight bits; output index payload_size - 1 is written first. A
+    result of 0 or less means a write lands on input the decoder still needs.
+    """
+    top = 16 + target - 1
+    consumed_bits = 0
+    produced = 0
+    margin = None
+    for length, _ in tokens:
+        consumed_bits += 9 if length == 0 else 14 + length_bits(length)
+        produced += max(length, 1)
+        lowest_write = payload_size - produced
+        highest_unread = top - (consumed_bits + 7) // 8
+        gap = lowest_write - highest_unread
+        margin = gap if margin is None else min(margin, gap)
+    return margin if margin is not None else payload_size
+
+
+# The originals keep at least 13 bytes; anything above zero decodes, and the
+# extra bytes leave room for the decoder fetching its next input byte early.
+MIN_INPLACE_MARGIN = 8
 
 
 def compress_stream(data: bytes, depth: int = 32, window: int = 64, cap: int = MAX_MATCH) -> bytes:
@@ -293,6 +322,12 @@ def compress_to_fit(payload: bytes, capacity: int) -> tuple[bytes, int]:
         stream = emit(reversed_body, tokens)
         if len(stream) > target:
             raise ValueError(f"grown stream of {len(stream)} bytes overflows its {target} byte slot")
+        margin = inplace_margin(len(payload), target, tokens)
+        if margin < MIN_INPLACE_MARGIN:
+            raise ValueError(
+                f"entry would overrun its own input when decoded in place "
+                f"(margin {margin} < {MIN_INPLACE_MARGIN} bytes)"
+            )
         padded = bytes(target - len(stream)) + stream
         header = struct.pack("<IIII", 0, 0, len(body), target)
         return header + padded + payload[:RAW_HEADER_SIZE], effort

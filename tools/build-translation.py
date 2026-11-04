@@ -12,7 +12,7 @@ import struct
 from pathlib import Path
 
 from PIL import ImageFont
-from cpk_raw_textures import verify_container
+from cpk_raw_textures import verify_container, verify_inplace_decoding
 
 
 CONTROL_TOKEN = re.compile(r"\{CTRL:01:([0-9A-F]{2})\}")
@@ -273,6 +273,7 @@ def main() -> None:
     visual_root = args.visual_index.resolve().parent
     applied_visuals = []
     raw_texture_readbacks = 0
+    cpk_inplace_checks = 0
     for record in visual_index["records"]:
         source_item = files_by_path[record["path"]]
         file_id = int(source_item["file_id"])
@@ -305,6 +306,7 @@ def main() -> None:
             raw_plan = json.loads((visual_root / 'cpk-raw-texture-translation.json').read_text(encoding='utf-8'))
             raw_texture_readbacks = verify_container(source_asset, replacement, raw_plan,
                                                      visual_root / 'edits/cpk/text-images')
+            cpk_inplace_checks = verify_inplace_decoding(source_asset, replacement)
         replacements[file_id] = bytearray(replacement)
         applied_visuals.append(record["id"])
 
@@ -464,6 +466,7 @@ def main() -> None:
         "applied_visual_count": len(applied_visuals),
         "applied_visual_ids": applied_visuals,
         "cpk_raw_texture_readbacks": raw_texture_readbacks,
+        "cpk_inplace_decode_checks": cpk_inplace_checks,
         "untranslated_visuals_are_original_japanese": True,
     }
     args.report.parent.mkdir(parents=True, exist_ok=True)
