@@ -140,6 +140,15 @@ if ($Mode -eq 'InitVisualEdit') {
     )
 }
 if ($Mode -eq 'ImportPng') {
+    # Leader-tactic glyphs: writes the icon cell edits below and the raw
+    # effect textures, which rebuild-visual-assets does not handle.
+    Invoke-Python @(
+        (Join-Path $PSScriptRoot 'translate-tactic-images.py'),
+        '--source', $Source, '--inventory', $sourceInventory,
+        '--icon-source-root', $VisualPngRoot, '--edit-root', $visualEditRoot,
+        '--replacement-root', (Join-Path $projectRoot 'assets\visual\replacements'),
+        '--font', 'C:\Windows\Fonts\HANBatangB.ttf'
+    )
     Invoke-Python @(
         (Join-Path $PSScriptRoot 'rebuild-visual-assets.py'),
         '--index', $visualIndex, '--source-root', $VisualExportRoot,
