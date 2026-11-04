@@ -1548,7 +1548,7 @@
       },
       "source_text": "よーし……今のうちに、",
       "source_hex": "82e6815b82b5816381638da182cc82a482bf82c98141",
-      "korean_text": "좋아……지금 틈에,",
+      "korean_text": "좋아……이 틈에,",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1668,7 +1668,7 @@
       },
       "source_text": "ぼくは……",
       "source_hex": "82da82ad82cd81638163",
-      "korean_text": "저는……",
+      "korean_text": "나는……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1716,7 +1716,7 @@
       },
       "source_text": "ぼくの名前は……",
       "source_hex": "82da82ad82cc96bc914f82cd81638163",
-      "korean_text": "제 이름은……",
+      "korean_text": "내 이름은……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

@@ -63,6 +63,14 @@ RECORDS = [
         "거의 얼음에 가까운 차가운 주스.\n마시면 너무 차가워서 정면으로\n얼음 숨결을 내뿜는다. 얼음 숨결에\n맞은 상대는 얼어붙는다.\n",
     ),
     ("arm9@001A9830", 1742896, "銀色の", "은색의"),
+    # Seal prefix + item name (耐酸のヘビーシールド); sits right after a
+    # pointer table, so the NUL-bounded scan never saw where it starts.
+    ("arm9@0019778C", 1669004, "%sの%s", "%s의 %s"),
+    # Monster names: shown as stray Hangul while untranslated, since their
+    # codes land on remapped glyph cells. Ⅱ-Ⅳ are CP932-only, hence ２-４.
+    ("arm9@00189BE8", 1612776, "ウッドペッカーⅡ", "우드페커２"),
+    ("arm9@00189C10", 1612816, "ウッドペッカーⅢ", "우드페커３"),
+    ("arm9@00189C24", 1612836, "ウッドペッカーⅣ", "우드페커４"),
     (
         "arm9@001A4764",
         1722212,
@@ -97,7 +105,11 @@ def main() -> None:
 
     added = 0
     for record_id, offset, source_text, korean_text in RECORDS:
-        source_raw = source_text.encode("shift_jis")
+        try:
+            source_raw = source_text.encode("shift_jis")
+        except UnicodeEncodeError:
+            # NEC extensions such as Ⅱ exist only in CP932.
+            source_raw = source_text.encode("cp932")
         actual = arm9[offset : offset + len(source_raw)]
         if actual != source_raw or arm9[offset + len(source_raw)] != 0:
             raise ValueError(f"source verification failed: {record_id}")
@@ -127,9 +139,9 @@ def main() -> None:
         added += 1
 
     records.sort(key=lambda record: int(record["locator"]["offset"]))
-    args.segment.write_text(
-        json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    # Segments are hashed as LF bytes (.gitattributes); write_text would emit
+    # CRLF on Windows.
+    args.segment.write_bytes((json.dumps(document, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
     print(f"added={added} total={len(records)}")
 
 

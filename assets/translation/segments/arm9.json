@@ -24908,7 +24908,7 @@
       },
       "source_text": "狂咲！",
       "source_hex": "8bb68de78149",
-      "korean_text": "미쳐 피어라!",
+      "korean_text": "광화난무!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -28190,6 +28190,18 @@
       "note": ""
     },
     {
+      "id": "arm9@00189BE8",
+      "locator": {
+        "offset": 1612776
+      },
+      "source_text": "ウッドペッカーⅡ",
+      "source_hex": "83458362836883798362834a815b8755",
+      "korean_text": "우드페커２",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "포인터 참조 문자열: 기존 NUL 경계 추출에서 누락되어 복구"
+    },
+    {
       "id": "arm9@00189BFC",
       "locator": {
         "offset": 1612796
@@ -28200,6 +28212,30 @@
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
+    },
+    {
+      "id": "arm9@00189C10",
+      "locator": {
+        "offset": 1612816
+      },
+      "source_text": "ウッドペッカーⅢ",
+      "source_hex": "83458362836883798362834a815b8756",
+      "korean_text": "우드페커３",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "포인터 참조 문자열: 기존 NUL 경계 추출에서 누락되어 복구"
+    },
+    {
+      "id": "arm9@00189C24",
+      "locator": {
+        "offset": 1612836
+      },
+      "source_text": "ウッドペッカーⅣ",
+      "source_hex": "83458362836883798362834a815b8757",
+      "korean_text": "우드페커４",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "포인터 참조 문자열: 기존 NUL 경계 추출에서 누락되어 복구"
     },
     {
       "id": "arm9@00189C38",
@@ -33560,7 +33596,7 @@
       },
       "source_text": "あっはっはっ!!\nやっぱ勝訴は気持ちがいいね！",
       "source_hex": "82a082c182cd82c182cd82c121210a82e282c182cf8f9f916982cd8b438e9d82bf82aa82a282a282cb8149",
-      "korean_text": "아하하핫!!\n역시 승소는 기분 좋네!",
+      "korean_text": "아하하핫!!\n역시 승리는 기분 좋네!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -35136,6 +35172,18 @@
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
+    },
+    {
+      "id": "arm9@0019778C",
+      "locator": {
+        "offset": 1669004
+      },
+      "source_text": "%sの%s",
+      "source_hex": "257382cc2573",
+      "korean_text": "%s의 %s",
+      "apply_translation": true,
+      "review_status": "cross_review_required",
+      "note": "포인터 참조 문자열: 기존 NUL 경계 추출에서 누락되어 복구"
     },
     {
       "id": "arm9@00197794",
@@ -40076,7 +40124,7 @@
       },
       "source_text": "ムテキナール",
       "source_hex": "83808365834c8369815b838b",
-      "korean_text": "무테키나루",
+      "korean_text": "강철몸",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -40160,7 +40208,7 @@
       },
       "source_text": "よくみえーる",
       "source_hex": "82e682ad82dd82a6815b82e9",
-      "korean_text": "잘보여루",
+      "korean_text": "천리안",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -40208,7 +40256,7 @@
       },
       "source_text": "むてきなーる",
       "source_hex": "82de82c482ab82c8815b82e9",
-      "korean_text": "무테키나루",
+      "korean_text": "강철몸",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -40220,7 +40268,7 @@
       },
       "source_text": "ヨクミエール",
       "source_hex": "8388834e837e8347815b838b",
-      "korean_text": "요쿠미에루",
+      "korean_text": "천리안",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

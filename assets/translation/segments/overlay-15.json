@@ -3264,7 +3264,7 @@
       },
       "source_text": "お前らの悪夢を食うバク！",
       "source_hex": "82a8914f82e782cc88ab96b282f0904882a4836f834e8149",
-      "korean_text": "너희 악몽을 먹어 주마폭!",
+      "korean_text": "너희 악몽을 먹어 주마바쿠!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3300,7 +3300,7 @@
       },
       "source_text": "やられたバクー！",
       "source_hex": "82e282e782ea82bd836f834e815b8149",
-      "korean_text": "당했다폭-!",
+      "korean_text": "당했다바쿠-!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3324,7 +3324,7 @@
       },
       "source_text": "お前も道連れバク！",
       "source_hex": "82a8914f82e093b9984182ea836f834e8149",
-      "korean_text": "너도 길동무다폭!",
+      "korean_text": "너도 길동무다바쿠!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3768,7 +3768,7 @@
       },
       "source_text": "　どっちが多かったバクか？」",
       "source_hex": "814082c782c182bf82aa91bd82a982c182bd836f834e82a981488176",
-      "korean_text": "　어느 쪽이 더 많았냐폭?」",
+      "korean_text": "　어느 쪽이 더 많았냐바쿠?」",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3792,7 +3792,7 @@
       },
       "source_text": "　さぁ、どっちバク？」",
       "source_hex": "814082b3829f814182c782c182bf836f834e81488176",
-      "korean_text": "　자, 어느 쪽이냐폭?」",
+      "korean_text": "　자 어느 쪽이냐바쿠?」",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

@@ -33,14 +33,29 @@ def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def _encode_source_span(span: str) -> bytes:
+    try:
+        return span.encode("shift_jis")
+    except UnicodeEncodeError:
+        # NEC extensions such as Ⅱ exist only in CP932; encode per character
+        # so every Shift-JIS character keeps its usual bytes.
+        result = bytearray()
+        for character in span:
+            try:
+                result.extend(character.encode("shift_jis"))
+            except UnicodeEncodeError:
+                result.extend(character.encode("cp932"))
+        return bytes(result)
+
+
 def encode_source_text(text: str) -> bytes:
     result = bytearray()
     position = 0
     for match in CONTROL_TOKEN.finditer(text):
-        result.extend(text[position : match.start()].encode("shift_jis"))
+        result.extend(_encode_source_span(text[position : match.start()]))
         result.extend((1, int(match.group(1), 16)))
         position = match.end()
-    result.extend(text[position:].encode("shift_jis"))
+    result.extend(_encode_source_span(text[position:]))
     return bytes(result)
 
 

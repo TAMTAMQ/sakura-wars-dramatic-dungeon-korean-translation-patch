@@ -4,7 +4,7 @@
   "source_sha256": "e6cafe64437080bf5474fa7f9cfec6568b2af7626b65c3ab0d27d30308cec7c4",
   "scope_decision": "DEC-PATCHMAP-001",
   "scope_population_state": "patch_selected_lower_bound",
-  "scope_record_count": 23661,
+  "scope_record_count": 23665,
   "translation_policy": {
     "untranslated_records_use_source": true,
     "korean_text_requires_apply_translation": false,
@@ -15,8 +15,8 @@
     {
       "path": "segments/arm9.json",
       "region": "arm9",
-      "record_count": 4875,
-      "sha256": "6061d4f0d1160668f339f88bf7cacc25e2f350caf2ca33e5c41811748a1be7cc"
+      "record_count": 4879,
+      "sha256": "59c400436134a612424eb2dfa82e962ea1fc6d3511768c22043f313b98f86698"
     },
     {
       "path": "segments/campdata.json",
@@ -28,7 +28,7 @@
       "path": "segments/citr.json",
       "region": "text/CITR.DAT",
       "record_count": 6751,
-      "sha256": "7c57a9732a87f1083b4e8f70d04ae0b999062a9d89b311ac280b68577edb00db"
+      "sha256": "1cafb7cf0594572e4bb1d078761f6d858b9c23693cef8ba438f448eed8a13de6"
     },
     {
       "path": "segments/overlay-01.json",
@@ -118,7 +118,7 @@
       "path": "segments/overlay-15.json",
       "region": "arm9-overlay:15",
       "record_count": 405,
-      "sha256": "8982c96228df70ebd1e4352c340818781763af9809fecdfafc55d2b79afd7e95"
+      "sha256": "ec916bc38fd813cd8f57b67f1e808fd08444b3cfd9eb872c3c655b319b79c37c"
     },
     {
       "path": "segments/overlay-16.json",
@@ -148,13 +148,13 @@
       "path": "segments/overlay-20.json",
       "region": "arm9-overlay:20",
       "record_count": 336,
-      "sha256": "d9e243ab33b13d171947e153a3b78699453de9f7e04566e0fbf6a9c84b696188"
+      "sha256": "b1d4726240937931e49282a6582673d0d8120dfa8af59feedad4b8c896a8321b"
     },
     {
       "path": "segments/overlay-21.json",
       "region": "arm9-overlay:21",
       "record_count": 484,
-      "sha256": "ef9593854e3879e9581826204c47263485e7ebe165ea3035897dd3d1931af37c"
+      "sha256": "a1c606fa91ca28a98ce4ec60440aeac08d2e4712519cbf643ef31c5f7507b99c"
     },
     {
       "path": "segments/overlay-22.json",
