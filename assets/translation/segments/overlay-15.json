@@ -288,7 +288,7 @@
       },
       "source_text": "でも中は魔物がぎょうさんで、",
       "source_hex": "82c582e0928682cd968295a882aa82ac82e582a482b382f182c58141",
-      "korean_text": "근데 안엔 마물이 잔뜩이라,",
+      "korean_text": "근데 안엔 마물이 억수로 많아가,",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -528,7 +528,7 @@
       },
       "source_text": "そうそう、ウチよりも",
       "source_hex": "82bb82a482bb82a481418345836082e682e882e0",
-      "korean_text": "그래그래, 나보다도",
+      "korean_text": "그래그래, 내보다도",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -636,7 +636,7 @@
       },
       "source_text": "通信の状況が悪いんやろか……",
       "source_hex": "92ca904d82cc8ff38bb582aa88ab82a282f182e282eb82a981638163",
-      "korean_text": "통신 상태가 안 좋은가……",
+      "korean_text": "통신 상태가 안 좋은갑다……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1068,7 +1068,7 @@
       },
       "source_text": "それが、後ろ姿しか見えへん",
       "source_hex": "82bb82ea82aa81418ce382eb8e7082b582a98ca982a682d682f1",
-      "korean_text": "그게 뒷모습밖에 못 봤는데",
+      "korean_text": "그게 뒷모습밖에 몬 봤는데",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1080,7 +1080,7 @@
       },
       "source_text": "かったんやけど……",
       "source_hex": "82a982c182bd82f182e282af82c781638163",
-      "korean_text": "말이야……",
+      "korean_text": "말이데이……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1152,7 +1152,7 @@
       },
       "source_text": "あ、ネコや……",
       "source_hex": "82a08141836c835282e281638163",
-      "korean_text": "아, 고양이……",
+      "korean_text": "고양이데이……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1908,7 +1908,7 @@
       },
       "source_text": "ウチ、てっきりチョウかと……",
       "source_hex": "83458360814182c482c182ab82e883608387834582a982c681638163",
-      "korean_text": "난 영락없이 나비인 줄……",
+      "korean_text": "내는 영락없이 나비인 줄……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
