@@ -1260,7 +1260,7 @@
       },
       "source_text": "魔物がいるらしいで！",
       "source_hex": "968295a882aa82a282e982e782b582a282c58149",
-      "korean_text": "마물이 있다는데!",
+      "korean_text": "마물이 있다 카더라!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1296,7 +1296,7 @@
       },
       "source_text": "まあ、そう落ち込まんと。",
       "source_hex": "82dc82a0814182bb82a4978e82bf8d9e82dc82f182c68142",
-      "korean_text": "뭐, 너무 풀이 죽진 마.",
+      "korean_text": "뭐, 그래 풀 죽지 마래이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1668,7 +1668,7 @@
       },
       "source_text": "そいつを倒せば、取り戻せるで。",
       "source_hex": "82bb82a282c282f0937c82b982ce81418ee682e896df82b982e982c58142",
-      "korean_text": "그놈을 쓰러뜨리면 되찾아.",
+      "korean_text": "그놈을 잡으면 되찾을 수 있데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1692,7 +1692,7 @@
       },
       "source_text": "戻ってこんから、注意してや。",
       "source_hex": "96df82c182c482b182f182a982e78141928d88d382b582c482e28142",
-      "korean_text": "못 돌려받으니 조심해라.",
+      "korean_text": "몬 돌려받으니 조심하래이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1740,7 +1740,7 @@
       },
       "source_text": "ほな、行こか！",
       "source_hex": "82d982c881418d7382b182a98149",
-      "korean_text": "그럼, 가자!",
+      "korean_text": "그럼, 가 보까!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2148,7 +2148,7 @@
       },
       "source_text": "かーっ、よう言うわ……",
       "source_hex": "82a9815b82c1814182e682a48cbe82a482ed81638163",
-      "korean_text": "참, 말은 잘하네……",
+      "korean_text": "하이고, 말은 잘하네……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3708,7 +3708,7 @@
       },
       "source_text": "そんなこと言われても……",
       "source_hex": "82bb82f182c882b182c68cbe82ed82ea82c482e081638163",
-      "korean_text": "그런 말 해도……",
+      "korean_text": "그리 말해도……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -4176,7 +4176,7 @@
       },
       "source_text": "いただいときましょ。",
       "source_hex": "82a282bd82be82a282c682ab82dc82b582e58142",
-      "korean_text": "받아두자.",
+      "korean_text": "챙겨 두입시더.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

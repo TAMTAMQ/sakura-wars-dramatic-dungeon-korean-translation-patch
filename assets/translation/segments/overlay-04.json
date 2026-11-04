@@ -456,7 +456,7 @@
       },
       "source_text": "取りにいきたいんやけど、ウチ",
       "source_hex": "8ee682e882c982a282ab82bd82a282f182e282af82c7814183458360",
-      "korean_text": "찾으러 가고 싶은데, 나",
+      "korean_text": "찾으러 가고 싶은데, 내",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -468,7 +468,7 @@
       },
       "source_text": "一人じゃ心細うてなぁ……",
       "source_hex": "88ea906c82b682e190538dd782a482c482c8829f81638163",
-      "korean_text": "혼자선 불안해서……",
+      "korean_text": "혼자선 영 불안해가……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2904,7 +2904,7 @@
       },
       "source_text": "見まわり、ご苦労さん。",
       "source_hex": "8ca982dc82ed82e8814182b28bea984a82b382f18142",
-      "korean_text": "순찰, 수고했어.",
+      "korean_text": "순찰, 수고했데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2940,7 +2940,7 @@
       },
       "source_text": "そないなこと言わんといて！",
       "source_hex": "82bb82c882a282c882b182c68cbe82ed82f182c682a282c48149",
-      "korean_text": "그런 말 하지 마!",
+      "korean_text": "그런 말 하지 마이소!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2976,7 +2976,7 @@
       },
       "source_text": "はよ事件を片付けて、また",
       "source_hex": "82cd82e68e968c8f82f095d0957482af82c4814182dc82bd",
-      "korean_text": "빨리 사건을 끝내고, 다시",
+      "korean_text": "퍼뜩 사건을 끝내고, 다시",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2988,7 +2988,7 @@
       },
       "source_text": "お客さんの笑顔が見たいなぁ。",
       "source_hex": "82a88b7182b382f182cc8fce8ae782aa8ca982bd82a282c8829f8142",
-      "korean_text": "손님들 웃는 얼굴 보고파.",
+      "korean_text": "손님들 웃는 얼굴 보고 싶데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3036,7 +3036,7 @@
       },
       "source_text": "ほな、失礼します。",
       "source_hex": "82d982c881418eb897e782b582dc82b78142",
-      "korean_text": "그럼, 실례하겠습니다.",
+      "korean_text": "그럼, 실례합니더.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

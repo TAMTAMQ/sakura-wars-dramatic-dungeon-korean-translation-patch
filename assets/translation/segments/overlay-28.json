@@ -1248,7 +1248,7 @@
       },
       "source_text": "発明品だってぎょうさんある。",
       "source_hex": "94ad96be956982be82c182c482ac82e582a482b382f182a082e98142",
-      "korean_text": "발명품도 잔뜩 있어.",
+      "korean_text": "발명품도 억수로 많데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1920,7 +1920,7 @@
       },
       "source_text": "でも、そうせえへんと、",
       "source_hex": "82c582e0814182bb82a482b982a682d682f182c68141",
-      "korean_text": "하지만, 안 그러면,",
+      "korean_text": "그래도, 안 그라믄,",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -1932,7 +1932,7 @@
       },
       "source_text": "ふたりとも死んでまうで！",
       "source_hex": "82d382bd82e882c682e08e8082f182c582dc82a482c58149",
-      "korean_text": "둘 다 죽고 만다!",
+      "korean_text": "둘 다 죽어뿐데이!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2376,7 +2376,7 @@
       },
       "source_text": "助けを呼んできてもらえます？",
       "source_hex": "8f9582af82f08cc482f182c582ab82c482e082e782a682dc82b78148",
-      "korean_text": "도움을 불러와 줄래요?",
+      "korean_text": "도움 좀 불러와 주실랍니꺼?",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2388,7 +2388,7 @@
       },
       "source_text": "ウチ、それまでは……",
       "source_hex": "83458360814182bb82ea82dc82c582cd81638163",
-      "korean_text": "난 그때까지……",
+      "korean_text": "내는 그때까지……",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2400,7 +2400,7 @@
       },
       "source_text": "もちこたえてみせるで！",
       "source_hex": "82e082bf82b182bd82a682c482dd82b982e982c58149",
-      "korean_text": "꼭 버텨 보일게!",
+      "korean_text": "꼭 버텨 보일 끼다!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3108,7 +3108,7 @@
       },
       "source_text": "ありがとう……ありがとうな。",
       "source_hex": "82a082e882aa82c682a48163816382a082e882aa82c682a482c88142",
-      "korean_text": "고마워…… 정말 고마워.",
+      "korean_text": "고맙데이…… 참말로 고맙데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3120,7 +3120,7 @@
       },
       "source_text": "ウチ……うれしかったで。",
       "source_hex": "834583608163816382a482ea82b582a982c182bd82c58142",
-      "korean_text": "나…… 기뻤어.",
+      "korean_text": "내…… 기뻤데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3456,7 +3456,7 @@
       },
       "source_text": "生きて一緒に帰ってみせるで！",
       "source_hex": "90b682ab82c488ea8f8f82c98b4182c182c482dd82b982e982c58149",
-      "korean_text": "살아서 함께 돌아가 보일게!",
+      "korean_text": "살아서 같이 돌아가 보일 끼다!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

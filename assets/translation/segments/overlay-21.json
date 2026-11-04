@@ -2532,7 +2532,7 @@
       },
       "source_text": "よろしゅうお願いします。",
       "source_hex": "82e682eb82b582e382a482a88ae882a282b582dc82b78142",
-      "korean_text": "잘 부탁한데이.",
+      "korean_text": "잘 부탁합니데이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2580,7 +2580,7 @@
       },
       "source_text": "「紅蘭」や「紅蘭」！",
       "source_hex": "81758d679796817682e281758d67979681768149",
-      "korean_text": "「홍란」이야 「홍란」!",
+      "korean_text": "「홍란」이데이「홍란」!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2652,7 +2652,7 @@
       },
       "source_text": "ほな、よろしゅうな！",
       "source_hex": "82d982c8814182e682eb82b582e382a482c88149",
-      "korean_text": "그럼, 잘 부탁해!",
+      "korean_text": "그럼, 잘 부탁하데이!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

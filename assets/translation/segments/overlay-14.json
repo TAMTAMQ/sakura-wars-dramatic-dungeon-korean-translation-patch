@@ -2316,7 +2316,7 @@
       },
       "source_text": "霊子水晶がいかれてもうた。",
       "source_hex": "97ec8e7190858fbb82aa82a282a982ea82c482e082a482bd8142",
-      "korean_text": "영자수정이 망가져 버렸어.",
+      "korean_text": "영자수정이 망가져 뿟다.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -2340,7 +2340,7 @@
       },
       "source_text": "事件と、状況は似とるな。",
       "source_hex": "8e968c8f82c681418ff38bb582cd8e9782c682e982c88142",
-      "korean_text": "부린 때와 상황이 비슷해.",
+      "korean_text": "부린 때랑 상황이 비슷하네.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3588,7 +3588,7 @@
       },
       "source_text": "よっ、待ってました！",
       "source_hex": "82e682c1814191d282c182c482dc82b582bd8149",
-      "korean_text": "좋아, 기다렸어!",
+      "korean_text": "좋다, 기다렸데이!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""

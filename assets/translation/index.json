@@ -16,7 +16,7 @@
       "path": "segments/arm9.json",
       "region": "arm9",
       "record_count": 4875,
-      "sha256": "61265ed0fd5733b12dc4afe57ca11f04ba7e95eb3771b2956aa0b57a73bf35be"
+      "sha256": "90ef5ce326ec69a3f68bdb3e44ae032266c7f3cdb7b7e214539f450c15b7a036"
     },
     {
       "path": "segments/campdata.json",
@@ -34,7 +34,7 @@
       "path": "segments/overlay-01.json",
       "region": "arm9-overlay:1",
       "record_count": 712,
-      "sha256": "b33bf16a88bff94cffd77215e4f40dc9503bfe08404bbeaeb2922a77e570015f"
+      "sha256": "b960ff3ba9bd2bc66349ca4ea22b579ad1fbf508b20be1b88644f30f72c5dd3c"
     },
     {
       "path": "segments/overlay-02.json",
@@ -52,19 +52,19 @@
       "path": "segments/overlay-04.json",
       "region": "arm9-overlay:4",
       "record_count": 350,
-      "sha256": "0d6c401f09bcdefe1ba770dc9b6e526aa35225d52f6a316f6f97dd26b2f83d01"
+      "sha256": "abef498774546f377c5b71a276a0fe45bc001d7bd2f546a5c1113be5e6720a10"
     },
     {
       "path": "segments/overlay-05.json",
       "region": "arm9-overlay:5",
       "record_count": 340,
-      "sha256": "e146d7b69d4ec9389e0a70cb0f95a1763375b9dc976740e4c341297225584667"
+      "sha256": "2796bef41fd89fcc9de3629f51500a420f26605b04cd9cdc81552d89caaad7b8"
     },
     {
       "path": "segments/overlay-06.json",
       "region": "arm9-overlay:6",
       "record_count": 232,
-      "sha256": "1eadb9f5a339cb121e08d15d89751069af1f6310b061ff2ca54626d4ddaa5f75"
+      "sha256": "b78d43676f4b8b6393425df97a88152853e6d94ff54811e9e0b5152b5b6d8f75"
     },
     {
       "path": "segments/overlay-07.json",
@@ -106,19 +106,19 @@
       "path": "segments/overlay-13.json",
       "region": "arm9-overlay:13",
       "record_count": 306,
-      "sha256": "815b3ee1e4b6f7dee21cde968952c410e21487cbc740650c7a768f99aad8b983"
+      "sha256": "7441a1f3e3a97c17e656bb039caff1c335586955eb86fd32f35c0a6eca090d26"
     },
     {
       "path": "segments/overlay-14.json",
       "region": "arm9-overlay:14",
       "record_count": 575,
-      "sha256": "051ed3f95155ea7a6394fd01c5f15ff81fdc95c65e4d858e66a5b01abe63ba63"
+      "sha256": "c95caf00251c81df3dd82278a9c3c539006dbfb0c248cafb1adf7378150c5c8f"
     },
     {
       "path": "segments/overlay-15.json",
       "region": "arm9-overlay:15",
       "record_count": 405,
-      "sha256": "d755f4a81af66448f1d8d3d20a446b57071f2e559d42173d0b54a64740e35aa9"
+      "sha256": "176dda1814e9bc943d117360e638144327ad4b3c77945e0dd52ca7a516112c46"
     },
     {
       "path": "segments/overlay-16.json",
@@ -154,7 +154,7 @@
       "path": "segments/overlay-21.json",
       "region": "arm9-overlay:21",
       "record_count": 484,
-      "sha256": "f43e2f83857cc2d5b28ea14315eabec4533460b3669e39f6d60ad58972466b9b"
+      "sha256": "ef9593854e3879e9581826204c47263485e7ebe165ea3035897dd3d1931af37c"
     },
     {
       "path": "segments/overlay-22.json",
@@ -184,7 +184,7 @@
       "path": "segments/overlay-26.json",
       "region": "arm9-overlay:26",
       "record_count": 503,
-      "sha256": "77afee03079a9c1b514fd52d0fe6eacf2b040834fb0d7e1305b66ea9bc56c5e8"
+      "sha256": "d171faa598064ea38c063d99b3fb1591f8b0d1b9ef0cdaed0f5d0a89fad8d83f"
     },
     {
       "path": "segments/overlay-27.json",
@@ -196,7 +196,7 @@
       "path": "segments/overlay-28.json",
       "region": "arm9-overlay:28",
       "record_count": 292,
-      "sha256": "b626efcfc9fb53c9a34abcd0769539cf21fa500795d6cdf9927a5ae71e616d51"
+      "sha256": "9ca15289a3591e7c5469cb15c4771be7f18137442fd34a0680a8f2aa3fceef57"
     },
     {
       "path": "segments/overlay-29.json",

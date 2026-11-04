@@ -3132,7 +3132,7 @@
       },
       "source_text": "科学の力を見せたるで！",
       "source_hex": "89c88a7782cc97cd82f08ca982b982bd82e982c58149",
-      "korean_text": "과학의 힘을 보여주마!",
+      "korean_text": "과학의 힘을 보여줄끼다!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3204,7 +3204,7 @@
       },
       "source_text": "パス救助を始めたらしいで。",
       "source_hex": "837083588b7e8f9582f08e6e82df82bd82e782b582a282c58142",
-      "korean_text": "패스 구조를 시작했대.",
+      "korean_text": "패스 구조를 시작했다 카데.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3636,7 +3636,7 @@
       },
       "source_text": "気にせんでええで。",
       "source_hex": "8b4382c982b982f182c582a682a682c58142",
-      "korean_text": "신경 쓰지 마라.",
+      "korean_text": "신경 쓰지 마래이.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3648,7 +3648,7 @@
       },
       "source_text": "困った時はウチに言いな！",
       "source_hex": "8da282c182bd8e9e82cd8345836082c98cbe82a282c88149",
-      "korean_text": "곤란할 땐 내한테 말해!",
+      "korean_text": "곤란할 땐 내한테 말하래이!",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
@@ -3876,7 +3876,7 @@
       },
       "source_text": "ま、気にしてもしゃーない。",
       "source_hex": "82dc81418b4382c982b582c482e082b582e1815b82c882a28142",
-      "korean_text": "뭐, 신경 써도 소용없다.",
+      "korean_text": "뭐, 신경 써도 우짤 수 없다.",
       "apply_translation": true,
       "review_status": "cross_review_required",
       "note": ""
